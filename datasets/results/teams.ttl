@@ -1,0 +1,9184 @@
+:manchestercity a :LeagueTeam ;
+	:name "Manchester City".
+:manchestercity :playsIn :barclayspremierleague;
+	:rank "1";
+	:prev_rank "1";
+	:offense "3.04";
+	:defense "0.2";
+	:psi "94.39".
+
+:barclayspremierleague a :League ;
+	:name "Barclays Premier League".
+:barclayspremierleague :hasLeagueTeam :manchestercity.
+
+:bayernmunich a :LeagueTeam ;
+	:name "Bayern Munich".
+:bayernmunich :playsIn :germanbundesliga;
+	:rank "2";
+	:prev_rank "2";
+	:offense "3.26";
+	:defense "0.36";
+	:psi "93.5".
+
+:germanbundesliga a :League ;
+	:name "German Bundesliga".
+:germanbundesliga :hasLeagueTeam :bayernmunich.
+
+:liverpool a :LeagueTeam ;
+	:name "Liverpool".
+:liverpool :playsIn :barclayspremierleague;
+	:rank "3";
+	:prev_rank "3";
+	:offense "2.92";
+	:defense "0.26";
+	:psi "92.93".
+
+:barclayspremierleague :hasLeagueTeam :liverpool.
+
+:barcelona a :LeagueTeam ;
+	:name "Barcelona".
+:barcelona :playsIn :spanishprimeradivision;
+	:rank "4";
+	:prev_rank "4";
+	:offense "3.01";
+	:defense "0.38";
+	:psi "91.74".
+
+:spanishprimeradivision a :League ;
+	:name "Spanish Primera Division".
+:spanishprimeradivision :hasLeagueTeam :barcelona.
+
+:chelsea a :LeagueTeam ;
+	:name "Chelsea".
+:chelsea :playsIn :barclayspremierleague;
+	:rank "5";
+	:prev_rank "5";
+	:offense "2.4";
+	:defense "0.45";
+	:psi "85.44".
+
+:barclayspremierleague :hasLeagueTeam :chelsea.
+
+:parissaintgermain a :LeagueTeam ;
+	:name "Paris Saint-Germain".
+:parissaintgermain :playsIn :frenchligue1;
+	:rank "6";
+	:prev_rank "6";
+	:offense "2.81";
+	:defense "0.7";
+	:psi "84.98".
+
+:frenchligue1 a :League ;
+	:name "French Ligue 1".
+:frenchligue1 :hasLeagueTeam :parissaintgermain.
+
+:realmadrid a :LeagueTeam ;
+	:name "Real Madrid".
+:realmadrid :playsIn :spanishprimeradivision;
+	:rank "7";
+	:prev_rank "7";
+	:offense "2.57";
+	:defense "0.59";
+	:psi "84.54".
+
+:spanishprimeradivision :hasLeagueTeam :realmadrid.
+
+:atleticomadrid a :LeagueTeam ;
+	:name "Atletico Madrid".
+:atleticomadrid :playsIn :spanishprimeradivision;
+	:rank "8";
+	:prev_rank "8";
+	:offense "2.14";
+	:defense "0.37";
+	:psi "84.19".
+
+:spanishprimeradivision :hasLeagueTeam :atleticomadrid.
+
+:olympiacos a :LeagueTeam ;
+	:name "Olympiacos".
+:olympiacos :playsIn :greeksuperleague;
+	:rank "9";
+	:prev_rank "9";
+	:offense "2.62";
+	:defense "0.68";
+	:psi "83.35".
+
+:greeksuperleague a :League ;
+	:name "Greek Super League".
+:greeksuperleague :hasLeagueTeam :olympiacos.
+
+:ajax a :LeagueTeam ;
+	:name "Ajax".
+:ajax :playsIn :dutcheredivisie;
+	:rank "10";
+	:prev_rank "10";
+	:offense "3.18";
+	:defense "1.06";
+	:psi "82.85".
+
+:dutcheredivisie a :League ;
+	:name "Dutch Eredivisie".
+:dutcheredivisie :hasLeagueTeam :ajax.
+
+:atalanta a :LeagueTeam ;
+	:name "Atalanta".
+:atalanta :playsIn :italyseriea;
+	:rank "11";
+	:prev_rank "11";
+	:offense "2.42";
+	:defense "0.61";
+	:psi "82.53".
+
+:italyseriea a :League ;
+	:name "Italy Serie A".
+:italyseriea :hasLeagueTeam :atalanta.
+
+:tottenhamhotspur a :LeagueTeam ;
+	:name "Tottenham Hotspur".
+:tottenhamhotspur :playsIn :barclayspremierleague;
+	:rank "12";
+	:prev_rank "12";
+	:offense "2.25";
+	:defense "0.52";
+	:psi "82.36".
+
+:barclayspremierleague :hasLeagueTeam :tottenhamhotspur.
+
+:bayerleverkusen a :LeagueTeam ;
+	:name "Bayer Leverkusen".
+:bayerleverkusen :playsIn :germanbundesliga;
+	:rank "13";
+	:prev_rank "13";
+	:offense "2.51";
+	:defense "0.7";
+	:psi "81.76".
+
+:germanbundesliga :hasLeagueTeam :bayerleverkusen.
+
+:internazionale a :LeagueTeam ;
+	:name "Internazionale".
+:internazionale :playsIn :italyseriea;
+	:rank "14";
+	:prev_rank "14";
+	:offense "2.24";
+	:defense "0.54";
+	:psi "81.64".
+
+:italyseriea :hasLeagueTeam :internazionale.
+
+:juventus a :LeagueTeam ;
+	:name "Juventus".
+:juventus :playsIn :italyseriea;
+	:rank "15";
+	:prev_rank "15";
+	:offense "2.16";
+	:defense "0.53";
+	:psi "80.88".
+
+:italyseriea :hasLeagueTeam :juventus.
+
+:valencia a :LeagueTeam ;
+	:name "Valencia".
+:valencia :playsIn :spanishprimeradivision;
+	:rank "16";
+	:prev_rank "16";
+	:offense "2.26";
+	:defense "0.6";
+	:psi "80.55".
+
+:spanishprimeradivision :hasLeagueTeam :valencia.
+
+:fcporto a :LeagueTeam ;
+	:name "FC Porto".
+:fcporto :playsIn :portugueseliga;
+	:rank "17";
+	:prev_rank "17";
+	:offense "2.3";
+	:defense "0.63";
+	:psi "80.53".
+
+:portugueseliga a :League ;
+	:name "Portuguese Liga".
+:portugueseliga :hasLeagueTeam :fcporto.
+
+:napoli a :LeagueTeam ;
+	:name "Napoli".
+:napoli :playsIn :italyseriea;
+	:rank "18";
+	:prev_rank "18";
+	:offense "2.31";
+	:defense "0.67";
+	:psi "79.9".
+
+:italyseriea :hasLeagueTeam :napoli.
+
+:eibar a :LeagueTeam ;
+	:name "Eibar".
+:eibar :playsIn :spanishprimeradivision;
+	:rank "19";
+	:prev_rank "19";
+	:offense "2.08";
+	:defense "0.53";
+	:psi "79.83".
+
+:spanishprimeradivision :hasLeagueTeam :eibar.
+
+:rbleipzig a :LeagueTeam ;
+	:name "RB Leipzig".
+:rbleipzig :playsIn :germanbundesliga;
+	:rank "20";
+	:prev_rank "20";
+	:offense "2.18";
+	:defense "0.59";
+	:psi "79.8".
+
+:germanbundesliga :hasLeagueTeam :rbleipzig.
+
+:getafe a :LeagueTeam ;
+	:name "Getafe".
+:getafe :playsIn :spanishprimeradivision;
+	:rank "21";
+	:prev_rank "21";
+	:offense "1.96";
+	:defense "0.46";
+	:psi "79.7".
+
+:spanishprimeradivision :hasLeagueTeam :getafe.
+
+:paoksalonika a :LeagueTeam ;
+	:name "PAOK Salonika".
+:paoksalonika :playsIn :greeksuperleague;
+	:rank "22";
+	:prev_rank "22";
+	:offense "2.33";
+	:defense "0.71";
+	:psi "79.24".
+
+:greeksuperleague :hasLeagueTeam :paoksalonika.
+
+:sevillafc a :LeagueTeam ;
+	:name "Sevilla FC".
+:sevillafc :playsIn :spanishprimeradivision;
+	:rank "23";
+	:prev_rank "23";
+	:offense "2.27";
+	:defense "0.68";
+	:psi "79.09".
+
+:spanishprimeradivision :hasLeagueTeam :sevillafc.
+
+:fcsalzburg a :LeagueTeam ;
+	:name "FC Salzburg".
+:fcsalzburg :playsIn :austriantmobilebundesliga;
+	:rank "24";
+	:prev_rank "24";
+	:offense "2.66";
+	:defense "0.94";
+	:psi "79.08".
+
+:austriantmobilebundesliga a :League ;
+	:name "Austrian T-Mobile Bundesliga".
+:austriantmobilebundesliga :hasLeagueTeam :fcsalzburg.
+
+:borussiadortmund a :LeagueTeam ;
+	:name "Borussia Dortmund".
+:borussiadortmund :playsIn :germanbundesliga;
+	:rank "25";
+	:prev_rank "25";
+	:offense "2.36";
+	:defense "0.74";
+	:psi "79.05".
+
+:germanbundesliga :hasLeagueTeam :borussiadortmund.
+
+:everton a :LeagueTeam ;
+	:name "Everton".
+:everton :playsIn :barclayspremierleague;
+	:rank "26";
+	:prev_rank "26";
+	:offense "2.0";
+	:defense "0.56";
+	:psi "78.05".
+
+:barclayspremierleague :hasLeagueTeam :everton.
+
+:athleticbilbao a :LeagueTeam ;
+	:name "Athletic Bilbao".
+:athleticbilbao :playsIn :spanishprimeradivision;
+	:rank "27";
+	:prev_rank "27";
+	:offense "1.92";
+	:defense "0.51";
+	:psi "77.89".
+
+:spanishprimeradivision :hasLeagueTeam :athleticbilbao.
+
+:arsenal a :LeagueTeam ;
+	:name "Arsenal".
+:arsenal :playsIn :barclayspremierleague;
+	:rank "28";
+	:prev_rank "28";
+	:offense "2.39";
+	:defense "0.84";
+	:psi "77.36".
+
+:barclayspremierleague :hasLeagueTeam :arsenal.
+
+:realsociedad a :LeagueTeam ;
+	:name "Real Sociedad".
+:realsociedad :playsIn :spanishprimeradivision;
+	:rank "29";
+	:prev_rank "29";
+	:offense "2.0";
+	:defense "0.6";
+	:psi "76.91".
+
+:spanishprimeradivision :hasLeagueTeam :realsociedad.
+
+:benfica a :LeagueTeam ;
+	:name "Benfica".
+:benfica :playsIn :portugueseliga;
+	:rank "30";
+	:prev_rank "30";
+	:offense "2.44";
+	:defense "0.92";
+	:psi "76.42".
+
+:portugueseliga :hasLeagueTeam :benfica.
+
+:leganes a :LeagueTeam ;
+	:name "Leganes".
+:leganes :playsIn :spanishprimeradivision;
+	:rank "31";
+	:prev_rank "31";
+	:offense "1.74";
+	:defense "0.46";
+	:psi "76.24".
+
+:spanishprimeradivision :hasLeagueTeam :leganes.
+
+:tsghoffenheim a :LeagueTeam ;
+	:name "TSG Hoffenheim".
+:tsghoffenheim :playsIn :germanbundesliga;
+	:rank "32";
+	:prev_rank "32";
+	:offense "2.6";
+	:defense "1.06";
+	:psi "75.97".
+
+:germanbundesliga :hasLeagueTeam :tsghoffenheim.
+
+:youngboys a :LeagueTeam ;
+	:name "Young Boys".
+:youngboys :playsIn :swissraiffeisensuperleague;
+	:rank "33";
+	:prev_rank "33";
+	:offense "2.64";
+	:defense "1.08";
+	:psi "75.91".
+
+:swissraiffeisensuperleague a :League ;
+	:name "Swiss Raiffeisen Super League".
+:swissraiffeisensuperleague :hasLeagueTeam :youngboys.
+
+:manchesterunited a :LeagueTeam ;
+	:name "Manchester United".
+:manchesterunited :playsIn :barclayspremierleague;
+	:rank "34";
+	:prev_rank "34";
+	:offense "2.17";
+	:defense "0.77";
+	:psi "75.7".
+
+:barclayspremierleague :hasLeagueTeam :manchesterunited.
+
+:lyon a :LeagueTeam ;
+	:name "Lyon".
+:lyon :playsIn :frenchligue1;
+	:rank "35";
+	:prev_rank "35";
+	:offense "2.29";
+	:defense "0.86";
+	:psi "75.54".
+
+:frenchligue1 :hasLeagueTeam :lyon.
+
+:fckrasnodar a :LeagueTeam ;
+	:name "FC Krasnodar".
+:fckrasnodar :playsIn :russianpremierliga;
+	:rank "36";
+	:prev_rank "36";
+	:offense "1.98";
+	:defense "0.65";
+	:psi "75.51".
+
+:russianpremierliga a :League ;
+	:name "Russian Premier Liga".
+:russianpremierliga :hasLeagueTeam :fckrasnodar.
+
+:psv a :LeagueTeam ;
+	:name "PSV".
+:psv :playsIn :dutcheredivisie;
+	:rank "37";
+	:prev_rank "37";
+	:offense "2.38";
+	:defense "0.93";
+	:psi "75.22".
+
+:dutcheredivisie :hasLeagueTeam :psv.
+
+:villarreal a :LeagueTeam ;
+	:name "Villarreal".
+:villarreal :playsIn :spanishprimeradivision;
+	:rank "38";
+	:prev_rank "38";
+	:offense "2.12";
+	:defense "0.77";
+	:psi "74.85".
+
+:spanishprimeradivision :hasLeagueTeam :villarreal.
+
+:realbetis a :LeagueTeam ;
+	:name "Real Betis".
+:realbetis :playsIn :spanishprimeradivision;
+	:rank "39";
+	:prev_rank "39";
+	:offense "1.98";
+	:defense "0.7";
+	:psi "74.41".
+
+:spanishprimeradivision :hasLeagueTeam :realbetis.
+
+:leicestercity a :LeagueTeam ;
+	:name "Leicester City".
+:leicestercity :playsIn :barclayspremierleague;
+	:rank "40";
+	:prev_rank "40";
+	:offense "1.95";
+	:defense "0.67";
+	:psi "74.41".
+
+:barclayspremierleague :hasLeagueTeam :leicestercity.
+
+:asroma a :LeagueTeam ;
+	:name "AS Roma".
+:asroma :playsIn :italyseriea;
+	:rank "41";
+	:prev_rank "41";
+	:offense "2.17";
+	:defense "0.83";
+	:psi "74.35".
+
+:italyseriea :hasLeagueTeam :asroma.
+
+:acmilan a :LeagueTeam ;
+	:name "AC Milan".
+:acmilan :playsIn :italyseriea;
+	:rank "42";
+	:prev_rank "42";
+	:offense "1.89";
+	:defense "0.65";
+	:psi "74.12".
+
+:italyseriea :hasLeagueTeam :acmilan.
+
+:espanyol a :LeagueTeam ;
+	:name "Espanyol".
+:espanyol :playsIn :spanishprimeradivision;
+	:rank "43";
+	:prev_rank "43";
+	:offense "2.01";
+	:defense "0.73";
+	:psi "74.0".
+
+:spanishprimeradivision :hasLeagueTeam :espanyol.
+
+:palmeiras a :LeagueTeam ;
+	:name "Palmeiras".
+:palmeiras :playsIn :brasileirosériea;
+	:rank "44";
+	:prev_rank "44";
+	:offense "1.85";
+	:defense "0.66";
+	:psi "73.05".
+
+:brasileirosériea a :League ;
+	:name "Brasileiro Série A".
+:brasileirosériea :hasLeagueTeam :palmeiras.
+
+:wolverhampton a :LeagueTeam ;
+	:name "Wolverhampton".
+:wolverhampton :playsIn :barclayspremierleague;
+	:rank "45";
+	:prev_rank "45";
+	:offense "1.87";
+	:defense "0.67";
+	:psi "73.02".
+
+:barclayspremierleague :hasLeagueTeam :wolverhampton.
+
+:lille a :LeagueTeam ;
+	:name "Lille".
+:lille :playsIn :frenchligue1;
+	:rank "46";
+	:prev_rank "46";
+	:offense "1.88";
+	:defense "0.7";
+	:psi "72.55".
+
+:frenchligue1 :hasLeagueTeam :lille.
+
+:lazio a :LeagueTeam ;
+	:name "Lazio".
+:lazio :playsIn :italyseriea;
+	:rank "47";
+	:prev_rank "47";
+	:offense "2.05";
+	:defense "0.84";
+	:psi "72.09".
+
+:italyseriea :hasLeagueTeam :lazio.
+
+:galatasaray a :LeagueTeam ;
+	:name "Galatasaray".
+:galatasaray :playsIn :turkishturkcellsuperlig;
+	:rank "48";
+	:prev_rank "48";
+	:offense "2.25";
+	:defense "0.99";
+	:psi "72.07".
+
+:turkishturkcellsuperlig a :League ;
+	:name "Turkish Turkcell Super Lig".
+:turkishturkcellsuperlig :hasLeagueTeam :galatasaray.
+
+:shakhtardonetsk a :LeagueTeam ;
+	:name "Shakhtar Donetsk".
+:shakhtardonetsk :playsIn :uefaeuropaleague;
+	:rank "49";
+	:prev_rank "49";
+	:offense "2.15";
+	:defense "0.93";
+	:psi "71.79".
+
+:uefaeuropaleague a :League ;
+	:name "UEFA Europa League".
+:uefaeuropaleague :hasLeagueTeam :shakhtardonetsk.
+
+:eintrachtfrankfurt a :LeagueTeam ;
+	:name "Eintracht Frankfurt".
+:eintrachtfrankfurt :playsIn :germanbundesliga;
+	:rank "50";
+	:prev_rank "50";
+	:offense "2.04";
+	:defense "0.87";
+	:psi "71.37".
+
+:germanbundesliga :hasLeagueTeam :eintrachtfrankfurt.
+
+:gironafc a :LeagueTeam ;
+	:name "Girona FC".
+:gironafc :playsIn :spanishprimeradivision;
+	:rank "51";
+	:prev_rank "51";
+	:offense "1.83";
+	:defense "0.76";
+	:psi "70.36".
+
+:spanishprimeradivision :hasLeagueTeam :gironafc.
+
+:sdhuesca a :LeagueTeam ;
+	:name "SD Huesca".
+:sdhuesca :playsIn :spanishprimeradivision;
+	:rank "52";
+	:prev_rank "52";
+	:offense "2.01";
+	:defense "0.89";
+	:psi "70.18".
+
+:spanishprimeradivision :hasLeagueTeam :sdhuesca.
+
+:crystalpalace a :LeagueTeam ;
+	:name "Crystal Palace".
+:crystalpalace :playsIn :barclayspremierleague;
+	:rank "53";
+	:prev_rank "53";
+	:offense "1.99";
+	:defense "0.89";
+	:psi "70.08".
+
+:barclayspremierleague :hasLeagueTeam :crystalpalace.
+
+:zenitstpetersburg a :LeagueTeam ;
+	:name "Zenit St Petersburg".
+:zenitstpetersburg :playsIn :russianpremierliga;
+	:rank "54";
+	:prev_rank "54";
+	:offense "2.04";
+	:defense "0.93";
+	:psi "70.06".
+
+:russianpremierliga :hasLeagueTeam :zenitstpetersburg.
+
+:cskamoscow a :LeagueTeam ;
+	:name "CSKA Moscow".
+:cskamoscow :playsIn :russianpremierliga;
+	:rank "55";
+	:prev_rank "55";
+	:offense "1.86";
+	:defense "0.79";
+	:psi "70.0".
+
+:russianpremierliga :hasLeagueTeam :cskamoscow.
+
+:sportingcp a :LeagueTeam ;
+	:name "Sporting CP".
+:sportingcp :playsIn :portugueseliga;
+	:rank "56";
+	:prev_rank "56";
+	:offense "1.94";
+	:defense "0.86";
+	:psi "69.89".
+
+:portugueseliga :hasLeagueTeam :sportingcp.
+
+:celtavigo a :LeagueTeam ;
+	:name "Celta Vigo".
+:celtavigo :playsIn :spanishprimeradivision;
+	:rank "57";
+	:prev_rank "57";
+	:offense "2.03";
+	:defense "0.93";
+	:psi "69.78".
+
+:spanishprimeradivision :hasLeagueTeam :celtavigo.
+
+:basel a :LeagueTeam ;
+	:name "Basel".
+:basel :playsIn :swissraiffeisensuperleague;
+	:rank "58";
+	:prev_rank "58";
+	:offense "2.13";
+	:defense "1.0";
+	:psi "69.71".
+
+:swissraiffeisensuperleague :hasLeagueTeam :basel.
+
+:clubbrugge a :LeagueTeam ;
+	:name "Club Brugge".
+:clubbrugge :playsIn :belgianjupilerleague;
+	:rank "59";
+	:prev_rank "59";
+	:offense "2.09";
+	:defense "0.98";
+	:psi "69.62".
+
+:belgianjupilerleague a :League ;
+	:name "Belgian Jupiler League".
+:belgianjupilerleague :hasLeagueTeam :clubbrugge.
+
+:torino a :LeagueTeam ;
+	:name "Torino".
+:torino :playsIn :italyseriea;
+	:rank "60";
+	:prev_rank "60";
+	:offense "1.81";
+	:defense "0.77";
+	:psi "69.48".
+
+:italyseriea :hasLeagueTeam :torino.
+
+:genk a :LeagueTeam ;
+	:name "Genk".
+:genk :playsIn :belgianjupilerleague;
+	:rank "61";
+	:prev_rank "61";
+	:offense "1.98";
+	:defense "0.91";
+	:psi "69.38".
+
+:belgianjupilerleague :hasLeagueTeam :genk.
+
+:alavés a :LeagueTeam ;
+	:name "Alavés".
+:alavés :playsIn :spanishprimeradivision;
+	:rank "62";
+	:prev_rank "62";
+	:offense "1.76";
+	:defense "0.75";
+	:psi "69.22".
+
+:spanishprimeradivision :hasLeagueTeam :alavés.
+
+:newcastle a :LeagueTeam ;
+	:name "Newcastle".
+:newcastle :playsIn :barclayspremierleague;
+	:rank "63";
+	:prev_rank "63";
+	:offense "1.79";
+	:defense "0.78";
+	:psi "68.91".
+
+:barclayspremierleague :hasLeagueTeam :newcastle.
+
+:werderbremen a :LeagueTeam ;
+	:name "Werder Bremen".
+:werderbremen :playsIn :germanbundesliga;
+	:rank "64";
+	:prev_rank "64";
+	:offense "2.02";
+	:defense "0.96";
+	:psi "68.87".
+
+:germanbundesliga :hasLeagueTeam :werderbremen.
+
+:dynamokiev a :LeagueTeam ;
+	:name "Dynamo Kiev".
+:dynamokiev :playsIn :uefaeuropaleague;
+	:rank "65";
+	:prev_rank "65";
+	:offense "1.98";
+	:defense "0.94";
+	:psi "68.7".
+
+:uefaeuropaleague :hasLeagueTeam :dynamokiev.
+
+:vflwolfsburg a :LeagueTeam ;
+	:name "VfL Wolfsburg".
+:vflwolfsburg :playsIn :germanbundesliga;
+	:rank "66";
+	:prev_rank "66";
+	:offense "1.98";
+	:defense "0.95";
+	:psi "68.49".
+
+:germanbundesliga :hasLeagueTeam :vflwolfsburg.
+
+:sampdoria a :LeagueTeam ;
+	:name "Sampdoria".
+:sampdoria :playsIn :italyseriea;
+	:rank "67";
+	:prev_rank "67";
+	:offense "1.94";
+	:defense "0.92";
+	:psi "68.3".
+
+:italyseriea :hasLeagueTeam :sampdoria.
+
+:borussiamonchengladbach a :LeagueTeam ;
+	:name "Borussia Monchengladbach".
+:borussiamonchengladbach :playsIn :germanbundesliga;
+	:rank "68";
+	:prev_rank "68";
+	:offense "1.95";
+	:defense "0.93";
+	:psi "68.28".
+
+:germanbundesliga :hasLeagueTeam :borussiamonchengladbach.
+
+:marseille a :LeagueTeam ;
+	:name "Marseille".
+:marseille :playsIn :frenchligue1;
+	:rank "69";
+	:prev_rank "69";
+	:offense "1.78";
+	:defense "0.8";
+	:psi "68.15".
+
+:frenchligue1 :hasLeagueTeam :marseille.
+
+:stetienne a :LeagueTeam ;
+	:name "St Etienne".
+:stetienne :playsIn :frenchligue1;
+	:rank "70";
+	:prev_rank "70";
+	:offense "1.81";
+	:defense "0.84";
+	:psi "67.96".
+
+:frenchligue1 :hasLeagueTeam :stetienne.
+
+:montpellier a :LeagueTeam ;
+	:name "Montpellier".
+:montpellier :playsIn :frenchligue1;
+	:rank "71";
+	:prev_rank "71";
+	:offense "1.66";
+	:defense "0.72";
+	:psi "67.79".
+
+:frenchligue1 :hasLeagueTeam :montpellier.
+
+:bologna a :LeagueTeam ;
+	:name "Bologna".
+:bologna :playsIn :italyseriea;
+	:rank "72";
+	:prev_rank "72";
+	:offense "1.89";
+	:defense "0.92";
+	:psi "67.53".
+
+:italyseriea :hasLeagueTeam :bologna.
+
+:levante a :LeagueTeam ;
+	:name "Levante".
+:levante :playsIn :spanishprimeradivision;
+	:rank "73";
+	:prev_rank "73";
+	:offense "2.11";
+	:defense "1.09";
+	:psi "67.43".
+
+:spanishprimeradivision :hasLeagueTeam :levante.
+
+:besiktas a :LeagueTeam ;
+	:name "Besiktas".
+:besiktas :playsIn :turkishturkcellsuperlig;
+	:rank "74";
+	:prev_rank "74";
+	:offense "2.34";
+	:defense "1.28";
+	:psi "67.43".
+
+:turkishturkcellsuperlig :hasLeagueTeam :besiktas.
+
+:fiorentina a :LeagueTeam ;
+	:name "Fiorentina".
+:fiorentina :playsIn :italyseriea;
+	:rank "75";
+	:prev_rank "75";
+	:offense "1.69";
+	:defense "0.76";
+	:psi "67.34".
+
+:italyseriea :hasLeagueTeam :fiorentina.
+
+:realvalladolid a :LeagueTeam ;
+	:name "Real Valladolid".
+:realvalladolid :playsIn :spanishprimeradivision;
+	:rank "76";
+	:prev_rank "76";
+	:offense "1.72";
+	:defense "0.81";
+	:psi "66.98".
+
+:spanishprimeradivision :hasLeagueTeam :realvalladolid.
+
+:lokomotivmoscow a :LeagueTeam ;
+	:name "Lokomotiv Moscow".
+:lokomotivmoscow :playsIn :russianpremierliga;
+	:rank "77";
+	:prev_rank "77";
+	:offense "1.77";
+	:defense "0.84";
+	:psi "66.96".
+
+:russianpremierliga :hasLeagueTeam :lokomotivmoscow.
+
+:flamengo a :LeagueTeam ;
+	:name "Flamengo".
+:flamengo :playsIn :brasileirosériea;
+	:rank "78";
+	:prev_rank "81";
+	:offense "1.85";
+	:defense "0.92";
+	:psi "66.9".
+
+:brasileirosériea :hasLeagueTeam :flamengo.
+
+:afcbournemouth a :LeagueTeam ;
+	:name "AFC Bournemouth".
+:afcbournemouth :playsIn :barclayspremierleague;
+	:rank "79";
+	:prev_rank "78";
+	:offense "2.06";
+	:defense "1.09";
+	:psi "66.71".
+
+:barclayspremierleague :hasLeagueTeam :afcbournemouth.
+
+:feyenoord a :LeagueTeam ;
+	:name "Feyenoord".
+:feyenoord :playsIn :dutcheredivisie;
+	:rank "80";
+	:prev_rank "79";
+	:offense "2.17";
+	:defense "1.18";
+	:psi "66.66".
+
+:dutcheredivisie :hasLeagueTeam :feyenoord.
+
+:westhamunited a :LeagueTeam ;
+	:name "West Ham United".
+:westhamunited :playsIn :barclayspremierleague;
+	:rank "81";
+	:prev_rank "80";
+	:offense "1.93";
+	:defense "0.99";
+	:psi "66.61".
+
+:barclayspremierleague :hasLeagueTeam :westhamunited.
+
+:nantes a :LeagueTeam ;
+	:name "Nantes".
+:nantes :playsIn :frenchligue1;
+	:rank "82";
+	:prev_rank "82";
+	:offense "1.67";
+	:defense "0.79";
+	:psi "66.34".
+
+:frenchligue1 :hasLeagueTeam :nantes.
+
+:southampton a :LeagueTeam ;
+	:name "Southampton".
+:southampton :playsIn :barclayspremierleague;
+	:rank "83";
+	:prev_rank "83";
+	:offense "1.85";
+	:defense "0.95";
+	:psi "66.02".
+
+:barclayspremierleague :hasLeagueTeam :southampton.
+
+:watford a :LeagueTeam ;
+	:name "Watford".
+:watford :playsIn :barclayspremierleague;
+	:rank "84";
+	:prev_rank "84";
+	:offense "1.96";
+	:defense "1.06";
+	:psi "65.53".
+
+:barclayspremierleague :hasLeagueTeam :watford.
+
+:burnley a :LeagueTeam ;
+	:name "Burnley".
+:burnley :playsIn :barclayspremierleague;
+	:rank "85";
+	:prev_rank "85";
+	:offense "1.81";
+	:defense "0.94";
+	:psi "65.48".
+
+:barclayspremierleague :hasLeagueTeam :burnley.
+
+:mainz a :LeagueTeam ;
+	:name "Mainz".
+:mainz :playsIn :germanbundesliga;
+	:rank "86";
+	:prev_rank "86";
+	:offense "2.01";
+	:defense "1.1";
+	:psi "65.32".
+
+:germanbundesliga :hasLeagueTeam :mainz.
+
+:genoa a :LeagueTeam ;
+	:name "Genoa".
+:genoa :playsIn :italyseriea;
+	:rank "87";
+	:prev_rank "87";
+	:offense "1.67";
+	:defense "0.84";
+	:psi "65.18".
+
+:italyseriea :hasLeagueTeam :genoa.
+
+:aekathens a :LeagueTeam ;
+	:name "AEK Athens".
+:aekathens :playsIn :greeksuperleague;
+	:rank "88";
+	:prev_rank "88";
+	:offense "1.61";
+	:defense "0.8";
+	:psi "64.91".
+
+:greeksuperleague :hasLeagueTeam :aekathens.
+
+:schalke04 a :LeagueTeam ;
+	:name "Schalke 04".
+:schalke04 :playsIn :germanbundesliga;
+	:rank "89";
+	:prev_rank "89";
+	:offense "1.78";
+	:defense "0.95";
+	:psi "64.61".
+
+:germanbundesliga :hasLeagueTeam :schalke04.
+
+:rayovallecano a :LeagueTeam ;
+	:name "Rayo Vallecano".
+:rayovallecano :playsIn :spanishprimeradivision;
+	:rank "90";
+	:prev_rank "90";
+	:offense "1.82";
+	:defense "0.99";
+	:psi "64.54".
+
+:spanishprimeradivision :hasLeagueTeam :rayovallecano.
+
+:leedsunited a :LeagueTeam ;
+	:name "Leeds United".
+:leedsunited :playsIn :englishleaguechampionship;
+	:rank "91";
+	:prev_rank "91";
+	:offense "1.81";
+	:defense "0.98";
+	:psi "64.41".
+
+:englishleaguechampionship a :League ;
+	:name "English League Championship".
+:englishleaguechampionship :hasLeagueTeam :leedsunited.
+
+:rangers a :LeagueTeam ;
+	:name "Rangers".
+:rangers :playsIn :scottishpremiership;
+	:rank "92";
+	:prev_rank "92";
+	:offense "1.92";
+	:defense "1.08";
+	:psi "64.23".
+
+:scottishpremiership a :League ;
+	:name "Scottish Premiership".
+:scottishpremiership :hasLeagueTeam :rangers.
+
+:ludogorets a :LeagueTeam ;
+	:name "Ludogorets".
+:ludogorets :playsIn :uefaeuropaleague;
+	:rank "93";
+	:prev_rank "93";
+	:offense "1.68";
+	:defense "0.89";
+	:psi "64.16".
+
+:uefaeuropaleague :hasLeagueTeam :ludogorets.
+
+:lasklinz a :LeagueTeam ;
+	:name "LASK Linz".
+:lasklinz :playsIn :austriantmobilebundesliga;
+	:rank "94";
+	:prev_rank "94";
+	:offense "1.92";
+	:defense "1.09";
+	:psi "64.07".
+
+:austriantmobilebundesliga :hasLeagueTeam :lasklinz.
+
+:fccopenhagen a :LeagueTeam ;
+	:name "FC Copenhagen".
+:fccopenhagen :playsIn :danishsasligaen;
+	:rank "95";
+	:prev_rank "95";
+	:offense "2.13";
+	:defense "1.28";
+	:psi "63.72".
+
+:danishsasligaen a :League ;
+	:name "Danish SAS-Ligaen".
+:danishsasligaen :hasLeagueTeam :fccopenhagen.
+
+:asmonaco a :LeagueTeam ;
+	:name "AS Monaco".
+:asmonaco :playsIn :frenchligue1;
+	:rank "96";
+	:prev_rank "96";
+	:offense "1.67";
+	:defense "0.9";
+	:psi "63.53".
+
+:frenchligue1 :hasLeagueTeam :asmonaco.
+
+:istanbulbasaksehir a :LeagueTeam ;
+	:name "Istanbul Basaksehir".
+:istanbulbasaksehir :playsIn :turkishturkcellsuperlig;
+	:rank "97";
+	:prev_rank "97";
+	:offense "1.51";
+	:defense "0.77";
+	:psi "63.36".
+
+:turkishturkcellsuperlig :hasLeagueTeam :istanbulbasaksehir.
+
+:angers a :LeagueTeam ;
+	:name "Angers".
+:angers :playsIn :frenchligue1;
+	:rank "98";
+	:prev_rank "98";
+	:offense "1.62";
+	:defense "0.87";
+	:psi "63.33".
+
+:frenchligue1 :hasLeagueTeam :angers.
+
+:redstarbelgrade a :LeagueTeam ;
+	:name "Red Star Belgrade".
+:redstarbelgrade :playsIn :uefachampionsleague;
+	:rank "99";
+	:prev_rank "99";
+	:offense "2.02";
+	:defense "1.21";
+	:psi "63.24".
+
+:uefachampionsleague a :League ;
+	:name "UEFA Champions League".
+:uefachampionsleague :hasLeagueTeam :redstarbelgrade.
+
+:sheffieldunited a :LeagueTeam ;
+	:name "Sheffield United".
+:sheffieldunited :playsIn :englishleaguechampionship;
+	:rank "100";
+	:prev_rank "100";
+	:offense "1.62";
+	:defense "0.9";
+	:psi "62.59".
+
+:englishleaguechampionship :hasLeagueTeam :sheffieldunited.
+
+:trabzonspor a :LeagueTeam ;
+	:name "Trabzonspor".
+:trabzonspor :playsIn :turkishturkcellsuperlig;
+	:rank "101";
+	:prev_rank "101";
+	:offense "2.04";
+	:defense "1.26";
+	:psi "62.49".
+
+:turkishturkcellsuperlig :hasLeagueTeam :trabzonspor.
+
+:viktoriaplzen a :LeagueTeam ;
+	:name "Viktoria Plzen".
+:viktoriaplzen :playsIn :uefaeuropaleague;
+	:rank "102";
+	:prev_rank "102";
+	:offense "1.98";
+	:defense "1.22";
+	:psi "62.31".
+
+:uefaeuropaleague :hasLeagueTeam :viktoriaplzen.
+
+:fortunadüsseldorf a :LeagueTeam ;
+	:name "Fortuna Düsseldorf".
+:fortunadüsseldorf :playsIn :germanbundesliga;
+	:rank "103";
+	:prev_rank "103";
+	:offense "1.9";
+	:defense "1.15";
+	:psi "62.31".
+
+:germanbundesliga :hasLeagueTeam :fortunadüsseldorf.
+
+:celtic a :LeagueTeam ;
+	:name "Celtic".
+:celtic :playsIn :scottishpremiership;
+	:rank "104";
+	:prev_rank "105";
+	:offense "1.55";
+	:defense "0.87";
+	:psi "61.99".
+
+:scottishpremiership :hasLeagueTeam :celtic.
+
+:norwichcity a :LeagueTeam ;
+	:name "Norwich City".
+:norwichcity :playsIn :englishleaguechampionship;
+	:rank "105";
+	:prev_rank "106";
+	:offense "1.89";
+	:defense "1.16";
+	:psi "61.87".
+
+:englishleaguechampionship :hasLeagueTeam :norwichcity.
+
+:herthaberlin a :LeagueTeam ;
+	:name "Hertha Berlin".
+:herthaberlin :playsIn :germanbundesliga;
+	:rank "106";
+	:prev_rank "107";
+	:offense "1.85";
+	:defense "1.13";
+	:psi "61.87".
+
+:germanbundesliga :hasLeagueTeam :herthaberlin.
+
+:santos a :LeagueTeam ;
+	:name "Santos".
+:santos :playsIn :brasileirosériea;
+	:rank "107";
+	:prev_rank "116";
+	:offense "1.56";
+	:defense "0.89";
+	:psi "61.54".
+
+:brasileirosériea :hasLeagueTeam :santos.
+
+:braga a :LeagueTeam ;
+	:name "Braga".
+:braga :playsIn :portugueseliga;
+	:rank "108";
+	:prev_rank "108";
+	:offense "1.68";
+	:defense "0.99";
+	:psi "61.5".
+
+:portugueseliga :hasLeagueTeam :braga.
+
+:grêmio a :LeagueTeam ;
+	:name "Grêmio".
+:grêmio :playsIn :brasileirosériea;
+	:rank "109";
+	:prev_rank "104";
+	:offense "1.6";
+	:defense "0.93";
+	:psi "61.44".
+
+:brasileirosériea :hasLeagueTeam :grêmio.
+
+:guangzhouevergrande a :LeagueTeam ;
+	:name "Guangzhou Evergrande".
+:guangzhouevergrande :playsIn :chinesesuperleague;
+	:rank "110";
+	:prev_rank "111";
+	:offense "1.88";
+	:defense "1.18";
+	:psi "61.29".
+
+:chinesesuperleague a :League ;
+	:name "Chinese Super League".
+:chinesesuperleague :hasLeagueTeam :guangzhouevergrande.
+
+:riverplate a :LeagueTeam ;
+	:name "River Plate".
+:riverplate :playsIn :argentinaprimeradivision;
+	:rank "111";
+	:prev_rank "109";
+	:offense "1.62";
+	:defense "0.96";
+	:psi "61.2".
+
+:argentinaprimeradivision a :League ;
+	:name "Argentina Primera Division".
+:argentinaprimeradivision :hasLeagueTeam :riverplate.
+
+:bocajuniors a :LeagueTeam ;
+	:name "Boca Juniors".
+:bocajuniors :playsIn :argentinaprimeradivision;
+	:rank "112";
+	:prev_rank "110";
+	:offense "1.55";
+	:defense "0.9";
+	:psi "60.98".
+
+:argentinaprimeradivision :hasLeagueTeam :bocajuniors.
+
+:astonvilla a :LeagueTeam ;
+	:name "Aston Villa".
+:astonvilla :playsIn :englishleaguechampionship;
+	:rank "113";
+	:prev_rank "112";
+	:offense "1.7";
+	:defense "1.03";
+	:psi "60.97".
+
+:englishleaguechampionship :hasLeagueTeam :astonvilla.
+
+:nice a :LeagueTeam ;
+	:name "Nice".
+:nice :playsIn :frenchligue1;
+	:rank "114";
+	:prev_rank "113";
+	:offense "1.43";
+	:defense "0.8";
+	:psi "60.91".
+
+:frenchligue1 :hasLeagueTeam :nice.
+
+:beijingguoan a :LeagueTeam ;
+	:name "Beijing Guoan".
+:beijingguoan :playsIn :chinesesuperleague;
+	:rank "115";
+	:prev_rank "115";
+	:offense "1.8";
+	:defense "1.13";
+	:psi "60.86".
+
+:chinesesuperleague :hasLeagueTeam :beijingguoan.
+
+:sassuolo a :LeagueTeam ;
+	:name "Sassuolo".
+:sassuolo :playsIn :italyseriea;
+	:rank "116";
+	:prev_rank "114";
+	:offense "1.71";
+	:defense "1.05";
+	:psi "60.78".
+
+:italyseriea :hasLeagueTeam :sassuolo.
+
+:nimes a :LeagueTeam ;
+	:name "Nimes".
+:nimes :playsIn :frenchligue1;
+	:rank "117";
+	:prev_rank "117";
+	:offense "1.7";
+	:defense "1.05";
+	:psi "60.51".
+
+:frenchligue1 :hasLeagueTeam :nimes.
+
+:dinamozagreb a :LeagueTeam ;
+	:name "Dinamo Zagreb".
+:dinamozagreb :playsIn :uefaeuropaleague;
+	:rank "118";
+	:prev_rank "118";
+	:offense "1.55";
+	:defense "0.93";
+	:psi "60.37".
+
+:uefaeuropaleague :hasLeagueTeam :dinamozagreb.
+
+:spal a :LeagueTeam ;
+	:name "Spal".
+:spal :playsIn :italyseriea;
+	:rank "119";
+	:prev_rank "119";
+	:offense "1.69";
+	:defense "1.06";
+	:psi "60.24".
+
+:italyseriea :hasLeagueTeam :spal.
+
+:staderennes a :LeagueTeam ;
+	:name "Stade Rennes".
+:staderennes :playsIn :frenchligue1;
+	:rank "120";
+	:prev_rank "120";
+	:offense "1.69";
+	:defense "1.06";
+	:psi "60.12".
+
+:frenchligue1 :hasLeagueTeam :staderennes.
+
+:malmoff a :LeagueTeam ;
+	:name "Malmo FF".
+:malmoff :playsIn :swedishallsvenskan;
+	:rank "121";
+	:prev_rank "121";
+	:offense "1.65";
+	:defense "1.03";
+	:psi "60.04".
+
+:swedishallsvenskan a :League ;
+	:name "Swedish Allsvenskan".
+:swedishallsvenskan :hasLeagueTeam :malmoff.
+
+:strasbourg a :LeagueTeam ;
+	:name "Strasbourg".
+:strasbourg :playsIn :frenchligue1;
+	:rank "122";
+	:prev_rank "122";
+	:offense "1.58";
+	:defense "0.98";
+	:psi "59.74".
+
+:frenchligue1 :hasLeagueTeam :strasbourg.
+
+:cardiffcity a :LeagueTeam ;
+	:name "Cardiff City".
+:cardiffcity :playsIn :barclayspremierleague;
+	:rank "123";
+	:prev_rank "124";
+	:offense "1.64";
+	:defense "1.04";
+	:psi "59.51".
+
+:barclayspremierleague :hasLeagueTeam :cardiffcity.
+
+:fcarsenaltula a :LeagueTeam ;
+	:name "FC Arsenal Tula".
+:fcarsenaltula :playsIn :russianpremierliga;
+	:rank "124";
+	:prev_rank "125";
+	:offense "1.57";
+	:defense "0.98";
+	:psi "59.46".
+
+:russianpremierliga :hasLeagueTeam :fcarsenaltula.
+
+:vitesse a :LeagueTeam ;
+	:name "Vitesse".
+:vitesse :playsIn :dutcheredivisie;
+	:rank "125";
+	:prev_rank "126";
+	:offense "2.2";
+	:defense "1.54";
+	:psi "59.41".
+
+:dutcheredivisie :hasLeagueTeam :vitesse.
+
+:losangelesfc a :LeagueTeam ;
+	:name "Los Angeles FC".
+:losangelesfc :playsIn :majorleaguesoccer;
+	:rank "126";
+	:prev_rank "127";
+	:offense "1.94";
+	:defense "1.32";
+	:psi "59.26".
+
+:majorleaguesoccer a :League ;
+	:name "Major League Soccer".
+:majorleaguesoccer :hasLeagueTeam :losangelesfc.
+
+:internacional a :LeagueTeam ;
+	:name "Internacional".
+:internacional :playsIn :brasileirosériea;
+	:rank "127";
+	:prev_rank "123";
+	:offense "1.46";
+	:defense "0.89";
+	:psi "59.25".
+
+:brasileirosériea :hasLeagueTeam :internacional.
+
+:shanghaisipg a :LeagueTeam ;
+	:name "Shanghai SIPG".
+:shanghaisipg :playsIn :chinesesuperleague;
+	:rank "128";
+	:prev_rank "131";
+	:offense "1.71";
+	:defense "1.11";
+	:psi "59.22".
+
+:chinesesuperleague :hasLeagueTeam :shanghaisipg.
+
+:racingclub a :LeagueTeam ;
+	:name "Racing Club".
+:racingclub :playsIn :argentinaprimeradivision;
+	:rank "129";
+	:prev_rank "128";
+	:offense "1.5";
+	:defense "0.94";
+	:psi "59.13".
+
+:argentinaprimeradivision :hasLeagueTeam :racingclub.
+
+:clubamérica a :LeagueTeam ;
+	:name "Club América".
+:clubamérica :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "130";
+	:prev_rank "129";
+	:offense "1.54";
+	:defense "0.97";
+	:psi "59.06".
+
+:mexicanprimeradivisiontorneoclausura a :League ;
+	:name "Mexican Primera Division Torneo Clausura".
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :clubamérica.
+
+:cagliari a :LeagueTeam ;
+	:name "Cagliari".
+:cagliari :playsIn :italyseriea;
+	:rank "131";
+	:prev_rank "130";
+	:offense "1.68";
+	:defense "1.12";
+	:psi "58.51".
+
+:italyseriea :hasLeagueTeam :cagliari.
+
+:atléticoparanaense a :LeagueTeam ;
+	:name "Atlético Paranaense".
+:atléticoparanaense :playsIn :brasileirosériea;
+	:rank "132";
+	:prev_rank "152";
+	:offense "1.55";
+	:defense "1.01";
+	:psi "58.25".
+
+:brasileirosériea :hasLeagueTeam :atléticoparanaense.
+
+:tigresuanl a :LeagueTeam ;
+	:name "Tigres UANL".
+:tigresuanl :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "133";
+	:prev_rank "132";
+	:offense "1.47";
+	:defense "0.95";
+	:psi "57.85".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :tigresuanl.
+
+:brightonandhovealbion a :LeagueTeam ;
+	:name "Brighton and Hove Albion".
+:brightonandhovealbion :playsIn :barclayspremierleague;
+	:rank "134";
+	:prev_rank "133";
+	:offense "1.55";
+	:defense "1.04";
+	:psi "57.78".
+
+:barclayspremierleague :hasLeagueTeam :brightonandhovealbion.
+
+:empoli a :LeagueTeam ;
+	:name "Empoli".
+:empoli :playsIn :italyseriea;
+	:rank "135";
+	:prev_rank "134";
+	:offense "1.87";
+	:defense "1.33";
+	:psi "57.55".
+
+:italyseriea :hasLeagueTeam :empoli.
+
+:fenerbahce a :LeagueTeam ;
+	:name "Fenerbahce".
+:fenerbahce :playsIn :turkishturkcellsuperlig;
+	:rank "136";
+	:prev_rank "135";
+	:offense "1.62";
+	:defense "1.11";
+	:psi "57.52".
+
+:turkishturkcellsuperlig :hasLeagueTeam :fenerbahce.
+
+:brentford a :LeagueTeam ;
+	:name "Brentford".
+:brentford :playsIn :englishleaguechampionship;
+	:rank "137";
+	:prev_rank "136";
+	:offense "1.56";
+	:defense "1.06";
+	:psi "57.21".
+
+:englishleaguechampionship :hasLeagueTeam :brentford.
+
+:vfbstuttgart a :LeagueTeam ;
+	:name "VfB Stuttgart".
+:vfbstuttgart :playsIn :germanbundesliga;
+	:rank "138";
+	:prev_rank "137";
+	:offense "1.64";
+	:defense "1.14";
+	:psi "57.19".
+
+:germanbundesliga :hasLeagueTeam :vfbstuttgart.
+
+:fulham a :LeagueTeam ;
+	:name "Fulham".
+:fulham :playsIn :barclayspremierleague;
+	:rank "139";
+	:prev_rank "139";
+	:offense "1.67";
+	:defense "1.17";
+	:psi "57.07".
+
+:barclayspremierleague :hasLeagueTeam :fulham.
+
+:reims a :LeagueTeam ;
+	:name "Reims".
+:reims :playsIn :frenchligue1;
+	:rank "140";
+	:prev_rank "140";
+	:offense "1.44";
+	:defense "0.96";
+	:psi "57.0".
+
+:frenchligue1 :hasLeagueTeam :reims.
+
+:bordeaux a :LeagueTeam ;
+	:name "Bordeaux".
+:bordeaux :playsIn :frenchligue1;
+	:rank "141";
+	:prev_rank "141";
+	:offense "1.37";
+	:defense "0.91";
+	:psi "56.85".
+
+:frenchligue1 :hasLeagueTeam :bordeaux.
+
+:fcastana a :LeagueTeam ;
+	:name "FC Astana".
+:fcastana :playsIn :uefaeuropaleague;
+	:rank "142";
+	:prev_rank "142";
+	:offense "1.67";
+	:defense "1.18";
+	:psi "56.76".
+
+:uefaeuropaleague :hasLeagueTeam :fcastana.
+
+:spartakmoscow a :LeagueTeam ;
+	:name "Spartak Moscow".
+:spartakmoscow :playsIn :russianpremierliga;
+	:rank "143";
+	:prev_rank "143";
+	:offense "1.46";
+	:defense "1.0";
+	:psi "56.63".
+
+:russianpremierliga :hasLeagueTeam :spartakmoscow.
+
+:fcmidtjylland a :LeagueTeam ;
+	:name "FC Midtjylland".
+:fcmidtjylland :playsIn :danishsasligaen;
+	:rank "144";
+	:prev_rank "144";
+	:offense "1.9";
+	:defense "1.41";
+	:psi "56.48".
+
+:danishsasligaen :hasLeagueTeam :fcmidtjylland.
+
+:scfreiburg a :LeagueTeam ;
+	:name "SC Freiburg".
+:scfreiburg :playsIn :germanbundesliga;
+	:rank "145";
+	:prev_rank "146";
+	:offense "1.7";
+	:defense "1.22";
+	:psi "56.43".
+
+:germanbundesliga :hasLeagueTeam :scfreiburg.
+
+:udinese a :LeagueTeam ;
+	:name "Udinese".
+:udinese :playsIn :italyseriea;
+	:rank "146";
+	:prev_rank "147";
+	:offense "1.6";
+	:defense "1.13";
+	:psi "56.43".
+
+:italyseriea :hasLeagueTeam :udinese.
+
+:az a :LeagueTeam ;
+	:name "AZ".
+:az :playsIn :dutcheredivisie;
+	:rank "147";
+	:prev_rank "148";
+	:offense "1.75";
+	:defense "1.29";
+	:psi "56.17".
+
+:dutcheredivisie :hasLeagueTeam :az.
+
+:monterrey a :LeagueTeam ;
+	:name "Monterrey".
+:monterrey :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "148";
+	:prev_rank "149";
+	:offense "1.52";
+	:defense "1.07";
+	:psi "56.17".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :monterrey.
+
+:toulouse a :LeagueTeam ;
+	:name "Toulouse".
+:toulouse :playsIn :frenchligue1;
+	:rank "149";
+	:prev_rank "150";
+	:offense "1.5";
+	:defense "1.06";
+	:psi "56.06".
+
+:frenchligue1 :hasLeagueTeam :toulouse.
+
+:león a :LeagueTeam ;
+	:name "León".
+:león :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "150";
+	:prev_rank "151";
+	:offense "1.55";
+	:defense "1.11";
+	:psi "56.01".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :león.
+
+:kawasakifrontale a :LeagueTeam ;
+	:name "Kawasaki Frontale".
+:kawasakifrontale :playsIn :japanesejleague;
+	:rank "151";
+	:prev_rank "138";
+	:offense "1.44";
+	:defense "1.0";
+	:psi "55.87".
+
+:japanesejleague a :League ;
+	:name "Japanese J League".
+:japanesejleague :hasLeagueTeam :kawasakifrontale.
+
+:cruzazul a :LeagueTeam ;
+	:name "Cruz Azul".
+:cruzazul :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "152";
+	:prev_rank "153";
+	:offense "1.43";
+	:defense "1.01";
+	:psi "55.62".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :cruzazul.
+
+:brondby a :LeagueTeam ;
+	:name "Brondby".
+:brondby :playsIn :danishsasligaen;
+	:rank "153";
+	:prev_rank "161";
+	:offense "1.89";
+	:defense "1.45";
+	:psi "55.55".
+
+:danishsasligaen :hasLeagueTeam :brondby.
+
+:slaviaprague a :LeagueTeam ;
+	:name "Slavia Prague".
+:slaviaprague :playsIn :uefaeuropaleague;
+	:rank "154";
+	:prev_rank "154";
+	:offense "1.38";
+	:defense "0.97";
+	:psi "55.35".
+
+:uefaeuropaleague :hasLeagueTeam :slaviaprague.
+
+:amiens a :LeagueTeam ;
+	:name "Amiens".
+:amiens :playsIn :frenchligue1;
+	:rank "155";
+	:prev_rank "155";
+	:offense "1.29";
+	:defense "0.88";
+	:psi "55.34".
+
+:frenchligue1 :hasLeagueTeam :amiens.
+
+:gazovikorenburg a :LeagueTeam ;
+	:name "Gazovik Orenburg".
+:gazovikorenburg :playsIn :russianpremierliga;
+	:rank "156";
+	:prev_rank "156";
+	:offense "1.57";
+	:defense "1.16";
+	:psi "55.24".
+
+:russianpremierliga :hasLeagueTeam :gazovikorenburg.
+
+:corinthians a :LeagueTeam ;
+	:name "Corinthians".
+:corinthians :playsIn :brasileirosériea;
+	:rank "157";
+	:prev_rank "157";
+	:offense "1.31";
+	:defense "0.91";
+	:psi "55.19".
+
+:brasileirosériea :hasLeagueTeam :corinthians.
+
+:jablonec a :LeagueTeam ;
+	:name "Jablonec".
+:jablonec :playsIn :uefaeuropaleague;
+	:rank "158";
+	:prev_rank "158";
+	:offense "1.46";
+	:defense "1.06";
+	:psi "55.07".
+
+:uefaeuropaleague :hasLeagueTeam :jablonec.
+
+:standardliege a :LeagueTeam ;
+	:name "Standard Liege".
+:standardliege :playsIn :belgianjupilerleague;
+	:rank "159";
+	:prev_rank "159";
+	:offense "1.69";
+	:defense "1.28";
+	:psi "54.96".
+
+:belgianjupilerleague :hasLeagueTeam :standardliege.
+
+:sãopaulo a :LeagueTeam ;
+	:name "São Paulo".
+:sãopaulo :playsIn :brasileirosériea;
+	:rank "160";
+	:prev_rank "145";
+	:offense "1.32";
+	:defense "0.93";
+	:psi "54.95".
+
+:brasileirosériea :hasLeagueTeam :sãopaulo.
+
+:arissalonika a :LeagueTeam ;
+	:name "Aris Salonika".
+:arissalonika :playsIn :greeksuperleague;
+	:rank "161";
+	:prev_rank "160";
+	:offense "1.67";
+	:defense "1.27";
+	:psi "54.92".
+
+:greeksuperleague :hasLeagueTeam :arissalonika.
+
+:atleticomineiro a :LeagueTeam ;
+	:name "Atletico Mineiro".
+:atleticomineiro :playsIn :brasileirosériea;
+	:rank "162";
+	:prev_rank "171";
+	:offense "1.49";
+	:defense "1.09";
+	:psi "54.84".
+
+:brasileirosériea :hasLeagueTeam :atleticomineiro.
+
+:pachuca a :LeagueTeam ;
+	:name "Pachuca".
+:pachuca :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "163";
+	:prev_rank "162";
+	:offense "1.63";
+	:defense "1.25";
+	:psi "54.33".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :pachuca.
+
+:molde a :LeagueTeam ;
+	:name "Molde".
+:molde :playsIn :norwegiantippeligaen;
+	:rank "164";
+	:prev_rank "163";
+	:offense "1.91";
+	:defense "1.52";
+	:psi "54.16".
+
+:norwegiantippeligaen a :League ;
+	:name "Norwegian Tippeligaen".
+:norwegiantippeligaen :hasLeagueTeam :molde.
+
+:fcaugsburg a :LeagueTeam ;
+	:name "FC Augsburg".
+:fcaugsburg :playsIn :germanbundesliga;
+	:rank "165";
+	:prev_rank "164";
+	:offense "1.82";
+	:defense "1.44";
+	:psi "54.12".
+
+:germanbundesliga :hasLeagueTeam :fcaugsburg.
+
+:guimaraes a :LeagueTeam ;
+	:name "Guimaraes".
+:guimaraes :playsIn :portugueseliga;
+	:rank "166";
+	:prev_rank "165";
+	:offense "1.42";
+	:defense "1.07";
+	:psi "53.8".
+
+:portugueseliga :hasLeagueTeam :guimaraes.
+
+:defensayjusticia a :LeagueTeam ;
+	:name "Defensa y Justicia".
+:defensayjusticia :playsIn :argentinaprimeradivision;
+	:rank "167";
+	:prev_rank "166";
+	:offense "1.27";
+	:defense "0.93";
+	:psi "53.67".
+
+:argentinaprimeradivision :hasLeagueTeam :defensayjusticia.
+
+:bahía a :LeagueTeam ;
+	:name "Bahía".
+:bahía :playsIn :brasileirosériea;
+	:rank "168";
+	:prev_rank "175";
+	:offense "1.36";
+	:defense "1.03";
+	:psi "53.5".
+
+:brasileirosériea :hasLeagueTeam :bahía.
+
+:swanseacity a :LeagueTeam ;
+	:name "Swansea City".
+:swanseacity :playsIn :englishleaguechampionship;
+	:rank "169";
+	:prev_rank "167";
+	:offense "1.62";
+	:defense "1.28";
+	:psi "53.5".
+
+:englishleaguechampionship :hasLeagueTeam :swanseacity.
+
+:terekgrozny a :LeagueTeam ;
+	:name "Terek Grozny".
+:terekgrozny :playsIn :russianpremierliga;
+	:rank "170";
+	:prev_rank "168";
+	:offense "1.15";
+	:defense "0.82";
+	:psi "53.47".
+
+:russianpremierliga :hasLeagueTeam :terekgrozny.
+
+:kaagent a :LeagueTeam ;
+	:name "KAA Gent".
+:kaagent :playsIn :belgianjupilerleague;
+	:rank "171";
+	:prev_rank "169";
+	:offense "1.54";
+	:defense "1.21";
+	:psi "53.28".
+
+:belgianjupilerleague :hasLeagueTeam :kaagent.
+
+:frosinone a :LeagueTeam ;
+	:name "Frosinone".
+:frosinone :playsIn :italyseriea;
+	:rank "172";
+	:prev_rank "170";
+	:offense "1.48";
+	:defense "1.15";
+	:psi "53.16".
+
+:italyseriea :hasLeagueTeam :frosinone.
+
+:atromitos a :LeagueTeam ;
+	:name "Atromitos".
+:atromitos :playsIn :greeksuperleague;
+	:rank "173";
+	:prev_rank "172";
+	:offense "1.3";
+	:defense "0.99";
+	:psi "53.11".
+
+:greeksuperleague :hasLeagueTeam :atromitos.
+
+:sttruidense a :LeagueTeam ;
+	:name "St. Truidense".
+:sttruidense :playsIn :belgianjupilerleague;
+	:rank "174";
+	:prev_rank "173";
+	:offense "1.49";
+	:defense "1.18";
+	:psi "52.86".
+
+:belgianjupilerleague :hasLeagueTeam :sttruidense.
+
+:adodenhaag a :LeagueTeam ;
+	:name "ADO Den Haag".
+:adodenhaag :playsIn :dutcheredivisie;
+	:rank "175";
+	:prev_rank "174";
+	:offense "1.9";
+	:defense "1.58";
+	:psi "52.85".
+
+:dutcheredivisie :hasLeagueTeam :adodenhaag.
+
+:dijonfco a :LeagueTeam ;
+	:name "Dijon FCO".
+:dijonfco :playsIn :frenchligue1;
+	:rank "176";
+	:prev_rank "176";
+	:offense "1.37";
+	:defense "1.07";
+	:psi "52.71".
+
+:frenchligue1 :hasLeagueTeam :dijonfco.
+
+:westbromwichalbion a :LeagueTeam ;
+	:name "West Bromwich Albion".
+:westbromwichalbion :playsIn :englishleaguechampionship;
+	:rank "177";
+	:prev_rank "178";
+	:offense "1.5";
+	:defense "1.2";
+	:psi "52.65".
+
+:englishleaguechampionship :hasLeagueTeam :westbromwichalbion.
+
+:derbycounty a :LeagueTeam ;
+	:name "Derby County".
+:derbycounty :playsIn :englishleaguechampionship;
+	:rank "178";
+	:prev_rank "179";
+	:offense "1.42";
+	:defense "1.13";
+	:psi "52.64".
+
+:englishleaguechampionship :hasLeagueTeam :derbycounty.
+
+:shandongluneng a :LeagueTeam ;
+	:name "Shandong Luneng".
+:shandongluneng :playsIn :chinesesuperleague;
+	:rank "179";
+	:prev_rank "177";
+	:offense "1.58";
+	:defense "1.28";
+	:psi "52.55".
+
+:chinesesuperleague :hasLeagueTeam :shandongluneng.
+
+:mouscronperuwelz a :LeagueTeam ;
+	:name "Mouscron-Peruwelz".
+:mouscronperuwelz :playsIn :belgianjupilerleague;
+	:rank "180";
+	:prev_rank "180";
+	:offense "1.38";
+	:defense "1.09";
+	:psi "52.46".
+
+:belgianjupilerleague :hasLeagueTeam :mouscronperuwelz.
+
+:caykurrizespor a :LeagueTeam ;
+	:name "Caykur Rizespor".
+:caykurrizespor :playsIn :turkishturkcellsuperlig;
+	:rank "181";
+	:prev_rank "181";
+	:offense "1.61";
+	:defense "1.32";
+	:psi "52.43".
+
+:turkishturkcellsuperlig :hasLeagueTeam :caykurrizespor.
+
+:bristolcity a :LeagueTeam ;
+	:name "Bristol City".
+:bristolcity :playsIn :englishleaguechampionship;
+	:rank "182";
+	:prev_rank "182";
+	:offense "1.48";
+	:defense "1.19";
+	:psi "52.36".
+
+:englishleaguechampionship :hasLeagueTeam :bristolcity.
+
+:rostov a :LeagueTeam ;
+	:name "Rostov".
+:rostov :playsIn :russianpremierliga;
+	:rank "183";
+	:prev_rank "183";
+	:offense "1.01";
+	:defense "0.75";
+	:psi "51.88".
+
+:russianpremierliga :hasLeagueTeam :rostov.
+
+:1fcnürnberg a :LeagueTeam ;
+	:name "1. FC Nürnberg".
+:1fcnürnberg :playsIn :germanbundesliga;
+	:rank "184";
+	:prev_rank "184";
+	:offense "1.48";
+	:defense "1.21";
+	:psi "51.84".
+
+:germanbundesliga :hasLeagueTeam :1fcnürnberg.
+
+:huddersfieldtown a :LeagueTeam ;
+	:name "Huddersfield Town".
+:huddersfieldtown :playsIn :barclayspremierleague;
+	:rank "185";
+	:prev_rank "185";
+	:offense "1.39";
+	:defense "1.13";
+	:psi "51.81".
+
+:barclayspremierleague :hasLeagueTeam :huddersfieldtown.
+
+:dinamomoscow a :LeagueTeam ;
+	:name "Dinamo Moscow".
+:dinamomoscow :playsIn :russianpremierliga;
+	:rank "186";
+	:prev_rank "186";
+	:offense "1.2";
+	:defense "0.94";
+	:psi "51.76".
+
+:russianpremierliga :hasLeagueTeam :dinamomoscow.
+
+:parma a :LeagueTeam ;
+	:name "Parma".
+:parma :playsIn :italyseriea;
+	:rank "187";
+	:prev_rank "187";
+	:offense "1.5";
+	:defense "1.24";
+	:psi "51.62".
+
+:italyseriea :hasLeagueTeam :parma.
+
+:kvkortrijk a :LeagueTeam ;
+	:name "KV Kortrijk".
+:kvkortrijk :playsIn :belgianjupilerleague;
+	:rank "188";
+	:prev_rank "188";
+	:offense "1.51";
+	:defense "1.25";
+	:psi "51.61".
+
+:belgianjupilerleague :hasLeagueTeam :kvkortrijk.
+
+:anderlecht a :LeagueTeam ;
+	:name "Anderlecht".
+:anderlecht :playsIn :belgianjupilerleague;
+	:rank "189";
+	:prev_rank "190";
+	:offense "1.37";
+	:defense "1.13";
+	:psi "51.35".
+
+:belgianjupilerleague :hasLeagueTeam :anderlecht.
+
+:jiangsusuningfc a :LeagueTeam ;
+	:name "Jiangsu Suning FC".
+:jiangsusuningfc :playsIn :chinesesuperleague;
+	:rank "190";
+	:prev_rank "189";
+	:offense "1.5";
+	:defense "1.26";
+	:psi "51.23".
+
+:chinesesuperleague :hasLeagueTeam :jiangsusuningfc.
+
+:cruzeiro a :LeagueTeam ;
+	:name "Cruzeiro".
+:cruzeiro :playsIn :brasileirosériea;
+	:rank "191";
+	:prev_rank "204";
+	:offense "1.39";
+	:defense "1.15";
+	:psi "51.21".
+
+:brasileirosériea :hasLeagueTeam :cruzeiro.
+
+:guingamp a :LeagueTeam ;
+	:name "Guingamp".
+:guingamp :playsIn :frenchligue1;
+	:rank "192";
+	:prev_rank "191";
+	:offense "1.4";
+	:defense "1.16";
+	:psi "51.15".
+
+:frenchligue1 :hasLeagueTeam :guingamp.
+
+:fccologne a :LeagueTeam ;
+	:name "FC Cologne".
+:fccologne :playsIn :german2bundesliga;
+	:rank "193";
+	:prev_rank "192";
+	:offense "1.73";
+	:defense "1.51";
+	:psi "50.84".
+
+:german2bundesliga a :League ;
+	:name "German 2. Bundesliga".
+:german2bundesliga :hasLeagueTeam :fccologne.
+
+:caindependiente a :LeagueTeam ;
+	:name "CA Independiente".
+:caindependiente :playsIn :argentinaprimeradivision;
+	:rank "194";
+	:prev_rank "193";
+	:offense "1.34";
+	:defense "1.12";
+	:psi "50.71".
+
+:argentinaprimeradivision :hasLeagueTeam :caindependiente.
+
+:toluca a :LeagueTeam ;
+	:name "Toluca".
+:toluca :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "195";
+	:prev_rank "194";
+	:offense "1.53";
+	:defense "1.31";
+	:psi "50.69".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :toluca.
+
+:fcluzern a :LeagueTeam ;
+	:name "FC Luzern".
+:fcluzern :playsIn :swissraiffeisensuperleague;
+	:rank "196";
+	:prev_rank "195";
+	:offense "1.64";
+	:defense "1.42";
+	:psi "50.69".
+
+:swissraiffeisensuperleague :hasLeagueTeam :fcluzern.
+
+:aik a :LeagueTeam ;
+	:name "AIK".
+:aik :playsIn :swedishallsvenskan;
+	:rank "197";
+	:prev_rank "210";
+	:offense "1.28";
+	:defense "1.06";
+	:psi "50.66".
+
+:swedishallsvenskan :hasLeagueTeam :aik.
+
+:santoslaguna a :LeagueTeam ;
+	:name "Santos Laguna".
+:santoslaguna :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "198";
+	:prev_rank "196";
+	:offense "1.44";
+	:defense "1.22";
+	:psi "50.59".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :santoslaguna.
+
+:velezsarsfield a :LeagueTeam ;
+	:name "Velez Sarsfield".
+:velezsarsfield :playsIn :argentinaprimeradivision;
+	:rank "199";
+	:prev_rank "197";
+	:offense "1.25";
+	:defense "1.03";
+	:psi "50.57".
+
+:argentinaprimeradivision :hasLeagueTeam :velezsarsfield.
+
+:hannover96 a :LeagueTeam ;
+	:name "Hannover 96".
+:hannover96 :playsIn :germanbundesliga;
+	:rank "200";
+	:prev_rank "198";
+	:offense "1.56";
+	:defense "1.35";
+	:psi "50.54".
+
+:germanbundesliga :hasLeagueTeam :hannover96.
+
+:bateborisov a :LeagueTeam ;
+	:name "BATE Borisov".
+:bateborisov :playsIn :uefaeuropaleague;
+	:rank "201";
+	:prev_rank "199";
+	:offense "1.51";
+	:defense "1.3";
+	:psi "50.51".
+
+:uefaeuropaleague :hasLeagueTeam :bateborisov.
+
+:fcutrecht a :LeagueTeam ;
+	:name "FC Utrecht".
+:fcutrecht :playsIn :dutcheredivisie;
+	:rank "202";
+	:prev_rank "202";
+	:offense "1.7";
+	:defense "1.52";
+	:psi "49.9".
+
+:dutcheredivisie :hasLeagueTeam :fcutrecht.
+
+:atlantaunitedfc a :LeagueTeam ;
+	:name "Atlanta United FC".
+:atlantaunitedfc :playsIn :majorleaguesoccer;
+	:rank "203";
+	:prev_rank "200";
+	:offense "1.36";
+	:defense "1.18";
+	:psi "49.69".
+
+:majorleaguesoccer :hasLeagueTeam :atlantaunitedfc.
+
+:konyaspor a :LeagueTeam ;
+	:name "Konyaspor".
+:konyaspor :playsIn :turkishturkcellsuperlig;
+	:rank "204";
+	:prev_rank "203";
+	:offense "1.17";
+	:defense "0.99";
+	:psi "49.67".
+
+:turkishturkcellsuperlig :hasLeagueTeam :konyaspor.
+
+:middlesbrough a :LeagueTeam ;
+	:name "Middlesbrough".
+:middlesbrough :playsIn :englishleaguechampionship;
+	:rank "205";
+	:prev_rank "205";
+	:offense "1.3";
+	:defense "1.13";
+	:psi "49.56".
+
+:englishleaguechampionship :hasLeagueTeam :middlesbrough.
+
+:stokecity a :LeagueTeam ;
+	:name "Stoke City".
+:stokecity :playsIn :englishleaguechampionship;
+	:rank "206";
+	:prev_rank "207";
+	:offense "1.14";
+	:defense "0.97";
+	:psi "49.24".
+
+:englishleaguechampionship :hasLeagueTeam :stokecity.
+
+:perthglory a :LeagueTeam ;
+	:name "Perth Glory".
+:perthglory :playsIn :australianaleague;
+	:rank "207";
+	:prev_rank "208";
+	:offense "1.49";
+	:defense "1.34";
+	:psi "49.13".
+
+:australianaleague a :League ;
+	:name "Australian A-League".
+:australianaleague :hasLeagueTeam :perthglory.
+
+:chievoverona a :LeagueTeam ;
+	:name "Chievo Verona".
+:chievoverona :playsIn :italyseriea;
+	:rank "208";
+	:prev_rank "209";
+	:offense "1.31";
+	:defense "1.16";
+	:psi "49.11".
+
+:italyseriea :hasLeagueTeam :chievoverona.
+
+:millwall a :LeagueTeam ;
+	:name "Millwall".
+:millwall :playsIn :englishleaguechampionship;
+	:rank "209";
+	:prev_rank "211";
+	:offense "1.28";
+	:defense "1.12";
+	:psi "49.07".
+
+:englishleaguechampionship :hasLeagueTeam :millwall.
+
+:apollonlimassol a :LeagueTeam ;
+	:name "Apollon Limassol".
+:apollonlimassol :playsIn :uefaeuropaleague;
+	:rank "210";
+	:prev_rank "212";
+	:offense "1.37";
+	:defense "1.22";
+	:psi "49.03".
+
+:uefaeuropaleague :hasLeagueTeam :apollonlimassol.
+
+:necaxa a :LeagueTeam ;
+	:name "Necaxa".
+:necaxa :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "211";
+	:prev_rank "213";
+	:offense "1.38";
+	:defense "1.23";
+	:psi "48.99".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :necaxa.
+
+:blackburn a :LeagueTeam ;
+	:name "Blackburn".
+:blackburn :playsIn :englishleaguechampionship;
+	:rank "212";
+	:prev_rank "214";
+	:offense "1.42";
+	:defense "1.29";
+	:psi "48.73".
+
+:englishleaguechampionship :hasLeagueTeam :blackburn.
+
+:kashimaantlers a :LeagueTeam ;
+	:name "Kashima Antlers".
+:kashimaantlers :playsIn :japanesejleague;
+	:rank "213";
+	:prev_rank "206";
+	:offense "1.37";
+	:defense "1.24";
+	:psi "48.66".
+
+:japanesejleague :hasLeagueTeam :kashimaantlers.
+
+:desportivoaves a :LeagueTeam ;
+	:name "Desportivo Aves".
+:desportivoaves :playsIn :portugueseliga;
+	:rank "214";
+	:prev_rank "215";
+	:offense "1.27";
+	:defense "1.13";
+	:psi "48.65".
+
+:portugueseliga :hasLeagueTeam :desportivoaves.
+
+:unionsantafe a :LeagueTeam ;
+	:name "Union Santa Fe".
+:unionsantafe :playsIn :argentinaprimeradivision;
+	:rank "215";
+	:prev_rank "217";
+	:offense "1.2";
+	:defense "1.07";
+	:psi "48.51".
+
+:argentinaprimeradivision :hasLeagueTeam :unionsantafe.
+
+:sheffieldwednesday a :LeagueTeam ;
+	:name "Sheffield Wednesday".
+:sheffieldwednesday :playsIn :englishleaguechampionship;
+	:rank "216";
+	:prev_rank "218";
+	:offense "1.34";
+	:defense "1.22";
+	:psi "48.41".
+
+:englishleaguechampionship :hasLeagueTeam :sheffieldwednesday.
+
+:rapidvienna a :LeagueTeam ;
+	:name "Rapid Vienna".
+:rapidvienna :playsIn :austriantmobilebundesliga;
+	:rank "217";
+	:prev_rank "216";
+	:offense "1.52";
+	:defense "1.41";
+	:psi "48.38".
+
+:austriantmobilebundesliga :hasLeagueTeam :rapidvienna.
+
+:rioave a :LeagueTeam ;
+	:name "Rio Ave".
+:rioave :playsIn :portugueseliga;
+	:rank "218";
+	:prev_rank "219";
+	:offense "1.44";
+	:defense "1.33";
+	:psi "48.29".
+
+:portugueseliga :hasLeagueTeam :rioave.
+
+:fclugano a :LeagueTeam ;
+	:name "FC Lugano".
+:fclugano :playsIn :swissraiffeisensuperleague;
+	:rank "219";
+	:prev_rank "220";
+	:offense "1.35";
+	:defense "1.25";
+	:psi "48.08".
+
+:swissraiffeisensuperleague :hasLeagueTeam :fclugano.
+
+:fluminense a :LeagueTeam ;
+	:name "Fluminense".
+:fluminense :playsIn :brasileirosériea;
+	:rank "220";
+	:prev_rank "201";
+	:offense "1.34";
+	:defense "1.25";
+	:psi "47.66".
+
+:brasileirosériea :hasLeagueTeam :fluminense.
+
+:birmingham a :LeagueTeam ;
+	:name "Birmingham".
+:birmingham :playsIn :englishleaguechampionship;
+	:rank "221";
+	:prev_rank "222";
+	:offense "1.32";
+	:defense "1.23";
+	:psi "47.64".
+
+:englishleaguechampionship :hasLeagueTeam :birmingham.
+
+:fcufa a :LeagueTeam ;
+	:name "FC Ufa".
+:fcufa :playsIn :russianpremierliga;
+	:rank "222";
+	:prev_rank "223";
+	:offense "1.08";
+	:defense "0.98";
+	:psi "47.62".
+
+:russianpremierliga :hasLeagueTeam :fcufa.
+
+:fkaustriavienna a :LeagueTeam ;
+	:name "FK Austria Vienna".
+:fkaustriavienna :playsIn :austriantmobilebundesliga;
+	:rank "223";
+	:prev_rank "224";
+	:offense "1.65";
+	:defense "1.58";
+	:psi "47.57".
+
+:austriantmobilebundesliga :hasLeagueTeam :fkaustriavienna.
+
+:goztepe a :LeagueTeam ;
+	:name "Goztepe".
+:goztepe :playsIn :turkishturkcellsuperlig;
+	:rank "224";
+	:prev_rank "225";
+	:offense "1.27";
+	:defense "1.19";
+	:psi "47.25".
+
+:turkishturkcellsuperlig :hasLeagueTeam :goztepe.
+
+:sivasspor a :LeagueTeam ;
+	:name "Sivasspor".
+:sivasspor :playsIn :turkishturkcellsuperlig;
+	:rank "225";
+	:prev_rank "226";
+	:offense "1.65";
+	:defense "1.6";
+	:psi "47.22".
+
+:turkishturkcellsuperlig :hasLeagueTeam :sivasspor.
+
+:portimonense a :LeagueTeam ;
+	:name "Portimonense".
+:portimonense :playsIn :portugueseliga;
+	:rank "226";
+	:prev_rank "228";
+	:offense "1.43";
+	:defense "1.37";
+	:psi "47.14".
+
+:portugueseliga :hasLeagueTeam :portimonense.
+
+:nottinghamforest a :LeagueTeam ;
+	:name "Nottingham Forest".
+:nottinghamforest :playsIn :englishleaguechampionship;
+	:rank "227";
+	:prev_rank "230";
+	:offense "1.27";
+	:defense "1.21";
+	:psi "47.08".
+
+:englishleaguechampionship :hasLeagueTeam :nottinghamforest.
+
+:fctokyo a :LeagueTeam ;
+	:name "FC Tokyo".
+:fctokyo :playsIn :japanesejleague;
+	:rank "228";
+	:prev_rank "262";
+	:offense "1.14";
+	:defense "1.07";
+	:psi "46.9".
+
+:japanesejleague :hasLeagueTeam :fctokyo.
+
+:antwerp a :LeagueTeam ;
+	:name "Antwerp".
+:antwerp :playsIn :belgianjupilerleague;
+	:rank "229";
+	:prev_rank "232";
+	:offense "1.31";
+	:defense "1.25";
+	:psi "46.88".
+
+:belgianjupilerleague :hasLeagueTeam :antwerp.
+
+:banfield a :LeagueTeam ;
+	:name "Banfield".
+:banfield :playsIn :argentinaprimeradivision;
+	:rank "230";
+	:prev_rank "233";
+	:offense "1.23";
+	:defense "1.17";
+	:psi "46.71".
+
+:argentinaprimeradivision :hasLeagueTeam :banfield.
+
+:bkhacken a :LeagueTeam ;
+	:name "BK Hacken".
+:bkhacken :playsIn :swedishallsvenskan;
+	:rank "231";
+	:prev_rank "227";
+	:offense "1.28";
+	:defense "1.23";
+	:psi "46.7".
+
+:swedishallsvenskan :hasLeagueTeam :bkhacken.
+
+:caen a :LeagueTeam ;
+	:name "Caen".
+:caen :playsIn :frenchligue1;
+	:rank "232";
+	:prev_rank "234";
+	:offense "1.14";
+	:defense "1.08";
+	:psi "46.59".
+
+:frenchligue1 :hasLeagueTeam :caen.
+
+:newyorkcityfc a :LeagueTeam ;
+	:name "New York City FC".
+:newyorkcityfc :playsIn :majorleaguesoccer;
+	:rank "233";
+	:prev_rank "235";
+	:offense "1.37";
+	:defense "1.33";
+	:psi "46.58".
+
+:majorleaguesoccer :hasLeagueTeam :newyorkcityfc.
+
+:osasuna a :LeagueTeam ;
+	:name "Osasuna".
+:osasuna :playsIn :spanishsegundadivision;
+	:rank "234";
+	:prev_rank "231";
+	:offense "1.17";
+	:defense "1.12";
+	:psi "46.52".
+
+:spanishsegundadivision a :League ;
+	:name "Spanish Segunda Division".
+:spanishsegundadivision :hasLeagueTeam :osasuna.
+
+:tijuana a :LeagueTeam ;
+	:name "Tijuana".
+:tijuana :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "235";
+	:prev_rank "236";
+	:offense "1.3";
+	:defense "1.27";
+	:psi "46.49".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :tijuana.
+
+:fkqarabag a :LeagueTeam ;
+	:name "FK Qarabag".
+:fkqarabag :playsIn :uefaeuropaleague;
+	:rank "236";
+	:prev_rank "237";
+	:offense "1.26";
+	:defense "1.22";
+	:psi "46.48".
+
+:uefaeuropaleague :hasLeagueTeam :fkqarabag.
+
+:vorskla a :LeagueTeam ;
+	:name "Vorskla".
+:vorskla :playsIn :uefaeuropaleague;
+	:rank "237";
+	:prev_rank "238";
+	:offense "1.19";
+	:defense "1.14";
+	:psi "46.43".
+
+:uefaeuropaleague :hasLeagueTeam :vorskla.
+
+:queensparkrangers a :LeagueTeam ;
+	:name "Queens Park Rangers".
+:queensparkrangers :playsIn :englishleaguechampionship;
+	:rank "238";
+	:prev_rank "239";
+	:offense "1.34";
+	:defense "1.31";
+	:psi "46.4".
+
+:englishleaguechampionship :hasLeagueTeam :queensparkrangers.
+
+:alanyaspor a :LeagueTeam ;
+	:name "Alanyaspor".
+:alanyaspor :playsIn :turkishturkcellsuperlig;
+	:rank "239";
+	:prev_rank "240";
+	:offense "1.33";
+	:defense "1.3";
+	:psi "46.4".
+
+:turkishturkcellsuperlig :hasLeagueTeam :alanyaspor.
+
+:vascodagama a :LeagueTeam ;
+	:name "Vasco da Gama".
+:vascodagama :playsIn :brasileirosériea;
+	:rank "240";
+	:prev_rank "253";
+	:offense "1.24";
+	:defense "1.2";
+	:psi "46.36".
+
+:brasileirosériea :hasLeagueTeam :vascodagama.
+
+:chapecoenseaf a :LeagueTeam ;
+	:name "Chapecoense AF".
+:chapecoenseaf :playsIn :brasileirosériea;
+	:rank "241";
+	:prev_rank "250";
+	:offense "1.21";
+	:defense "1.17";
+	:psi "46.31".
+
+:brasileirosériea :hasLeagueTeam :chapecoenseaf.
+
+:ceará a :LeagueTeam ;
+	:name "Ceará".
+:ceará :playsIn :brasileirosériea;
+	:rank "242";
+	:prev_rank "229";
+	:offense "1.16";
+	:defense "1.12";
+	:psi "46.24".
+
+:brasileirosériea :hasLeagueTeam :ceará.
+
+:tigre a :LeagueTeam ;
+	:name "Tigre".
+:tigre :playsIn :argentinaprimeradivision;
+	:rank "243";
+	:prev_rank "241";
+	:offense "1.44";
+	:defense "1.43";
+	:psi "46.0".
+
+:argentinaprimeradivision :hasLeagueTeam :tigre.
+
+:stgallen a :LeagueTeam ;
+	:name "St Gallen".
+:stgallen :playsIn :swissraiffeisensuperleague;
+	:rank "244";
+	:prev_rank "242";
+	:offense "1.41";
+	:defense "1.41";
+	:psi "45.99".
+
+:swissraiffeisensuperleague :hasLeagueTeam :stgallen.
+
+:uralsverdlovskoblast a :LeagueTeam ;
+	:name "Ural Sverdlovsk Oblast".
+:uralsverdlovskoblast :playsIn :russianpremierliga;
+	:rank "245";
+	:prev_rank "244";
+	:offense "1.31";
+	:defense "1.3";
+	:psi "45.94".
+
+:russianpremierliga :hasLeagueTeam :uralsverdlovskoblast.
+
+:djurgardensif a :LeagueTeam ;
+	:name "Djurgardens IF".
+:djurgardensif :playsIn :swedishallsvenskan;
+	:rank "246";
+	:prev_rank "271";
+	:offense "1.25";
+	:defense "1.24";
+	:psi "45.89".
+
+:swedishallsvenskan :hasLeagueTeam :djurgardensif.
+
+:boavista a :LeagueTeam ;
+	:name "Boavista".
+:boavista :playsIn :portugueseliga;
+	:rank "247";
+	:prev_rank "246";
+	:offense "1.21";
+	:defense "1.19";
+	:psi "45.86".
+
+:portugueseliga :hasLeagueTeam :boavista.
+
+:moreirense a :LeagueTeam ;
+	:name "Moreirense".
+:moreirense :playsIn :portugueseliga;
+	:rank "248";
+	:prev_rank "247";
+	:offense "1.19";
+	:defense "1.17";
+	:psi "45.73".
+
+:portugueseliga :hasLeagueTeam :moreirense.
+
+:hullcity a :LeagueTeam ;
+	:name "Hull City".
+:hullcity :playsIn :englishleaguechampionship;
+	:rank "249";
+	:prev_rank "248";
+	:offense "1.4";
+	:defense "1.41";
+	:psi "45.67".
+
+:englishleaguechampionship :hasLeagueTeam :hullcity.
+
+:fcgroningen a :LeagueTeam ;
+	:name "FC Groningen".
+:fcgroningen :playsIn :dutcheredivisie;
+	:rank "250";
+	:prev_rank "249";
+	:offense "1.11";
+	:defense "1.09";
+	:psi "45.64".
+
+:dutcheredivisie :hasLeagueTeam :fcgroningen.
+
+:ifknorrkoping a :LeagueTeam ;
+	:name "IFK Norrkoping".
+:ifknorrkoping :playsIn :swedishallsvenskan;
+	:rank "251";
+	:prev_rank "274";
+	:offense "1.4";
+	:defense "1.4";
+	:psi "45.59".
+
+:swedishallsvenskan :hasLeagueTeam :ifknorrkoping.
+
+:rubinkazan a :LeagueTeam ;
+	:name "Rubin Kazan".
+:rubinkazan :playsIn :russianpremierliga;
+	:rank "252";
+	:prev_rank "251";
+	:offense "0.96";
+	:defense "0.92";
+	:psi "45.52".
+
+:russianpremierliga :hasLeagueTeam :rubinkazan.
+
+:panathinaikos a :LeagueTeam ;
+	:name "Panathinaikos".
+:panathinaikos :playsIn :greeksuperleague;
+	:rank "253";
+	:prev_rank "252";
+	:offense "1.1";
+	:defense "1.08";
+	:psi "45.49".
+
+:greeksuperleague :hasLeagueTeam :panathinaikos.
+
+:wolfsbergerac a :LeagueTeam ;
+	:name "Wolfsberger AC".
+:wolfsbergerac :playsIn :austriantmobilebundesliga;
+	:rank "254";
+	:prev_rank "254";
+	:offense "1.42";
+	:defense "1.44";
+	:psi "45.37".
+
+:austriantmobilebundesliga :hasLeagueTeam :wolfsbergerac.
+
+:troyes a :LeagueTeam ;
+	:name "Troyes".
+:troyes :playsIn :frenchligue2;
+	:rank "255";
+	:prev_rank "255";
+	:offense "1.1";
+	:defense "1.09";
+	:psi "45.34".
+
+:frenchligue2 a :League ;
+	:name "French Ligue 2".
+:frenchligue2 :hasLeagueTeam :troyes.
+
+:sportingdecharleroi a :LeagueTeam ;
+	:name "Sporting de Charleroi".
+:sportingdecharleroi :playsIn :belgianjupilerleague;
+	:rank "256";
+	:prev_rank "257";
+	:offense "1.41";
+	:defense "1.44";
+	:psi "45.26".
+
+:belgianjupilerleague :hasLeagueTeam :sportingdecharleroi.
+
+:metz a :LeagueTeam ;
+	:name "Metz".
+:metz :playsIn :frenchligue2;
+	:rank "257";
+	:prev_rank "258";
+	:offense "1.08";
+	:defense "1.07";
+	:psi "45.24".
+
+:frenchligue2 :hasLeagueTeam :metz.
+
+:svzultewaregem a :LeagueTeam ;
+	:name "SV Zulte Waregem".
+:svzultewaregem :playsIn :belgianjupilerleague;
+	:rank "258";
+	:prev_rank "259";
+	:offense "1.7";
+	:defense "1.75";
+	:psi "45.21".
+
+:belgianjupilerleague :hasLeagueTeam :svzultewaregem.
+
+:aeklarnaca a :LeagueTeam ;
+	:name "AEK Larnaca".
+:aeklarnaca :playsIn :uefaeuropaleague;
+	:rank "259";
+	:prev_rank "260";
+	:offense "1.17";
+	:defense "1.17";
+	:psi "45.21".
+
+:uefaeuropaleague :hasLeagueTeam :aeklarnaca.
+
+:sksturmgraz a :LeagueTeam ;
+	:name "SK Sturm Graz".
+:sksturmgraz :playsIn :austriantmobilebundesliga;
+	:rank "260";
+	:prev_rank "256";
+	:offense "1.24";
+	:defense "1.25";
+	:psi "45.19".
+
+:austriantmobilebundesliga :hasLeagueTeam :sksturmgraz.
+
+:newellsoldboys a :LeagueTeam ;
+	:name "Newell's Old Boys".
+:newellsoldboys :playsIn :argentinaprimeradivision;
+	:rank "261";
+	:prev_rank "261";
+	:offense "1.16";
+	:defense "1.17";
+	:psi "45.14".
+
+:argentinaprimeradivision :hasLeagueTeam :newellsoldboys.
+
+:botafogo a :LeagueTeam ;
+	:name "Botafogo".
+:botafogo :playsIn :brasileirosériea;
+	:rank "262";
+	:prev_rank "243";
+	:offense "1.16";
+	:defense "1.16";
+	:psi "45.06".
+
+:brasileirosériea :hasLeagueTeam :botafogo.
+
+:philadelphiaunion a :LeagueTeam ;
+	:name "Philadelphia Union".
+:philadelphiaunion :playsIn :majorleaguesoccer;
+	:rank "263";
+	:prev_rank "263";
+	:offense "1.44";
+	:defense "1.48";
+	:psi "45.05".
+
+:majorleaguesoccer :hasLeagueTeam :philadelphiaunion.
+
+:erzurumspor a :LeagueTeam ;
+	:name "Erzurumspor".
+:erzurumspor :playsIn :turkishturkcellsuperlig;
+	:rank "264";
+	:prev_rank "264";
+	:offense "1.19";
+	:defense "1.22";
+	:psi "44.72".
+
+:turkishturkcellsuperlig :hasLeagueTeam :erzurumspor.
+
+:nagoyagrampuseight a :LeagueTeam ;
+	:name "Nagoya Grampus Eight".
+:nagoyagrampuseight :playsIn :japanesejleague;
+	:rank "265";
+	:prev_rank "221";
+	:offense "1.37";
+	:defense "1.42";
+	:psi "44.67".
+
+:japanesejleague :hasLeagueTeam :nagoyagrampuseight.
+
+:yenimalatyaspor a :LeagueTeam ;
+	:name "Yeni Malatyaspor".
+:yenimalatyaspor :playsIn :turkishturkcellsuperlig;
+	:rank "266";
+	:prev_rank "265";
+	:offense "1.38";
+	:defense "1.43";
+	:psi "44.6".
+
+:turkishturkcellsuperlig :hasLeagueTeam :yenimalatyaspor.
+
+:sydneyfc a :LeagueTeam ;
+	:name "Sydney FC".
+:sydneyfc :playsIn :australianaleague;
+	:rank "267";
+	:prev_rank "266";
+	:offense "1.29";
+	:defense "1.34";
+	:psi "44.5".
+
+:australianaleague :hasLeagueTeam :sydneyfc.
+
+:1fcunionberlin a :LeagueTeam ;
+	:name "1. FC Union Berlin".
+:1fcunionberlin :playsIn :german2bundesliga;
+	:rank "268";
+	:prev_rank "267";
+	:offense "1.32";
+	:defense "1.37";
+	:psi "44.42".
+
+:german2bundesliga :hasLeagueTeam :1fcunionberlin.
+
+:prestonnorthend a :LeagueTeam ;
+	:name "Preston North End".
+:prestonnorthend :playsIn :englishleaguechampionship;
+	:rank "269";
+	:prev_rank "268";
+	:offense "1.28";
+	:defense "1.33";
+	:psi "44.42".
+
+:englishleaguechampionship :hasLeagueTeam :prestonnorthend.
+
+:lutontown a :LeagueTeam ;
+	:name "Luton Town".
+:lutontown :playsIn :englishleagueone;
+	:rank "270";
+	:prev_rank "269";
+	:offense "1.44";
+	:defense "1.51";
+	:psi "44.37".
+
+:englishleagueone a :League ;
+	:name "English League One".
+:englishleagueone :hasLeagueTeam :lutontown.
+
+:cashpointscrheindorfaltach a :LeagueTeam ;
+	:name "Cashpoint SC Rheindorf Altach".
+:cashpointscrheindorfaltach :playsIn :austriantmobilebundesliga;
+	:rank "271";
+	:prev_rank "270";
+	:offense "1.39";
+	:defense "1.46";
+	:psi "44.37".
+
+:austriantmobilebundesliga :hasLeagueTeam :cashpointscrheindorfaltach.
+
+:wigan a :LeagueTeam ;
+	:name "Wigan".
+:wigan :playsIn :englishleaguechampionship;
+	:rank "272";
+	:prev_rank "272";
+	:offense "1.28";
+	:defense "1.34";
+	:psi "44.28".
+
+:englishleaguechampionship :hasLeagueTeam :wigan.
+
+:guadalajara a :LeagueTeam ;
+	:name "Guadalajara".
+:guadalajara :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "273";
+	:prev_rank "273";
+	:offense "1.18";
+	:defense "1.23";
+	:psi "44.24".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :guadalajara.
+
+:yokohamafmarinos a :LeagueTeam ;
+	:name "Yokohama F. Marinos".
+:yokohamafmarinos :playsIn :japanesejleague;
+	:rank "274";
+	:prev_rank "283";
+	:offense "1.46";
+	:defense "1.55";
+	:psi "44.18".
+
+:japanesejleague :hasLeagueTeam :yokohamafmarinos.
+
+:lanus a :LeagueTeam ;
+	:name "Lanus".
+:lanus :playsIn :argentinaprimeradivision;
+	:rank "275";
+	:prev_rank "275";
+	:offense "1.16";
+	:defense "1.21";
+	:psi "44.12".
+
+:argentinaprimeradivision :hasLeagueTeam :lanus.
+
+:videotonfc a :LeagueTeam ;
+	:name "Videoton FC".
+:videotonfc :playsIn :uefaeuropaleague;
+	:rank "276";
+	:prev_rank "276";
+	:offense "1.21";
+	:defense "1.27";
+	:psi "44.06".
+
+:uefaeuropaleague :hasLeagueTeam :videotonfc.
+
+:brest a :LeagueTeam ;
+	:name "Brest".
+:brest :playsIn :frenchligue2;
+	:rank "277";
+	:prev_rank "277";
+	:offense "1.23";
+	:defense "1.29";
+	:psi "44.05".
+
+:frenchligue2 :hasLeagueTeam :brest.
+
+:newyorkredbulls a :LeagueTeam ;
+	:name "New York Red Bulls".
+:newyorkredbulls :playsIn :majorleaguesoccer;
+	:rank "278";
+	:prev_rank "291";
+	:offense "1.31";
+	:defense "1.38";
+	:psi "43.95".
+
+:majorleaguesoccer :hasLeagueTeam :newyorkredbulls.
+
+:santaclara a :LeagueTeam ;
+	:name "Santa Clara".
+:santaclara :playsIn :portugueseliga;
+	:rank "279";
+	:prev_rank "278";
+	:offense "1.25";
+	:defense "1.32";
+	:psi "43.93".
+
+:portugueseliga :hasLeagueTeam :santaclara.
+
+:hammarby a :LeagueTeam ;
+	:name "Hammarby".
+:hammarby :playsIn :swedishallsvenskan;
+	:rank "280";
+	:prev_rank "245";
+	:offense "1.43";
+	:defense "1.52";
+	:psi "43.92".
+
+:swedishallsvenskan :hasLeagueTeam :hammarby.
+
+:charltonathletic a :LeagueTeam ;
+	:name "Charlton Athletic".
+:charltonathletic :playsIn :englishleagueone;
+	:rank "281";
+	:prev_rank "279";
+	:offense "1.19";
+	:defense "1.27";
+	:psi "43.64".
+
+:englishleagueone :hasLeagueTeam :charltonathletic.
+
+:atléticotucumán a :LeagueTeam ;
+	:name "Atlético Tucumán".
+:atléticotucumán :playsIn :argentinaprimeradivision;
+	:rank "282";
+	:prev_rank "280";
+	:offense "1.21";
+	:defense "1.29";
+	:psi "43.64".
+
+:argentinaprimeradivision :hasLeagueTeam :atléticotucumán.
+
+:fcnordsjaelland a :LeagueTeam ;
+	:name "FC Nordsjaelland".
+:fcnordsjaelland :playsIn :danishsasligaen;
+	:rank "283";
+	:prev_rank "282";
+	:offense "1.41";
+	:defense "1.51";
+	:psi "43.58".
+
+:danishsasligaen :hasLeagueTeam :fcnordsjaelland.
+
+:talleresdecórdoba a :LeagueTeam ;
+	:name "Talleres de Córdoba".
+:talleresdecórdoba :playsIn :argentinaprimeradivision;
+	:rank "284";
+	:prev_rank "284";
+	:offense "1.04";
+	:defense "1.11";
+	:psi "43.44".
+
+:argentinaprimeradivision :hasLeagueTeam :talleresdecórdoba.
+
+:sanlorenzo a :LeagueTeam ;
+	:name "San Lorenzo".
+:sanlorenzo :playsIn :argentinaprimeradivision;
+	:rank "285";
+	:prev_rank "285";
+	:offense "1.04";
+	:defense "1.11";
+	:psi "43.4".
+
+:argentinaprimeradivision :hasLeagueTeam :sanlorenzo.
+
+:pumasunam a :LeagueTeam ;
+	:name "Pumas Unam".
+:pumasunam :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "286";
+	:prev_rank "286";
+	:offense "1.37";
+	:defense "1.49";
+	:psi "43.24".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :pumasunam.
+
+:odensebk a :LeagueTeam ;
+	:name "Odense BK".
+:odensebk :playsIn :danishsasligaen;
+	:rank "287";
+	:prev_rank "287";
+	:offense "1.27";
+	:defense "1.37";
+	:psi "43.18".
+
+:danishsasligaen :hasLeagueTeam :odensebk.
+
+:málaga a :LeagueTeam ;
+	:name "Málaga".
+:málaga :playsIn :spanishsegundadivision;
+	:rank "288";
+	:prev_rank "312";
+	:offense "1.08";
+	:defense "1.17";
+	:psi "42.95".
+
+:spanishsegundadivision :hasLeagueTeam :málaga.
+
+:argentinosjuniors a :LeagueTeam ;
+	:name "Argentinos Juniors".
+:argentinosjuniors :playsIn :argentinaprimeradivision;
+	:rank "289";
+	:prev_rank "288";
+	:offense "1.03";
+	:defense "1.12";
+	:psi "42.91".
+
+:argentinaprimeradivision :hasLeagueTeam :argentinosjuniors.
+
+:dalianaerbin a :LeagueTeam ;
+	:name "Dalian Aerbin".
+:dalianaerbin :playsIn :chinesesuperleague;
+	:rank "290";
+	:prev_rank "281";
+	:offense "1.28";
+	:defense "1.4";
+	:psi "42.83".
+
+:chinesesuperleague :hasLeagueTeam :dalianaerbin.
+
+:vitoriasetubal a :LeagueTeam ;
+	:name "Vitoria Setubal".
+:vitoriasetubal :playsIn :portugueseliga;
+	:rank "291";
+	:prev_rank "289";
+	:offense "1.06";
+	:defense "1.15";
+	:psi "42.79".
+
+:portugueseliga :hasLeagueTeam :vitoriasetubal.
+
+:agfaarhus a :LeagueTeam ;
+	:name "AGF Aarhus".
+:agfaarhus :playsIn :danishsasligaen;
+	:rank "292";
+	:prev_rank "290";
+	:offense "1.33";
+	:defense "1.46";
+	:psi "42.76".
+
+:danishsasligaen :hasLeagueTeam :agfaarhus.
+
+:fcsion a :LeagueTeam ;
+	:name "FC Sion".
+:fcsion :playsIn :swissraiffeisensuperleague;
+	:rank "293";
+	:prev_rank "293";
+	:offense "1.23";
+	:defense "1.37";
+	:psi "42.3".
+
+:swissraiffeisensuperleague :hasLeagueTeam :fcsion.
+
+:cerezoosaka a :LeagueTeam ;
+	:name "Cerezo Osaka".
+:cerezoosaka :playsIn :japanesejleague;
+	:rank "294";
+	:prev_rank "306";
+	:offense "0.94";
+	:defense "1.04";
+	:psi "42.14".
+
+:japanesejleague :hasLeagueTeam :cerezoosaka.
+
+:portlandtimbers a :LeagueTeam ;
+	:name "Portland Timbers".
+:portlandtimbers :playsIn :majorleaguesoccer;
+	:rank "295";
+	:prev_rank "298";
+	:offense "1.47";
+	:defense "1.66";
+	:psi "42.09".
+
+:majorleaguesoccer :hasLeagueTeam :portlandtimbers.
+
+:torontofc a :LeagueTeam ;
+	:name "Toronto FC".
+:torontofc :playsIn :majorleaguesoccer;
+	:rank "296";
+	:prev_rank "300";
+	:offense "1.44";
+	:defense "1.62";
+	:psi "42.08".
+
+:majorleaguesoccer :hasLeagueTeam :torontofc.
+
+:huracán a :LeagueTeam ;
+	:name "Huracán".
+:huracán :playsIn :argentinaprimeradivision;
+	:rank "297";
+	:prev_rank "295";
+	:offense "1.16";
+	:defense "1.31";
+	:psi "41.96".
+
+:argentinaprimeradivision :hasLeagueTeam :huracán.
+
+:asterastripolis a :LeagueTeam ;
+	:name "Asteras Tripolis".
+:asterastripolis :playsIn :greeksuperleague;
+	:rank "298";
+	:prev_rank "296";
+	:offense "0.86";
+	:defense "0.96";
+	:psi "41.94".
+
+:greeksuperleague :hasLeagueTeam :asterastripolis.
+
+:kilmarnock a :LeagueTeam ;
+	:name "Kilmarnock".
+:kilmarnock :playsIn :scottishpremiership;
+	:rank "299";
+	:prev_rank "297";
+	:offense "1.01";
+	:defense "1.13";
+	:psi "41.89".
+
+:scottishpremiership :hasLeagueTeam :kilmarnock.
+
+:kasimpasa a :LeagueTeam ;
+	:name "Kasimpasa".
+:kasimpasa :playsIn :turkishturkcellsuperlig;
+	:rank "300";
+	:prev_rank "299";
+	:offense "1.52";
+	:defense "1.72";
+	:psi "41.85".
+
+:turkishturkcellsuperlig :hasLeagueTeam :kasimpasa.
+
+:goiás a :LeagueTeam ;
+	:name "Goiás".
+:goiás :playsIn :brasileirosériea;
+	:rank "301";
+	:prev_rank "301";
+	:offense "1.18";
+	:defense "1.34";
+	:psi "41.76".
+
+:brasileirosériea :hasLeagueTeam :goiás.
+
+:hamburgsv a :LeagueTeam ;
+	:name "Hamburg SV".
+:hamburgsv :playsIn :german2bundesliga;
+	:rank "302";
+	:prev_rank "302";
+	:offense "1.18";
+	:defense "1.34";
+	:psi "41.63".
+
+:german2bundesliga :hasLeagueTeam :hamburgsv.
+
+:colonsantafe a :LeagueTeam ;
+	:name "Colon Santa Fe".
+:colonsantafe :playsIn :argentinaprimeradivision;
+	:rank "303";
+	:prev_rank "303";
+	:offense "1.03";
+	:defense "1.17";
+	:psi "41.62".
+
+:argentinaprimeradivision :hasLeagueTeam :colonsantafe.
+
+:sportingkansascity a :LeagueTeam ;
+	:name "Sporting Kansas City".
+:sportingkansascity :playsIn :majorleaguesoccer;
+	:rank "304";
+	:prev_rank "294";
+	:offense "1.42";
+	:defense "1.62";
+	:psi "41.58".
+
+:majorleaguesoccer :hasLeagueTeam :sportingkansascity.
+
+:estudiantes a :LeagueTeam ;
+	:name "Estudiantes".
+:estudiantes :playsIn :argentinaprimeradivision;
+	:rank "305";
+	:prev_rank "304";
+	:offense "0.97";
+	:defense "1.11";
+	:psi "41.33".
+
+:argentinaprimeradivision :hasLeagueTeam :estudiantes.
+
+:oficrete a :LeagueTeam ;
+	:name "OFI Crete".
+:oficrete :playsIn :greeksuperleague;
+	:rank "306";
+	:prev_rank "305";
+	:offense "1.14";
+	:defense "1.32";
+	:psi "41.25".
+
+:greeksuperleague :hasLeagueTeam :oficrete.
+
+:rotherhamunited a :LeagueTeam ;
+	:name "Rotherham United".
+:rotherhamunited :playsIn :englishleaguechampionship;
+	:rank "307";
+	:prev_rank "307";
+	:offense "1.4";
+	:defense "1.62";
+	:psi "41.14".
+
+:englishleaguechampionship :hasLeagueTeam :rotherhamunited.
+
+:atlas a :LeagueTeam ;
+	:name "Atlas".
+:atlas :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "308";
+	:prev_rank "308";
+	:offense "1.18";
+	:defense "1.37";
+	:psi "41.13".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :atlas.
+
+:granada a :LeagueTeam ;
+	:name "Granada".
+:granada :playsIn :spanishsegundadivision;
+	:rank "309";
+	:prev_rank "315";
+	:offense "0.89";
+	:defense "1.02";
+	:psi "41.11".
+
+:spanishsegundadivision :hasLeagueTeam :granada.
+
+:bursaspor a :LeagueTeam ;
+	:name "Bursaspor".
+:bursaspor :playsIn :turkishturkcellsuperlig;
+	:rank "310";
+	:prev_rank "310";
+	:offense "0.89";
+	:defense "1.03";
+	:psi "41.04".
+
+:turkishturkcellsuperlig :hasLeagueTeam :bursaspor.
+
+:ankaragucu a :LeagueTeam ;
+	:name "Ankaragucu".
+:ankaragucu :playsIn :turkishturkcellsuperlig;
+	:rank "311";
+	:prev_rank "311";
+	:offense "1.24";
+	:defense "1.45";
+	:psi "40.96".
+
+:turkishturkcellsuperlig :hasLeagueTeam :ankaragucu.
+
+:thun a :LeagueTeam ;
+	:name "Thun".
+:thun :playsIn :swissraiffeisensuperleague;
+	:rank "312";
+	:prev_rank "313";
+	:offense "1.36";
+	:defense "1.58";
+	:psi "40.93".
+
+:swissraiffeisensuperleague :hasLeagueTeam :thun.
+
+:losangelesgalaxy a :LeagueTeam ;
+	:name "Los Angeles Galaxy".
+:losangelesgalaxy :playsIn :majorleaguesoccer;
+	:rank "313";
+	:prev_rank "292";
+	:offense "1.48";
+	:defense "1.73";
+	:psi "40.82".
+
+:majorleaguesoccer :hasLeagueTeam :losangelesgalaxy.
+
+:puebla a :LeagueTeam ;
+	:name "Puebla".
+:puebla :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "314";
+	:prev_rank "314";
+	:offense "1.15";
+	:defense "1.35";
+	:psi "40.81".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :puebla.
+
+:aldosivi a :LeagueTeam ;
+	:name "Aldosivi".
+:aldosivi :playsIn :argentinaprimeradivision;
+	:rank "315";
+	:prev_rank "318";
+	:offense "0.96";
+	:defense "1.14";
+	:psi "40.66".
+
+:argentinaprimeradivision :hasLeagueTeam :aldosivi.
+
+:seattlesoundersfc a :LeagueTeam ;
+	:name "Seattle Sounders FC".
+:seattlesoundersfc :playsIn :majorleaguesoccer;
+	:rank "316";
+	:prev_rank "309";
+	:offense "1.24";
+	:defense "1.47";
+	:psi "40.61".
+
+:majorleaguesoccer :hasLeagueTeam :seattlesoundersfc.
+
+:fczurich a :LeagueTeam ;
+	:name "FC Zurich".
+:fczurich :playsIn :swissraiffeisensuperleague;
+	:rank "317";
+	:prev_rank "319";
+	:offense "1.12";
+	:defense "1.32";
+	:psi "40.6".
+
+:swissraiffeisensuperleague :hasLeagueTeam :fczurich.
+
+:chaves a :LeagueTeam ;
+	:name "Chaves".
+:chaves :playsIn :portugueseliga;
+	:rank "318";
+	:prev_rank "320";
+	:offense "1.29";
+	:defense "1.52";
+	:psi "40.54".
+
+:portugueseliga :hasLeagueTeam :chaves.
+
+:melbournecity a :LeagueTeam ;
+	:name "Melbourne City".
+:melbournecity :playsIn :australianaleague;
+	:rank "319";
+	:prev_rank "321";
+	:offense "1.16";
+	:defense "1.38";
+	:psi "40.48".
+
+:australianaleague :hasLeagueTeam :melbournecity.
+
+:morelia a :LeagueTeam ;
+	:name "Morelia".
+:morelia :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "320";
+	:prev_rank "323";
+	:offense "1.25";
+	:defense "1.49";
+	:psi "40.32".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :morelia.
+
+:orlandopirates a :LeagueTeam ;
+	:name "Orlando Pirates".
+:orlandopirates :playsIn :southafricanabsapremierleague;
+	:rank "321";
+	:prev_rank "324";
+	:offense "1.05";
+	:defense "1.25";
+	:psi "40.31".
+
+:southafricanabsapremierleague a :League ;
+	:name "South African ABSA Premier League".
+:southafricanabsapremierleague :hasLeagueTeam :orlandopirates.
+
+:hebeichinafortunefc a :LeagueTeam ;
+	:name "Hebei China Fortune FC".
+:hebeichinafortunefc :playsIn :chinesesuperleague;
+	:rank "322";
+	:prev_rank "322";
+	:offense "1.29";
+	:defense "1.54";
+	:psi "40.31".
+
+:chinesesuperleague :hasLeagueTeam :hebeichinafortunefc.
+
+:waaslandbeveren a :LeagueTeam ;
+	:name "Waasland-Beveren".
+:waaslandbeveren :playsIn :belgianjupilerleague;
+	:rank "323";
+	:prev_rank "325";
+	:offense "1.42";
+	:defense "1.7";
+	:psi "40.16".
+
+:belgianjupilerleague :hasLeagueTeam :waaslandbeveren.
+
+:esbjerg a :LeagueTeam ;
+	:name "Esbjerg".
+:esbjerg :playsIn :danishsasligaen;
+	:rank "324";
+	:prev_rank "326";
+	:offense "1.19";
+	:defense "1.43";
+	:psi "40.15".
+
+:danishsasligaen :hasLeagueTeam :esbjerg.
+
+:fortaleza a :LeagueTeam ;
+	:name "Fortaleza".
+:fortaleza :playsIn :brasileirosériea;
+	:rank "325";
+	:prev_rank "316";
+	:offense "1.15";
+	:defense "1.38";
+	:psi "40.15".
+
+:brasileirosériea :hasLeagueTeam :fortaleza.
+
+:lamia a :LeagueTeam ;
+	:name "Lamia".
+:lamia :playsIn :greeksuperleague;
+	:rank "326";
+	:prev_rank "327";
+	:offense "0.96";
+	:defense "1.16";
+	:psi "40.13".
+
+:greeksuperleague :hasLeagueTeam :lamia.
+
+:belenenses a :LeagueTeam ;
+	:name "Belenenses".
+:belenenses :playsIn :portugueseliga;
+	:rank "327";
+	:prev_rank "328";
+	:offense "1.19";
+	:defense "1.43";
+	:psi "39.97".
+
+:portugueseliga :hasLeagueTeam :belenenses.
+
+:belgranocordoba a :LeagueTeam ;
+	:name "Belgrano Cordoba".
+:belgranocordoba :playsIn :argentinaprimeradivision;
+	:rank "328";
+	:prev_rank "329";
+	:offense "0.93";
+	:defense "1.13";
+	:psi "39.92".
+
+:argentinaprimeradivision :hasLeagueTeam :belgranocordoba.
+
+:haugesund a :LeagueTeam ;
+	:name "Haugesund".
+:haugesund :playsIn :norwegiantippeligaen;
+	:rank "329";
+	:prev_rank "330";
+	:offense "1.14";
+	:defense "1.39";
+	:psi "39.8".
+
+:norwegiantippeligaen :hasLeagueTeam :haugesund.
+
+:barnsley a :LeagueTeam ;
+	:name "Barnsley".
+:barnsley :playsIn :englishleagueone;
+	:rank "330";
+	:prev_rank "331";
+	:offense "1.19";
+	:defense "1.45";
+	:psi "39.8".
+
+:englishleagueone :hasLeagueTeam :barnsley.
+
+:rosenborg a :LeagueTeam ;
+	:name "Rosenborg".
+:rosenborg :playsIn :norwegiantippeligaen;
+	:rank "331";
+	:prev_rank "332";
+	:offense "1.16";
+	:defense "1.41";
+	:psi "39.77".
+
+:norwegiantippeligaen :hasLeagueTeam :rosenborg.
+
+:guangzhourf a :LeagueTeam ;
+	:name "Guangzhou RF".
+:guangzhourf :playsIn :chinesesuperleague;
+	:rank "332";
+	:prev_rank "333";
+	:offense "1.44";
+	:defense "1.73";
+	:psi "39.77".
+
+:chinesesuperleague :hasLeagueTeam :guangzhourf.
+
+:patronato a :LeagueTeam ;
+	:name "Patronato".
+:patronato :playsIn :argentinaprimeradivision;
+	:rank "333";
+	:prev_rank "334";
+	:offense "1.11";
+	:defense "1.36";
+	:psi "39.58".
+
+:argentinaprimeradivision :hasLeagueTeam :patronato.
+
+:shanghaigreenland a :LeagueTeam ;
+	:name "Shanghai Greenland".
+:shanghaigreenland :playsIn :chinesesuperleague;
+	:rank "334";
+	:prev_rank "337";
+	:offense "1.24";
+	:defense "1.52";
+	:psi "39.41".
+
+:chinesesuperleague :hasLeagueTeam :shanghaigreenland.
+
+:sanmartinsanjuan a :LeagueTeam ;
+	:name "San Martin San Juan".
+:sanmartinsanjuan :playsIn :argentinaprimeradivision;
+	:rank "335";
+	:prev_rank "338";
+	:offense "1.1";
+	:defense "1.36";
+	:psi "39.39".
+
+:argentinaprimeradivision :hasLeagueTeam :sanmartinsanjuan.
+
+:kayserispor a :LeagueTeam ;
+	:name "Kayserispor".
+:kayserispor :playsIn :turkishturkcellsuperlig;
+	:rank "336";
+	:prev_rank "339";
+	:offense "1.22";
+	:defense "1.5";
+	:psi "39.35".
+
+:turkishturkcellsuperlig :hasLeagueTeam :kayserispor.
+
+:rosariocentral a :LeagueTeam ;
+	:name "Rosario Central".
+:rosariocentral :playsIn :argentinaprimeradivision;
+	:rank "337";
+	:prev_rank "341";
+	:offense "0.96";
+	:defense "1.2";
+	:psi "39.27".
+
+:argentinaprimeradivision :hasLeagueTeam :rosariocentral.
+
+:godoycruz a :LeagueTeam ;
+	:name "Godoy Cruz".
+:godoycruz :playsIn :argentinaprimeradivision;
+	:rank "338";
+	:prev_rank "342";
+	:offense "1.04";
+	:defense "1.29";
+	:psi "39.22".
+
+:argentinaprimeradivision :hasLeagueTeam :godoycruz.
+
+:aberdeen a :LeagueTeam ;
+	:name "Aberdeen".
+:aberdeen :playsIn :scottishpremiership;
+	:rank "339";
+	:prev_rank "343";
+	:offense "1.25";
+	:defense "1.54";
+	:psi "39.2".
+
+:scottishpremiership :hasLeagueTeam :aberdeen.
+
+:newcastlejets a :LeagueTeam ;
+	:name "Newcastle Jets".
+:newcastlejets :playsIn :australianaleague;
+	:rank "340";
+	:prev_rank "344";
+	:offense "1.39";
+	:defense "1.71";
+	:psi "39.14".
+
+:australianaleague :hasLeagueTeam :newcastlejets.
+
+:heracles a :LeagueTeam ;
+	:name "Heracles".
+:heracles :playsIn :dutcheredivisie;
+	:rank "341";
+	:prev_rank "345";
+	:offense "1.63";
+	:defense "2.0";
+	:psi "39.05".
+
+:dutcheredivisie :hasLeagueTeam :heracles.
+
+:heerenveen a :LeagueTeam ;
+	:name "Heerenveen".
+:heerenveen :playsIn :dutcheredivisie;
+	:rank "342";
+	:prev_rank "346";
+	:offense "1.63";
+	:defense "2.0";
+	:psi "39.03".
+
+:dutcheredivisie :hasLeagueTeam :heerenveen.
+
+:tondela a :LeagueTeam ;
+	:name "Tondela".
+:tondela :playsIn :portugueseliga;
+	:rank "343";
+	:prev_rank "347";
+	:offense "1.26";
+	:defense "1.57";
+	:psi "38.98".
+
+:portugueseliga :hasLeagueTeam :tondela.
+
+:holsteinkiel a :LeagueTeam ;
+	:name "Holstein Kiel".
+:holsteinkiel :playsIn :german2bundesliga;
+	:rank "344";
+	:prev_rank "348";
+	:offense "1.38";
+	:defense "1.71";
+	:psi "38.95".
+
+:german2bundesliga :hasLeagueTeam :holsteinkiel.
+
+:larissa a :LeagueTeam ;
+	:name "Larissa".
+:larissa :playsIn :greeksuperleague;
+	:rank "345";
+	:prev_rank "349";
+	:offense "0.88";
+	:defense "1.11";
+	:psi "38.91".
+
+:greeksuperleague :hasLeagueTeam :larissa.
+
+:tianjinteda a :LeagueTeam ;
+	:name "Tianjin Teda".
+:tianjinteda :playsIn :chinesesuperleague;
+	:rank "346";
+	:prev_rank "351";
+	:offense "1.18";
+	:defense "1.49";
+	:psi "38.58".
+
+:chinesesuperleague :hasLeagueTeam :tianjinteda.
+
+:houstondynamo a :LeagueTeam ;
+	:name "Houston Dynamo".
+:houstondynamo :playsIn :majorleaguesoccer;
+	:rank "347";
+	:prev_rank "354";
+	:offense "1.27";
+	:defense "1.61";
+	:psi "38.46".
+
+:majorleaguesoccer :hasLeagueTeam :houstondynamo.
+
+:avaí a :LeagueTeam ;
+	:name "Avaí".
+:avaí :playsIn :brasileirosériea;
+	:rank "348";
+	:prev_rank "362";
+	:offense "1.05";
+	:defense "1.36";
+	:psi "38.2".
+
+:brasileirosériea :hasLeagueTeam :avaí.
+
+:cadiz a :LeagueTeam ;
+	:name "Cadiz".
+:cadiz :playsIn :spanishsegundadivision;
+	:rank "349";
+	:prev_rank "317";
+	:offense "0.98";
+	:defense "1.26";
+	:psi "38.17".
+
+:spanishsegundadivision :hasLeagueTeam :cadiz.
+
+:sanmartindetucuman a :LeagueTeam ;
+	:name "San Martin de Tucuman".
+:sanmartindetucuman :playsIn :argentinaprimeradivision;
+	:rank "350";
+	:prev_rank "353";
+	:offense "1.11";
+	:defense "1.43";
+	:psi "38.12".
+
+:argentinaprimeradivision :hasLeagueTeam :sanmartindetucuman.
+
+:peczwolle a :LeagueTeam ;
+	:name "PEC Zwolle".
+:peczwolle :playsIn :dutcheredivisie;
+	:rank "351";
+	:prev_rank "355";
+	:offense "1.32";
+	:defense "1.69";
+	:psi "38.11".
+
+:dutcheredivisie :hasLeagueTeam :peczwolle.
+
+:sanfreccehiroshima a :LeagueTeam ;
+	:name "Sanfrecce Hiroshima".
+:sanfreccehiroshima :playsIn :japanesejleague;
+	:rank "352";
+	:prev_rank "336";
+	:offense "0.98";
+	:defense "1.27";
+	:psi "38.05".
+
+:japanesejleague :hasLeagueTeam :sanfreccehiroshima.
+
+:chongqinglifan a :LeagueTeam ;
+	:name "Chongqing Lifan".
+:chongqinglifan :playsIn :chinesesuperleague;
+	:rank "353";
+	:prev_rank "352";
+	:offense "1.11";
+	:defense "1.43";
+	:psi "38.03".
+
+:chinesesuperleague :hasLeagueTeam :chongqinglifan.
+
+:scpaderborn a :LeagueTeam ;
+	:name "SC Paderborn".
+:scpaderborn :playsIn :german2bundesliga;
+	:rank "354";
+	:prev_rank "356";
+	:offense "1.36";
+	:defense "1.73";
+	:psi "38.02".
+
+:german2bundesliga :hasLeagueTeam :scpaderborn.
+
+:antalyaspor a :LeagueTeam ;
+	:name "Antalyaspor".
+:antalyaspor :playsIn :turkishturkcellsuperlig;
+	:rank "355";
+	:prev_rank "357";
+	:offense "1.24";
+	:defense "1.59";
+	:psi "38.02".
+
+:turkishturkcellsuperlig :hasLeagueTeam :antalyaspor.
+
+:chicagofire a :LeagueTeam ;
+	:name "Chicago Fire".
+:chicagofire :playsIn :majorleaguesoccer;
+	:rank "356";
+	:prev_rank "369";
+	:offense "1.24";
+	:defense "1.6";
+	:psi "37.96".
+
+:majorleaguesoccer :hasLeagueTeam :chicagofire.
+
+:akhisarbelediye a :LeagueTeam ;
+	:name "Akhisar Belediye".
+:akhisarbelediye :playsIn :turkishturkcellsuperlig;
+	:rank "357";
+	:prev_rank "360";
+	:offense "1.08";
+	:defense "1.4";
+	:psi "37.89".
+
+:turkishturkcellsuperlig :hasLeagueTeam :akhisarbelediye.
+
+:neuchatelxamax a :LeagueTeam ;
+	:name "Neuchatel Xamax".
+:neuchatelxamax :playsIn :swissraiffeisensuperleague;
+	:rank "358";
+	:prev_rank "363";
+	:offense "1.18";
+	:defense "1.53";
+	:psi "37.78".
+
+:swissraiffeisensuperleague :hasLeagueTeam :neuchatelxamax.
+
+:lens a :LeagueTeam ;
+	:name "Lens".
+:lens :playsIn :frenchligue2;
+	:rank "359";
+	:prev_rank "364";
+	:offense "0.9";
+	:defense "1.18";
+	:psi "37.75".
+
+:frenchligue2 :hasLeagueTeam :lens.
+
+:albacete a :LeagueTeam ;
+	:name "Albacete".
+:albacete :playsIn :spanishsegundadivision;
+	:rank "360";
+	:prev_rank "340";
+	:offense "0.95";
+	:defense "1.25";
+	:psi "37.72".
+
+:spanishsegundadivision :hasLeagueTeam :albacete.
+
+:arminiabielefeld a :LeagueTeam ;
+	:name "Arminia Bielefeld".
+:arminiabielefeld :playsIn :german2bundesliga;
+	:rank "361";
+	:prev_rank "365";
+	:offense "1.16";
+	:defense "1.5";
+	:psi "37.7".
+
+:german2bundesliga :hasLeagueTeam :arminiabielefeld.
+
+:mamelodisundowns a :LeagueTeam ;
+	:name "Mamelodi Sundowns".
+:mamelodisundowns :playsIn :southafricanabsapremierleague;
+	:rank "362";
+	:prev_rank "366";
+	:offense "0.98";
+	:defense "1.28";
+	:psi "37.68".
+
+:southafricanabsapremierleague :hasLeagueTeam :mamelodisundowns.
+
+:kryliasovetov a :LeagueTeam ;
+	:name "Krylia Sovetov".
+:kryliasovetov :playsIn :russianpremierliga;
+	:rank "363";
+	:prev_rank "367";
+	:offense "1.12";
+	:defense "1.46";
+	:psi "37.66".
+
+:russianpremierliga :hasLeagueTeam :kryliasovetov.
+
+:mallorca a :LeagueTeam ;
+	:name "Mallorca".
+:mallorca :playsIn :spanishsegundadivision;
+	:rank "364";
+	:prev_rank "359";
+	:offense "1.01";
+	:defense "1.33";
+	:psi "37.58".
+
+:spanishsegundadivision :hasLeagueTeam :mallorca.
+
+:willemii a :LeagueTeam ;
+	:name "Willem II".
+:willemii :playsIn :dutcheredivisie;
+	:rank "365";
+	:prev_rank "368";
+	:offense "1.65";
+	:defense "2.1";
+	:psi "37.58".
+
+:dutcheredivisie :hasLeagueTeam :willemii.
+
+:sunderland a :LeagueTeam ;
+	:name "Sunderland".
+:sunderland :playsIn :englishleagueone;
+	:rank "366";
+	:prev_rank "370";
+	:offense "1.2";
+	:defense "1.58";
+	:psi "37.47".
+
+:englishleagueone :hasLeagueTeam :sunderland.
+
+:ifkgoteborg a :LeagueTeam ;
+	:name "IFK Goteborg".
+:ifkgoteborg :playsIn :swedishallsvenskan;
+	:rank "367";
+	:prev_rank "335";
+	:offense "1.22";
+	:defense "1.6";
+	:psi "37.44".
+
+:swedishallsvenskan :hasLeagueTeam :ifkgoteborg.
+
+:oddbk a :LeagueTeam ;
+	:name "Odd BK".
+:oddbk :playsIn :norwegiantippeligaen;
+	:rank "368";
+	:prev_rank "372";
+	:offense "1.07";
+	:defense "1.41";
+	:psi "37.39".
+
+:norwegiantippeligaen :hasLeagueTeam :oddbk.
+
+:f91dudelange a :LeagueTeam ;
+	:name "F91 Dudelange".
+:f91dudelange :playsIn :uefaeuropaleague;
+	:rank "369";
+	:prev_rank "373";
+	:offense "1.35";
+	:defense "1.76";
+	:psi "37.32".
+
+:uefaeuropaleague :hasLeagueTeam :f91dudelange.
+
+:fcingolstadt04 a :LeagueTeam ;
+	:name "FC Ingolstadt 04".
+:fcingolstadt04 :playsIn :german2bundesliga;
+	:rank "370";
+	:prev_rank "374";
+	:offense "1.2";
+	:defense "1.57";
+	:psi "37.28".
+
+:german2bundesliga :hasLeagueTeam :fcingolstadt04.
+
+:querétaro a :LeagueTeam ;
+	:name "Querétaro".
+:querétaro :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "371";
+	:prev_rank "375";
+	:offense "1.04";
+	:defense "1.38";
+	:psi "37.23".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :querétaro.
+
+:orlandocitysc a :LeagueTeam ;
+	:name "Orlando City SC".
+:orlandocitysc :playsIn :majorleaguesoccer;
+	:rank "372";
+	:prev_rank "404";
+	:offense "1.24";
+	:defense "1.63";
+	:psi "37.21".
+
+:majorleaguesoccer :hasLeagueTeam :orlandocitysc.
+
+:jahnregensburg a :LeagueTeam ;
+	:name "Jahn Regensburg".
+:jahnregensburg :playsIn :german2bundesliga;
+	:rank "373";
+	:prev_rank "376";
+	:offense "1.45";
+	:defense "1.89";
+	:psi "37.13".
+
+:german2bundesliga :hasLeagueTeam :jahnregensburg.
+
+:urawareddiamonds a :LeagueTeam ;
+	:name "Urawa Red Diamonds".
+:urawareddiamonds :playsIn :japanesejleague;
+	:rank "374";
+	:prev_rank "394";
+	:offense "1.15";
+	:defense "1.54";
+	:psi "36.83".
+
+:japanesejleague :hasLeagueTeam :urawareddiamonds.
+
+:brescia a :LeagueTeam ;
+	:name "Brescia".
+:brescia :playsIn :italyserieb;
+	:rank "375";
+	:prev_rank "377";
+	:offense "1.16";
+	:defense "1.55";
+	:psi "36.82".
+
+:italyserieb a :League ;
+	:name "Italy Serie B".
+:italyserieb :hasLeagueTeam :brescia.
+
+:columbuscrew a :LeagueTeam ;
+	:name "Columbus Crew".
+:columbuscrew :playsIn :majorleaguesoccer;
+	:rank "376";
+	:prev_rank "382";
+	:offense "1.08";
+	:defense "1.45";
+	:psi "36.78".
+
+:majorleaguesoccer :hasLeagueTeam :columbuscrew.
+
+:montrealimpact a :LeagueTeam ;
+	:name "Montreal Impact".
+:montrealimpact :playsIn :majorleaguesoccer;
+	:rank "377";
+	:prev_rank "350";
+	:offense "1.07";
+	:defense "1.45";
+	:psi "36.72".
+
+:majorleaguesoccer :hasLeagueTeam :montrealimpact.
+
+:svmattersburg a :LeagueTeam ;
+	:name "SV Mattersburg".
+:svmattersburg :playsIn :austriantmobilebundesliga;
+	:rank "378";
+	:prev_rank "378";
+	:offense "1.14";
+	:defense "1.53";
+	:psi "36.7".
+
+:austriantmobilebundesliga :hasLeagueTeam :svmattersburg.
+
+:gimnasialaplata a :LeagueTeam ;
+	:name "Gimnasia La Plata".
+:gimnasialaplata :playsIn :argentinaprimeradivision;
+	:rank "379";
+	:prev_rank "379";
+	:offense "0.98";
+	:defense "1.34";
+	:psi "36.67".
+
+:argentinaprimeradivision :hasLeagueTeam :gimnasialaplata.
+
+:melbournevictory a :LeagueTeam ;
+	:name "Melbourne Victory".
+:melbournevictory :playsIn :australianaleague;
+	:rank "380";
+	:prev_rank "380";
+	:offense "1.28";
+	:defense "1.71";
+	:psi "36.66".
+
+:australianaleague :hasLeagueTeam :melbournevictory.
+
+:fcdallas a :LeagueTeam ;
+	:name "FC Dallas".
+:fcdallas :playsIn :majorleaguesoccer;
+	:rank "381";
+	:prev_rank "381";
+	:offense "1.12";
+	:defense "1.52";
+	:psi "36.62".
+
+:majorleaguesoccer :hasLeagueTeam :fcdallas.
+
+:dcunited a :LeagueTeam ;
+	:name "DC United".
+:dcunited :playsIn :majorleaguesoccer;
+	:rank "382";
+	:prev_rank "358";
+	:offense "1.19";
+	:defense "1.6";
+	:psi "36.58".
+
+:majorleaguesoccer :hasLeagueTeam :dcunited.
+
+:henanjianye a :LeagueTeam ;
+	:name "Henan Jianye".
+:henanjianye :playsIn :chinesesuperleague;
+	:rank "383";
+	:prev_rank "384";
+	:offense "1.13";
+	:defense "1.53";
+	:psi "36.47".
+
+:chinesesuperleague :hasLeagueTeam :henanjianye.
+
+:randersfc a :LeagueTeam ;
+	:name "Randers FC".
+:randersfc :playsIn :danishsasligaen;
+	:rank "384";
+	:prev_rank "383";
+	:offense "1.08";
+	:defense "1.47";
+	:psi "36.46".
+
+:danishsasligaen :hasLeagueTeam :randersfc.
+
+:arizonaunited a :LeagueTeam ;
+	:name "Arizona United".
+:arizonaunited :playsIn :unitedsoccerleague;
+	:rank "385";
+	:prev_rank "385";
+	:offense "1.27";
+	:defense "1.7";
+	:psi "36.44".
+
+:unitedsoccerleague a :League ;
+	:name "United Soccer League".
+:unitedsoccerleague :hasLeagueTeam :arizonaunited.
+
+:cdnacional a :LeagueTeam ;
+	:name "C.D. Nacional".
+:cdnacional :playsIn :portugueseliga;
+	:rank "386";
+	:prev_rank "386";
+	:offense "1.13";
+	:defense "1.54";
+	:psi "36.27".
+
+:portugueseliga :hasLeagueTeam :cdnacional.
+
+:csa a :LeagueTeam ;
+	:name "CSA".
+:csa :playsIn :brasileirosériea;
+	:rank "387";
+	:prev_rank "361";
+	:offense "1.03";
+	:defense "1.41";
+	:psi "36.24".
+
+:brasileirosériea :hasLeagueTeam :csa.
+
+:realsaltlake a :LeagueTeam ;
+	:name "Real Salt Lake".
+:realsaltlake :playsIn :majorleaguesoccer;
+	:rank "388";
+	:prev_rank "371";
+	:offense "1.22";
+	:defense "1.66";
+	:psi "36.13".
+
+:majorleaguesoccer :hasLeagueTeam :realsaltlake.
+
+:maritimo a :LeagueTeam ;
+	:name "Maritimo".
+:maritimo :playsIn :portugueseliga;
+	:rank "389";
+	:prev_rank "387";
+	:offense "0.96";
+	:defense "1.34";
+	:psi "36.12".
+
+:portugueseliga :hasLeagueTeam :maritimo.
+
+:reading a :LeagueTeam ;
+	:name "Reading".
+:reading :playsIn :englishleaguechampionship;
+	:rank "390";
+	:prev_rank "388";
+	:offense "1.06";
+	:defense "1.46";
+	:psi "36.12".
+
+:englishleaguechampionship :hasLeagueTeam :reading.
+
+:consadolesapporo a :LeagueTeam ;
+	:name "Consadole Sapporo".
+:consadolesapporo :playsIn :japanesejleague;
+	:rank "391";
+	:prev_rank "400";
+	:offense "1.06";
+	:defense "1.47";
+	:psi "36.06".
+
+:japanesejleague :hasLeagueTeam :consadolesapporo.
+
+:fcspartaktrnava a :LeagueTeam ;
+	:name "FC Spartak Trnava".
+:fcspartaktrnava :playsIn :uefaeuropaleague;
+	:rank "392";
+	:prev_rank "389";
+	:offense "0.9";
+	:defense "1.27";
+	:psi "35.94".
+
+:uefaeuropaleague :hasLeagueTeam :fcspartaktrnava.
+
+:vvvvenlo a :LeagueTeam ;
+	:name "VVV Venlo".
+:vvvvenlo :playsIn :dutcheredivisie;
+	:rank "393";
+	:prev_rank "390";
+	:offense "1.34";
+	:defense "1.83";
+	:psi "35.93".
+
+:dutcheredivisie :hasLeagueTeam :vvvvenlo.
+
+:kristiansundbk a :LeagueTeam ;
+	:name "Kristiansund BK".
+:kristiansundbk :playsIn :norwegiantippeligaen;
+	:rank "394";
+	:prev_rank "392";
+	:offense "1.1";
+	:defense "1.53";
+	:psi "35.87".
+
+:norwegiantippeligaen :hasLeagueTeam :kristiansundbk.
+
+:wuhanzall a :LeagueTeam ;
+	:name "Wuhan Zall".
+:wuhanzall :playsIn :chinesesuperleague;
+	:rank "395";
+	:prev_rank "393";
+	:offense "1.08";
+	:defense "1.5";
+	:psi "35.86".
+
+:chinesesuperleague :hasLeagueTeam :wuhanzall.
+
+:deportivolacoruña a :LeagueTeam ;
+	:name "Deportivo La Coruña".
+:deportivolacoruña :playsIn :spanishsegundadivision;
+	:rank "396";
+	:prev_rank "395";
+	:offense "0.79";
+	:defense "1.14";
+	:psi "35.65".
+
+:spanishsegundadivision :hasLeagueTeam :deportivolacoruña.
+
+:visselkobe a :LeagueTeam ;
+	:name "Vissel Kobe".
+:visselkobe :playsIn :japanesejleague;
+	:rank "397";
+	:prev_rank "391";
+	:offense "1.3";
+	:defense "1.79";
+	:psi "35.62".
+
+:japanesejleague :hasLeagueTeam :visselkobe.
+
+:aab a :LeagueTeam ;
+	:name "AaB".
+:aab :playsIn :danishsasligaen;
+	:rank "398";
+	:prev_rank "396";
+	:offense "1.06";
+	:defense "1.49";
+	:psi "35.59".
+
+:danishsasligaen :hasLeagueTeam :aab.
+
+:skbrann a :LeagueTeam ;
+	:name "SK Brann".
+:skbrann :playsIn :norwegiantippeligaen;
+	:rank "399";
+	:prev_rank "397";
+	:offense "1.1";
+	:defense "1.54";
+	:psi "35.58".
+
+:norwegiantippeligaen :hasLeagueTeam :skbrann.
+
+:eupen a :LeagueTeam ;
+	:name "Eupen".
+:eupen :playsIn :belgianjupilerleague;
+	:rank "400";
+	:prev_rank "398";
+	:offense "1.19";
+	:defense "1.68";
+	:psi "35.25".
+
+:belgianjupilerleague :hasLeagueTeam :eupen.
+
+:hibernian a :LeagueTeam ;
+	:name "Hibernian".
+:hibernian :playsIn :scottishpremiership;
+	:rank "401";
+	:prev_rank "399";
+	:offense "0.98";
+	:defense "1.42";
+	:psi "35.1".
+
+:scottishpremiership :hasLeagueTeam :hibernian.
+
+:minnesotaunitedfc a :LeagueTeam ;
+	:name "Minnesota United FC".
+:minnesotaunitedfc :playsIn :majorleaguesoccer;
+	:rank "402";
+	:prev_rank "401";
+	:offense "1.25";
+	:defense "1.76";
+	:psi "35.05".
+
+:majorleaguesoccer :hasLeagueTeam :minnesotaunitedfc.
+
+:fctrenkwalderadmira a :LeagueTeam ;
+	:name "FC Trenkwalder Admira".
+:fctrenkwalderadmira :playsIn :austriantmobilebundesliga;
+	:rank "403";
+	:prev_rank "402";
+	:offense "1.44";
+	:defense "2.0";
+	:psi "34.88".
+
+:austriantmobilebundesliga :hasLeagueTeam :fctrenkwalderadmira.
+
+:adelaideunited a :LeagueTeam ;
+	:name "Adelaide United".
+:adelaideunited :playsIn :australianaleague;
+	:rank "404";
+	:prev_rank "403";
+	:offense "1.06";
+	:defense "1.53";
+	:psi "34.86".
+
+:australianaleague :hasLeagueTeam :adelaideunited.
+
+:palermo a :LeagueTeam ;
+	:name "Palermo".
+:palermo :playsIn :italyserieb;
+	:rank "405";
+	:prev_rank "405";
+	:offense "1.07";
+	:defense "1.55";
+	:psi "34.69".
+
+:italyserieb :hasLeagueTeam :palermo.
+
+:parisfc a :LeagueTeam ;
+	:name "Paris FC".
+:parisfc :playsIn :frenchligue2;
+	:rank "406";
+	:prev_rank "406";
+	:offense "0.66";
+	:defense "1.01";
+	:psi "34.54".
+
+:frenchligue2 :hasLeagueTeam :parisfc.
+
+:1fcheidenheim1846 a :LeagueTeam ;
+	:name "1. FC Heidenheim 1846".
+:1fcheidenheim1846 :playsIn :german2bundesliga;
+	:rank "407";
+	:prev_rank "408";
+	:offense "1.17";
+	:defense "1.68";
+	:psi "34.46".
+
+:german2bundesliga :hasLeagueTeam :1fcheidenheim1846.
+
+:kvoostende a :LeagueTeam ;
+	:name "KV Oostende".
+:kvoostende :playsIn :belgianjupilerleague;
+	:rank "408";
+	:prev_rank "410";
+	:offense "1.02";
+	:defense "1.51";
+	:psi "34.18".
+
+:belgianjupilerleague :hasLeagueTeam :kvoostende.
+
+:tianjinquanujian a :LeagueTeam ;
+	:name "Tianjin Quanujian".
+:tianjinquanujian :playsIn :chinesesuperleague;
+	:rank "409";
+	:prev_rank "416";
+	:offense "1.11";
+	:defense "1.63";
+	:psi "34.17".
+
+:chinesesuperleague :hasLeagueTeam :tianjinquanujian.
+
+:metallurgkrasnoyarsk a :LeagueTeam ;
+	:name "Metallurg Krasnoyarsk".
+:metallurgkrasnoyarsk :playsIn :russianpremierliga;
+	:rank "410";
+	:prev_rank "411";
+	:offense "1.15";
+	:defense "1.68";
+	:psi "34.11".
+
+:russianpremierliga :hasLeagueTeam :metallurgkrasnoyarsk.
+
+:bodoglimt a :LeagueTeam ;
+	:name "Bodo/Glimt".
+:bodoglimt :playsIn :norwegiantippeligaen;
+	:rank "411";
+	:prev_rank "412";
+	:offense "1.18";
+	:defense "1.72";
+	:psi "34.08".
+
+:norwegiantippeligaen :hasLeagueTeam :bodoglimt.
+
+:sanjoseearthquakes a :LeagueTeam ;
+	:name "San Jose Earthquakes".
+:sanjoseearthquakes :playsIn :majorleaguesoccer;
+	:rank "412";
+	:prev_rank "431";
+	:offense "1.32";
+	:defense "1.91";
+	:psi "34.05".
+
+:majorleaguesoccer :hasLeagueTeam :sanjoseearthquakes.
+
+:portsmouth a :LeagueTeam ;
+	:name "Portsmouth".
+:portsmouth :playsIn :englishleagueone;
+	:rank "413";
+	:prev_rank "414";
+	:offense "1.11";
+	:defense "1.63";
+	:psi "33.99".
+
+:englishleagueone :hasLeagueTeam :portsmouth.
+
+:bidvestwits a :LeagueTeam ;
+	:name "Bidvest Wits".
+:bidvestwits :playsIn :southafricanabsapremierleague;
+	:rank "414";
+	:prev_rank "415";
+	:offense "0.99";
+	:defense "1.49";
+	:psi "33.98".
+
+:southafricanabsapremierleague :hasLeagueTeam :bidvestwits.
+
+:shenzhenfc a :LeagueTeam ;
+	:name "Shenzhen FC".
+:shenzhenfc :playsIn :chinesesuperleague;
+	:rank "415";
+	:prev_rank "413";
+	:offense "1.02";
+	:defense "1.52";
+	:psi "33.94".
+
+:chinesesuperleague :hasLeagueTeam :shenzhenfc.
+
+:emmen a :LeagueTeam ;
+	:name "Emmen".
+:emmen :playsIn :dutcheredivisie;
+	:rank "416";
+	:prev_rank "417";
+	:offense "1.21";
+	:defense "1.77";
+	:psi "33.85".
+
+:dutcheredivisie :hasLeagueTeam :emmen.
+
+:excelsior a :LeagueTeam ;
+	:name "Excelsior".
+:excelsior :playsIn :dutcheredivisie;
+	:rank "417";
+	:prev_rank "418";
+	:offense "1.46";
+	:defense "2.09";
+	:psi "33.75".
+
+:dutcheredivisie :hasLeagueTeam :excelsior.
+
+:lecce a :LeagueTeam ;
+	:name "Lecce".
+:lecce :playsIn :italyserieb;
+	:rank "418";
+	:prev_rank "419";
+	:offense "1.0";
+	:defense "1.51";
+	:psi "33.69".
+
+:italyserieb :hasLeagueTeam :lecce.
+
+:realzaragoza a :LeagueTeam ;
+	:name "Real Zaragoza".
+:realzaragoza :playsIn :spanishsegundadivision;
+	:rank "419";
+	:prev_rank "407";
+	:offense "1.05";
+	:defense "1.58";
+	:psi "33.67".
+
+:spanishsegundadivision :hasLeagueTeam :realzaragoza.
+
+:feirense a :LeagueTeam ;
+	:name "Feirense".
+:feirense :playsIn :portugueseliga;
+	:rank "420";
+	:prev_rank "420";
+	:offense "1.01";
+	:defense "1.53";
+	:psi "33.5".
+
+:portugueseliga :hasLeagueTeam :feirense.
+
+:hartberg a :LeagueTeam ;
+	:name "Hartberg".
+:hartberg :playsIn :austriantmobilebundesliga;
+	:rank "421";
+	:prev_rank "422";
+	:offense "1.43";
+	:defense "2.08";
+	:psi "33.3".
+
+:austriantmobilebundesliga :hasLeagueTeam :hartberg.
+
+:fcxanthi a :LeagueTeam ;
+	:name "FC Xanthi".
+:fcxanthi :playsIn :greeksuperleague;
+	:rank "422";
+	:prev_rank "423";
+	:offense "0.79";
+	:defense "1.26";
+	:psi "33.25".
+
+:greeksuperleague :hasLeagueTeam :fcxanthi.
+
+:ksclokeren a :LeagueTeam ;
+	:name "KSC Lokeren".
+:ksclokeren :playsIn :belgianjupilerleague;
+	:rank "423";
+	:prev_rank "424";
+	:offense "1.05";
+	:defense "1.6";
+	:psi "33.19".
+
+:belgianjupilerleague :hasLeagueTeam :ksclokeren.
+
+:vflbochum a :LeagueTeam ;
+	:name "VfL Bochum".
+:vflbochum :playsIn :german2bundesliga;
+	:rank "424";
+	:prev_rank "425";
+	:offense "1.15";
+	:defense "1.73";
+	:psi "33.1".
+
+:german2bundesliga :hasLeagueTeam :vflbochum.
+
+:fcwackerinnsbruck a :LeagueTeam ;
+	:name "FC Wacker Innsbruck".
+:fcwackerinnsbruck :playsIn :austriantmobilebundesliga;
+	:rank "425";
+	:prev_rank "426";
+	:offense "1.05";
+	:defense "1.6";
+	:psi "33.09".
+
+:austriantmobilebundesliga :hasLeagueTeam :fcwackerinnsbruck.
+
+:benevento a :LeagueTeam ;
+	:name "Benevento".
+:benevento :playsIn :italyserieb;
+	:rank "426";
+	:prev_rank "427";
+	:offense "1.02";
+	:defense "1.57";
+	:psi "33.06".
+
+:italyserieb :hasLeagueTeam :benevento.
+
+:blackaces a :LeagueTeam ;
+	:name "Black Aces".
+:blackaces :playsIn :southafricanabsapremierleague;
+	:rank "427";
+	:prev_rank "428";
+	:offense "1.02";
+	:defense "1.57";
+	:psi "33.05".
+
+:southafricanabsapremierleague :hasLeagueTeam :blackaces.
+
+:almeria a :LeagueTeam ;
+	:name "Almeria".
+:almeria :playsIn :spanishsegundadivision;
+	:rank "428";
+	:prev_rank "429";
+	:offense "0.85";
+	:defense "1.35";
+	:psi "32.97".
+
+:spanishsegundadivision :hasLeagueTeam :almeria.
+
+:newenglandrevolution a :LeagueTeam ;
+	:name "New England Revolution".
+:newenglandrevolution :playsIn :majorleaguesoccer;
+	:rank "429";
+	:prev_rank "446";
+	:offense "1.2";
+	:defense "1.81";
+	:psi "32.94".
+
+:majorleaguesoccer :hasLeagueTeam :newenglandrevolution.
+
+:östersundsfk a :LeagueTeam ;
+	:name "Östersunds FK".
+:östersundsfk :playsIn :swedishallsvenskan;
+	:rank "430";
+	:prev_rank "421";
+	:offense "1.11";
+	:defense "1.7";
+	:psi "32.88".
+
+:swedishallsvenskan :hasLeagueTeam :östersundsfk.
+
+:valerenga a :LeagueTeam ;
+	:name "Valerenga".
+:valerenga :playsIn :norwegiantippeligaen;
+	:rank "431";
+	:prev_rank "430";
+	:offense "1.14";
+	:defense "1.74";
+	:psi "32.75".
+
+:norwegiantippeligaen :hasLeagueTeam :valerenga.
+
+:tampabayrowdies a :LeagueTeam ;
+	:name "Tampa Bay Rowdies".
+:tampabayrowdies :playsIn :unitedsoccerleague;
+	:rank "432";
+	:prev_rank "449";
+	:offense "0.86";
+	:defense "1.38";
+	:psi "32.58".
+
+:unitedsoccerleague :hasLeagueTeam :tampabayrowdies.
+
+:westernsydneyfc a :LeagueTeam ;
+	:name "Western Sydney FC".
+:westernsydneyfc :playsIn :australianaleague;
+	:rank "433";
+	:prev_rank "432";
+	:offense "1.27";
+	:defense "1.92";
+	:psi "32.55".
+
+:australianaleague :hasLeagueTeam :westernsydneyfc.
+
+:ipswichtown a :LeagueTeam ;
+	:name "Ipswich Town".
+:ipswichtown :playsIn :englishleaguechampionship;
+	:rank "434";
+	:prev_rank "433";
+	:offense "0.97";
+	:defense "1.53";
+	:psi "32.52".
+
+:englishleaguechampionship :hasLeagueTeam :ipswichtown.
+
+:doncasterrovers a :LeagueTeam ;
+	:name "Doncaster Rovers".
+:doncasterrovers :playsIn :englishleagueone;
+	:rank "435";
+	:prev_rank "435";
+	:offense "1.14";
+	:defense "1.76";
+	:psi "32.41".
+
+:englishleagueone :hasLeagueTeam :doncasterrovers.
+
+:cittadella a :LeagueTeam ;
+	:name "Cittadella".
+:cittadella :playsIn :italyserieb;
+	:rank "436";
+	:prev_rank "409";
+	:offense "1.01";
+	:defense "1.59";
+	:psi "32.35".
+
+:italyserieb :hasLeagueTeam :cittadella.
+
+:panetolikos a :LeagueTeam ;
+	:name "Panetolikos".
+:panetolikos :playsIn :greeksuperleague;
+	:rank "437";
+	:prev_rank "436";
+	:offense "1.02";
+	:defense "1.6";
+	:psi "32.35".
+
+:greeksuperleague :hasLeagueTeam :panetolikos.
+
+:svsandhausen a :LeagueTeam ;
+	:name "SV Sandhausen".
+:svsandhausen :playsIn :german2bundesliga;
+	:rank "438";
+	:prev_rank "438";
+	:offense "1.04";
+	:defense "1.64";
+	:psi "32.32".
+
+:german2bundesliga :hasLeagueTeam :svsandhausen.
+
+:burtonalbion a :LeagueTeam ;
+	:name "Burton Albion".
+:burtonalbion :playsIn :englishleagueone;
+	:rank "439";
+	:prev_rank "439";
+	:offense "1.1";
+	:defense "1.72";
+	:psi "32.3".
+
+:englishleagueone :hasLeagueTeam :burtonalbion.
+
+:guizhourenhe a :LeagueTeam ;
+	:name "Guizhou Renhe".
+:guizhourenhe :playsIn :chinesesuperleague;
+	:rank "440";
+	:prev_rank "437";
+	:offense "1.0";
+	:defense "1.59";
+	:psi "32.17".
+
+:chinesesuperleague :hasLeagueTeam :guizhourenhe.
+
+:lorient a :LeagueTeam ;
+	:name "Lorient".
+:lorient :playsIn :frenchligue2;
+	:rank "441";
+	:prev_rank "440";
+	:offense "1.11";
+	:defense "1.75";
+	:psi "32.0".
+
+:frenchligue2 :hasLeagueTeam :lorient.
+
+:elche a :LeagueTeam ;
+	:name "Elche".
+:elche :playsIn :spanishsegundadivision;
+	:rank "442";
+	:prev_rank "434";
+	:offense "1.04";
+	:defense "1.66";
+	:psi "31.78".
+
+:spanishsegundadivision :hasLeagueTeam :elche.
+
+:cerclebrugge a :LeagueTeam ;
+	:name "Cercle Brugge".
+:cerclebrugge :playsIn :belgianjupilerleague;
+	:rank "443";
+	:prev_rank "441";
+	:offense "1.2";
+	:defense "1.88";
+	:psi "31.72".
+
+:belgianjupilerleague :hasLeagueTeam :cerclebrugge.
+
+:gifsundsvall a :LeagueTeam ;
+	:name "GIF Sundsvall".
+:gifsundsvall :playsIn :swedishallsvenskan;
+	:rank "444";
+	:prev_rank "444";
+	:offense "1.03";
+	:defense "1.66";
+	:psi "31.72".
+
+:swedishallsvenskan :hasLeagueTeam :gifsundsvall.
+
+:nashvillesc a :LeagueTeam ;
+	:name "Nashville SC".
+:nashvillesc :playsIn :unitedsoccerleague;
+	:rank "445";
+	:prev_rank "442";
+	:offense "0.92";
+	:defense "1.51";
+	:psi "31.7".
+
+:unitedsoccerleague :hasLeagueTeam :nashvillesc.
+
+:sonderjyske a :LeagueTeam ;
+	:name "Sonderjyske".
+:sonderjyske :playsIn :danishsasligaen;
+	:rank "446";
+	:prev_rank "443";
+	:offense "1.1";
+	:defense "1.76";
+	:psi "31.45".
+
+:danishsasligaen :hasLeagueTeam :sonderjyske.
+
+:svdarmstadt98 a :LeagueTeam ;
+	:name "SV Darmstadt 98".
+:svdarmstadt98 :playsIn :german2bundesliga;
+	:rank "447";
+	:prev_rank "445";
+	:offense "0.97";
+	:defense "1.59";
+	:psi "31.34".
+
+:german2bundesliga :hasLeagueTeam :svdarmstadt98.
+
+:gambaosaka a :LeagueTeam ;
+	:name "Gamba Osaka".
+:gambaosaka :playsIn :japanesejleague;
+	:rank "448";
+	:prev_rank "451";
+	:offense "1.03";
+	:defense "1.68";
+	:psi "31.23".
+
+:japanesejleague :hasLeagueTeam :gambaosaka.
+
+:sportinggijón a :LeagueTeam ;
+	:name "Sporting Gijón".
+:sportinggijón :playsIn :spanishsegundadivision;
+	:rank "449";
+	:prev_rank "447";
+	:offense "0.8";
+	:defense "1.36";
+	:psi "31.14".
+
+:spanishsegundadivision :hasLeagueTeam :sportinggijón.
+
+:verona a :LeagueTeam ;
+	:name "Verona".
+:verona :playsIn :italyserieb;
+	:rank "450";
+	:prev_rank "466";
+	:offense "0.92";
+	:defense "1.53";
+	:psi "31.12".
+
+:italyserieb :hasLeagueTeam :verona.
+
+:1fcmagdeburg a :LeagueTeam ;
+	:name "1. FC Magdeburg".
+:1fcmagdeburg :playsIn :german2bundesliga;
+	:rank "451";
+	:prev_rank "448";
+	:offense "0.92";
+	:defense "1.54";
+	:psi "31.01".
+
+:german2bundesliga :hasLeagueTeam :1fcmagdeburg.
+
+:giannina a :LeagueTeam ;
+	:name "Giannina".
+:giannina :playsIn :greeksuperleague;
+	:rank "452";
+	:prev_rank "450";
+	:offense "0.63";
+	:defense "1.15";
+	:psi "30.78".
+
+:greeksuperleague :hasLeagueTeam :giannina.
+
+:reno1868fc a :LeagueTeam ;
+	:name "Reno 1868 FC".
+:reno1868fc :playsIn :unitedsoccerleague;
+	:rank "453";
+	:prev_rank "476";
+	:offense "1.11";
+	:defense "1.82";
+	:psi "30.74".
+
+:unitedsoccerleague :hasLeagueTeam :reno1868fc.
+
+:panionios a :LeagueTeam ;
+	:name "Panionios".
+:panionios :playsIn :greeksuperleague;
+	:rank "454";
+	:prev_rank "452";
+	:offense "0.9";
+	:defense "1.53";
+	:psi "30.7".
+
+:greeksuperleague :hasLeagueTeam :panionios.
+
+:louisvillecityfc a :LeagueTeam ;
+	:name "Louisville City FC".
+:louisvillecityfc :playsIn :unitedsoccerleague;
+	:rank "455";
+	:prev_rank "483";
+	:offense "1.13";
+	:defense "1.86";
+	:psi "30.57".
+
+:unitedsoccerleague :hasLeagueTeam :louisvillecityfc.
+
+:lobosdelabuap a :LeagueTeam ;
+	:name "Lobos de la BUAP".
+:lobosdelabuap :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "456";
+	:prev_rank "453";
+	:offense "0.99";
+	:defense "1.67";
+	:psi "30.55".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :lobosdelabuap.
+
+:extremaduraud a :LeagueTeam ;
+	:name "Extremadura UD".
+:extremaduraud :playsIn :spanishsegundadivision;
+	:rank "457";
+	:prev_rank "474";
+	:offense "0.74";
+	:defense "1.32";
+	:psi "30.53".
+
+:spanishsegundadivision :hasLeagueTeam :extremaduraud.
+
+:dynamodresden a :LeagueTeam ;
+	:name "Dynamo Dresden".
+:dynamodresden :playsIn :german2bundesliga;
+	:rank "458";
+	:prev_rank "454";
+	:offense "0.94";
+	:defense "1.6";
+	:psi "30.35".
+
+:german2bundesliga :hasLeagueTeam :dynamodresden.
+
+:crotone a :LeagueTeam ;
+	:name "Crotone".
+:crotone :playsIn :italyserieb;
+	:rank "459";
+	:prev_rank "455";
+	:offense "0.88";
+	:defense "1.53";
+	:psi "30.3".
+
+:italyserieb :hasLeagueTeam :crotone.
+
+:clermontfoot a :LeagueTeam ;
+	:name "Clermont Foot".
+:clermontfoot :playsIn :frenchligue2;
+	:rank "460";
+	:prev_rank "457";
+	:offense "0.88";
+	:defense "1.54";
+	:psi "30.14".
+
+:frenchligue2 :hasLeagueTeam :clermontfoot.
+
+:perugia a :LeagueTeam ;
+	:name "Perugia".
+:perugia :playsIn :italyserieb;
+	:rank "461";
+	:prev_rank "458";
+	:offense "0.93";
+	:defense "1.61";
+	:psi "30.06".
+
+:italyserieb :hasLeagueTeam :perugia.
+
+:degraafschap a :LeagueTeam ;
+	:name "De Graafschap".
+:degraafschap :playsIn :dutcheredivisie;
+	:rank "462";
+	:prev_rank "460";
+	:offense "1.15";
+	:defense "1.92";
+	:psi "29.96".
+
+:dutcheredivisie :hasLeagueTeam :degraafschap.
+
+:bolton a :LeagueTeam ;
+	:name "Bolton".
+:bolton :playsIn :englishleaguechampionship;
+	:rank "463";
+	:prev_rank "461";
+	:offense "0.88";
+	:defense "1.56";
+	:psi "29.83".
+
+:englishleaguechampionship :hasLeagueTeam :bolton.
+
+:shonanbellmare a :LeagueTeam ;
+	:name "Shonan Bellmare".
+:shonanbellmare :playsIn :japanesejleague;
+	:rank "464";
+	:prev_rank "459";
+	:offense "0.95";
+	:defense "1.67";
+	:psi "29.51".
+
+:japanesejleague :hasLeagueTeam :shonanbellmare.
+
+:realoviedo a :LeagueTeam ;
+	:name "Real Oviedo".
+:realoviedo :playsIn :spanishsegundadivision;
+	:rank "465";
+	:prev_rank "473";
+	:offense "0.87";
+	:defense "1.57";
+	:psi "29.43".
+
+:spanishsegundadivision :hasLeagueTeam :realoviedo.
+
+:spezia a :LeagueTeam ;
+	:name "Spezia".
+:spezia :playsIn :italyserieb;
+	:rank "466";
+	:prev_rank "467";
+	:offense "0.96";
+	:defense "1.69";
+	:psi "29.4".
+
+:italyserieb :hasLeagueTeam :spezia.
+
+:newmexicounited a :LeagueTeam ;
+	:name "New Mexico United".
+:newmexicounited :playsIn :unitedsoccerleague;
+	:rank "467";
+	:prev_rank "456";
+	:offense "1.16";
+	:defense "1.98";
+	:psi "29.28".
+
+:unitedsoccerleague :hasLeagueTeam :newmexicounited.
+
+:sarpsborg a :LeagueTeam ;
+	:name "Sarpsborg".
+:sarpsborg :playsIn :norwegiantippeligaen;
+	:rank "468";
+	:prev_rank "468";
+	:offense "0.91";
+	:defense "1.62";
+	:psi "29.26".
+
+:norwegiantippeligaen :hasLeagueTeam :sarpsborg.
+
+:lehavre a :LeagueTeam ;
+	:name "Le Havre".
+:lehavre :playsIn :frenchligue2;
+	:rank "469";
+	:prev_rank "469";
+	:offense "0.9";
+	:defense "1.61";
+	:psi "29.25".
+
+:frenchligue2 :hasLeagueTeam :lehavre.
+
+:vancouverwhitecaps a :LeagueTeam ;
+	:name "Vancouver Whitecaps".
+:vancouverwhitecaps :playsIn :majorleaguesoccer;
+	:rank "470";
+	:prev_rank "465";
+	:offense "1.01";
+	:defense "1.77";
+	:psi "29.2".
+
+:majorleaguesoccer :hasLeagueTeam :vancouverwhitecaps.
+
+:ifelfsborg a :LeagueTeam ;
+	:name "IF Elfsborg".
+:ifelfsborg :playsIn :swedishallsvenskan;
+	:rank "471";
+	:prev_rank "464";
+	:offense "0.94";
+	:defense "1.68";
+	:psi "29.16".
+
+:swedishallsvenskan :hasLeagueTeam :ifelfsborg.
+
+:vegaltasendai a :LeagueTeam ;
+	:name "Vegalta Sendai".
+:vegaltasendai :playsIn :japanesejleague;
+	:rank "472";
+	:prev_rank "504";
+	:offense "1.09";
+	:defense "1.89";
+	:psi "29.07".
+
+:japanesejleague :hasLeagueTeam :vegaltasendai.
+
+:wellingtonphoenix a :LeagueTeam ;
+	:name "Wellington Phoenix".
+:wellingtonphoenix :playsIn :australianaleague;
+	:rank "473";
+	:prev_rank "472";
+	:offense "1.2";
+	:defense "2.04";
+	:psi "29.0".
+
+:australianaleague :hasLeagueTeam :wellingtonphoenix.
+
+:oitatrinita a :LeagueTeam ;
+	:name "Oita Trinita".
+:oitatrinita :playsIn :japanesejleague;
+	:rank "474";
+	:prev_rank "463";
+	:offense "0.79";
+	:defense "1.47";
+	:psi "28.92".
+
+:japanesejleague :hasLeagueTeam :oitatrinita.
+
+:shimizuspulse a :LeagueTeam ;
+	:name "Shimizu S-Pulse".
+:shimizuspulse :playsIn :japanesejleague;
+	:rank "475";
+	:prev_rank "470";
+	:offense "1.19";
+	:defense "2.04";
+	:psi "28.86".
+
+:japanesejleague :hasLeagueTeam :shimizuspulse.
+
+:fccincinnati a :LeagueTeam ;
+	:name "FC Cincinnati".
+:fccincinnati :playsIn :majorleaguesoccer;
+	:rank "476";
+	:prev_rank "462";
+	:offense "0.95";
+	:defense "1.71";
+	:psi "28.83".
+
+:majorleaguesoccer :hasLeagueTeam :fccincinnati.
+
+:stromsgodset a :LeagueTeam ;
+	:name "Stromsgodset".
+:stromsgodset :playsIn :norwegiantippeligaen;
+	:rank "477";
+	:prev_rank "475";
+	:offense "1.04";
+	:defense "1.85";
+	:psi "28.54".
+
+:norwegiantippeligaen :hasLeagueTeam :stromsgodset.
+
+:newyorkredbullsii a :LeagueTeam ;
+	:name "New York Red Bulls II".
+:newyorkredbullsii :playsIn :unitedsoccerleague;
+	:rank "478";
+	:prev_rank "501";
+	:offense "1.2";
+	:defense "2.07";
+	:psi "28.54".
+
+:unitedsoccerleague :hasLeagueTeam :newyorkredbullsii.
+
+:laspalmas a :LeagueTeam ;
+	:name "Las Palmas".
+:laspalmas :playsIn :spanishsegundadivision;
+	:rank "479";
+	:prev_rank "471";
+	:offense "0.88";
+	:defense "1.62";
+	:psi "28.5".
+
+:spanishsegundadivision :hasLeagueTeam :laspalmas.
+
+:coloradorapids a :LeagueTeam ;
+	:name "Colorado Rapids".
+:coloradorapids :playsIn :majorleaguesoccer;
+	:rank "480";
+	:prev_rank "487";
+	:offense "1.16";
+	:defense "2.05";
+	:psi "28.14".
+
+:majorleaguesoccer :hasLeagueTeam :coloradorapids.
+
+:hobroik a :LeagueTeam ;
+	:name "Hobro IK".
+:hobroik :playsIn :danishsasligaen;
+	:rank "481";
+	:prev_rank "477";
+	:offense "0.91";
+	:defense "1.69";
+	:psi "28.0".
+
+:danishsasligaen :hasLeagueTeam :hobroik.
+
+:cosenza a :LeagueTeam ;
+	:name "Cosenza".
+:cosenza :playsIn :italyserieb;
+	:rank "482";
+	:prev_rank "479";
+	:offense "0.78";
+	:defense "1.52";
+	:psi "27.82".
+
+:italyserieb :hasLeagueTeam :cosenza.
+
+:grasshopperszürich a :LeagueTeam ;
+	:name "Grasshoppers Zürich".
+:grasshopperszürich :playsIn :swissraiffeisensuperleague;
+	:rank "483";
+	:prev_rank "480";
+	:offense "0.96";
+	:defense "1.78";
+	:psi "27.78".
+
+:swissraiffeisensuperleague :hasLeagueTeam :grasshopperszürich.
+
+:orebrosk a :LeagueTeam ;
+	:name "Orebro SK".
+:orebrosk :playsIn :swedishallsvenskan;
+	:rank "484";
+	:prev_rank "499";
+	:offense "0.99";
+	:defense "1.83";
+	:psi "27.72".
+
+:swedishallsvenskan :hasLeagueTeam :orebrosk.
+
+:tenerife a :LeagueTeam ;
+	:name "Tenerife".
+:tenerife :playsIn :spanishsegundadivision;
+	:rank "485";
+	:prev_rank "484";
+	:offense "0.83";
+	:defense "1.61";
+	:psi "27.66".
+
+:spanishsegundadivision :hasLeagueTeam :tenerife.
+
+:indyeleven a :LeagueTeam ;
+	:name "Indy Eleven".
+:indyeleven :playsIn :unitedsoccerleague;
+	:rank "486";
+	:prev_rank "492";
+	:offense "0.81";
+	:defense "1.58";
+	:psi "27.53".
+
+:unitedsoccerleague :hasLeagueTeam :indyeleven.
+
+:fcstpauli a :LeagueTeam ;
+	:name "FC St. Pauli".
+:fcstpauli :playsIn :german2bundesliga;
+	:rank "487";
+	:prev_rank "481";
+	:offense "0.94";
+	:defense "1.78";
+	:psi "27.53".
+
+:german2bundesliga :hasLeagueTeam :fcstpauli.
+
+:orangecountysc a :LeagueTeam ;
+	:name "Orange County SC".
+:orangecountysc :playsIn :unitedsoccerleague;
+	:rank "488";
+	:prev_rank "482";
+	:offense "1.1";
+	:defense "2.01";
+	:psi "27.45".
+
+:unitedsoccerleague :hasLeagueTeam :orangecountysc.
+
+:chateauroux a :LeagueTeam ;
+	:name "Chateauroux".
+:chateauroux :playsIn :frenchligue2;
+	:rank "489";
+	:prev_rank "485";
+	:offense "0.78";
+	:defense "1.54";
+	:psi "27.37".
+
+:frenchligue2 :hasLeagueTeam :chateauroux.
+
+:lugo a :LeagueTeam ;
+	:name "Lugo".
+:lugo :playsIn :spanishsegundadivision;
+	:rank "490";
+	:prev_rank "478";
+	:offense "0.79";
+	:defense "1.57";
+	:psi "27.29".
+
+:spanishsegundadivision :hasLeagueTeam :lugo.
+
+:vendsyssel a :LeagueTeam ;
+	:name "Vendsyssel".
+:vendsyssel :playsIn :danishsasligaen;
+	:rank "491";
+	:prev_rank "486";
+	:offense "0.87";
+	:defense "1.69";
+	:psi "27.21".
+
+:danishsasligaen :hasLeagueTeam :vendsyssel.
+
+:numancia a :LeagueTeam ;
+	:name "Numancia".
+:numancia :playsIn :spanishsegundadivision;
+	:rank "492";
+	:prev_rank "491";
+	:offense "0.75";
+	:defense "1.51";
+	:psi "27.16".
+
+:spanishsegundadivision :hasLeagueTeam :numancia.
+
+:orléans a :LeagueTeam ;
+	:name "Orléans".
+:orléans :playsIn :frenchligue2;
+	:rank "493";
+	:prev_rank "489";
+	:offense "1.0";
+	:defense "1.9";
+	:psi "26.96".
+
+:frenchligue2 :hasLeagueTeam :orléans.
+
+:erzgebirgeaue a :LeagueTeam ;
+	:name "Erzgebirge Aue".
+:erzgebirgeaue :playsIn :german2bundesliga;
+	:rank "494";
+	:prev_rank "490";
+	:offense "0.85";
+	:defense "1.67";
+	:psi "26.94".
+
+:german2bundesliga :hasLeagueTeam :erzgebirgeaue.
+
+:vejle a :LeagueTeam ;
+	:name "Vejle".
+:vejle :playsIn :danishsasligaen;
+	:rank "495";
+	:prev_rank "493";
+	:offense "0.97";
+	:defense "1.86";
+	:psi "26.82".
+
+:danishsasligaen :hasLeagueTeam :vejle.
+
+:kalmarff a :LeagueTeam ;
+	:name "Kalmar FF".
+:kalmarff :playsIn :swedishallsvenskan;
+	:rank "496";
+	:prev_rank "488";
+	:offense "0.65";
+	:defense "1.38";
+	:psi "26.82".
+
+:swedishallsvenskan :hasLeagueTeam :kalmarff.
+
+:stpölten a :LeagueTeam ;
+	:name "St. Pölten".
+:stpölten :playsIn :austriantmobilebundesliga;
+	:rank "497";
+	:prev_rank "494";
+	:offense "0.88";
+	:defense "1.73";
+	:psi "26.78".
+
+:austriantmobilebundesliga :hasLeagueTeam :stpölten.
+
+:hearts a :LeagueTeam ;
+	:name "Hearts".
+:hearts :playsIn :scottishpremiership;
+	:rank "498";
+	:prev_rank "495";
+	:offense "0.83";
+	:defense "1.65";
+	:psi "26.72".
+
+:scottishpremiership :hasLeagueTeam :hearts.
+
+:asnancylorraine a :LeagueTeam ;
+	:name "AS Nancy Lorraine".
+:asnancylorraine :playsIn :frenchligue2;
+	:rank "499";
+	:prev_rank "497";
+	:offense "0.85";
+	:defense "1.69";
+	:psi "26.62".
+
+:frenchligue2 :hasLeagueTeam :asnancylorraine.
+
+:coventrycity a :LeagueTeam ;
+	:name "Coventry City".
+:coventrycity :playsIn :englishleagueone;
+	:rank "500";
+	:prev_rank "498";
+	:offense "0.85";
+	:defense "1.69";
+	:psi "26.6".
+
+:englishleagueone :hasLeagueTeam :coventrycity.
+
+:oxfordunited a :LeagueTeam ;
+	:name "Oxford United".
+:oxfordunited :playsIn :englishleagueone;
+	:rank "501";
+	:prev_rank "500";
+	:offense "0.89";
+	:defense "1.78";
+	:psi "26.23".
+
+:englishleagueone :hasLeagueTeam :oxfordunited.
+
+:rayomajadahonda a :LeagueTeam ;
+	:name "Rayo Majadahonda".
+:rayomajadahonda :playsIn :spanishsegundadivision;
+	:rank "502";
+	:prev_rank "502";
+	:offense "1.04";
+	:defense "1.99";
+	:psi "26.23".
+
+:spanishsegundadivision :hasLeagueTeam :rayomajadahonda.
+
+:spvgggreutherfürth a :LeagueTeam ;
+	:name "SpVgg Greuther Fürth".
+:spvgggreutherfürth :playsIn :german2bundesliga;
+	:rank "503";
+	:prev_rank "503";
+	:offense "0.83";
+	:defense "1.7";
+	:psi "26.11".
+
+:german2bundesliga :hasLeagueTeam :spvgggreutherfürth.
+
+:cremonese a :LeagueTeam ;
+	:name "Cremonese".
+:cremonese :playsIn :italyserieb;
+	:rank "504";
+	:prev_rank "505";
+	:offense "0.65";
+	:defense "1.44";
+	:psi "25.88".
+
+:italyserieb :hasLeagueTeam :cremonese.
+
+:ranheim a :LeagueTeam ;
+	:name "Ranheim".
+:ranheim :playsIn :norwegiantippeligaen;
+	:rank "505";
+	:prev_rank "506";
+	:offense "0.97";
+	:defense "1.92";
+	:psi "25.83".
+
+:norwegiantippeligaen :hasLeagueTeam :ranheim.
+
+:veracruz a :LeagueTeam ;
+	:name "Veracruz".
+:veracruz :playsIn :mexicanprimeradivisiontorneoclausura;
+	:rank "506";
+	:prev_rank "507";
+	:offense "0.88";
+	:defense "1.8";
+	:psi "25.8".
+
+:mexicanprimeradivisiontorneoclausura :hasLeagueTeam :veracruz.
+
+:peterboroughunited a :LeagueTeam ;
+	:name "Peterborough United".
+:peterboroughunited :playsIn :englishleagueone;
+	:rank "507";
+	:prev_rank "508";
+	:offense "0.92";
+	:defense "1.86";
+	:psi "25.79".
+
+:englishleagueone :hasLeagueTeam :peterboroughunited.
+
+:anzhimakhachkala a :LeagueTeam ;
+	:name "Anzhi Makhachkala".
+:anzhimakhachkala :playsIn :russianpremierliga;
+	:rank "508";
+	:prev_rank "509";
+	:offense "0.69";
+	:defense "1.51";
+	:psi "25.72".
+
+:russianpremierliga :hasLeagueTeam :anzhimakhachkala.
+
+:foggia a :LeagueTeam ;
+	:name "Foggia".
+:foggia :playsIn :italyserieb;
+	:rank "509";
+	:prev_rank "510";
+	:offense "0.8";
+	:defense "1.68";
+	:psi "25.7".
+
+:italyserieb :hasLeagueTeam :foggia.
+
+:jubiloiwata a :LeagueTeam ;
+	:name "Jubilo Iwata".
+:jubiloiwata :playsIn :japanesejleague;
+	:rank "510";
+	:prev_rank "511";
+	:offense "0.69";
+	:defense "1.51";
+	:psi "25.67".
+
+:japanesejleague :hasLeagueTeam :jubiloiwata.
+
+:kaizerchiefs a :LeagueTeam ;
+	:name "Kaizer Chiefs".
+:kaizerchiefs :playsIn :southafricanabsapremierleague;
+	:rank "511";
+	:prev_rank "513";
+	:offense "0.6";
+	:defense "1.38";
+	:psi "25.43".
+
+:southafricanabsapremierleague :hasLeagueTeam :kaizerchiefs.
+
+:fortunasittard a :LeagueTeam ;
+	:name "Fortuna Sittard".
+:fortunasittard :playsIn :dutcheredivisie;
+	:rank "512";
+	:prev_rank "514";
+	:offense "1.23";
+	:defense "2.33";
+	:psi "25.39".
+
+:dutcheredivisie :hasLeagueTeam :fortunasittard.
+
+:highlandsparkfc a :LeagueTeam ;
+	:name "Highlands Park FC".
+:highlandsparkfc :playsIn :southafricanabsapremierleague;
+	:rank "513";
+	:prev_rank "515";
+	:offense "0.7";
+	:defense "1.55";
+	:psi "25.25".
+
+:southafricanabsapremierleague :hasLeagueTeam :highlandsparkfc.
+
+:polokwanecityfc a :LeagueTeam ;
+	:name "Polokwane City FC".
+:polokwanecityfc :playsIn :southafricanabsapremierleague;
+	:rank "514";
+	:prev_rank "516";
+	:offense "0.79";
+	:defense "1.7";
+	:psi "25.18".
+
+:southafricanabsapremierleague :hasLeagueTeam :polokwanecityfc.
+
+:vikingfk a :LeagueTeam ;
+	:name "Viking FK".
+:vikingfk :playsIn :norwegiantippeligaen;
+	:rank "515";
+	:prev_rank "517";
+	:offense "0.89";
+	:defense "1.84";
+	:psi "25.11".
+
+:norwegiantippeligaen :hasLeagueTeam :vikingfk.
+
+:iksirius a :LeagueTeam ;
+	:name "IK Sirius".
+:iksirius :playsIn :swedishallsvenskan;
+	:rank "516";
+	:prev_rank "496";
+	:offense "1.0";
+	:defense "2.03";
+	:psi "24.94".
+
+:swedishallsvenskan :hasLeagueTeam :iksirius.
+
+:msvduisburg a :LeagueTeam ;
+	:name "MSV Duisburg".
+:msvduisburg :playsIn :german2bundesliga;
+	:rank "517";
+	:prev_rank "519";
+	:offense "1.06";
+	:defense "2.13";
+	:psi "24.72".
+
+:german2bundesliga :hasLeagueTeam :msvduisburg.
+
+:motherwell a :LeagueTeam ;
+	:name "Motherwell".
+:motherwell :playsIn :scottishpremiership;
+	:rank "518";
+	:prev_rank "520";
+	:offense "0.91";
+	:defense "1.92";
+	:psi "24.6".
+
+:scottishpremiership :hasLeagueTeam :motherwell.
+
+:valenciennes a :LeagueTeam ;
+	:name "Valenciennes".
+:valenciennes :playsIn :frenchligue2;
+	:rank "519";
+	:prev_rank "521";
+	:offense "1.04";
+	:defense "2.11";
+	:psi "24.58".
+
+:frenchligue2 :hasLeagueTeam :valenciennes.
+
+:sagantosu a :LeagueTeam ;
+	:name "Sagan Tosu".
+:sagantosu :playsIn :japanesejleague;
+	:rank "520";
+	:prev_rank "512";
+	:offense "0.57";
+	:defense "1.4";
+	:psi "24.33".
+
+:japanesejleague :hasLeagueTeam :sagantosu.
+
+:northcarolinafc a :LeagueTeam ;
+	:name "North Carolina FC".
+:northcarolinafc :playsIn :unitedsoccerleague;
+	:rank "521";
+	:prev_rank "518";
+	:offense "0.85";
+	:defense "1.84";
+	:psi "24.23".
+
+:unitedsoccerleague :hasLeagueTeam :northcarolinafc.
+
+:lillestrom a :LeagueTeam ;
+	:name "Lillestrom".
+:lillestrom :playsIn :norwegiantippeligaen;
+	:rank "522";
+	:prev_rank "523";
+	:offense "0.83";
+	:defense "1.82";
+	:psi "24.22".
+
+:norwegiantippeligaen :hasLeagueTeam :lillestrom.
+
+:bloemceltic a :LeagueTeam ;
+	:name "Bloem Celtic".
+:bloemceltic :playsIn :southafricanabsapremierleague;
+	:rank "523";
+	:prev_rank "524";
+	:offense "0.75";
+	:defense "1.69";
+	:psi "24.11".
+
+:southafricanabsapremierleague :hasLeagueTeam :bloemceltic.
+
+:fleetwoodtown a :LeagueTeam ;
+	:name "Fleetwood Town".
+:fleetwoodtown :playsIn :englishleagueone;
+	:rank "524";
+	:prev_rank "525";
+	:offense "0.72";
+	:defense "1.68";
+	:psi "23.79".
+
+:englishleagueone :hasLeagueTeam :fleetwoodtown.
+
+:bristolrovers a :LeagueTeam ;
+	:name "Bristol Rovers".
+:bristolrovers :playsIn :englishleagueone;
+	:rank "525";
+	:prev_rank "526";
+	:offense "0.66";
+	:defense "1.58";
+	:psi "23.71".
+
+:englishleagueone :hasLeagueTeam :bristolrovers.
+
+:helsingborgsif a :LeagueTeam ;
+	:name "Helsingborgs IF".
+:helsingborgsif :playsIn :swedishallsvenskan;
+	:rank "526";
+	:prev_rank "522";
+	:offense "0.8";
+	:defense "1.82";
+	:psi "23.53".
+
+:swedishallsvenskan :hasLeagueTeam :helsingborgsif.
+
+:pittsburghriverhounds a :LeagueTeam ;
+	:name "Pittsburgh Riverhounds".
+:pittsburghriverhounds :playsIn :unitedsoccerleague;
+	:rank "527";
+	:prev_rank "527";
+	:offense "0.79";
+	:defense "1.8";
+	:psi "23.37".
+
+:unitedsoccerleague :hasLeagueTeam :pittsburghriverhounds.
+
+:saintlouisfc a :LeagueTeam ;
+	:name "Saint Louis FC".
+:saintlouisfc :playsIn :unitedsoccerleague;
+	:rank "528";
+	:prev_rank "529";
+	:offense "0.64";
+	:defense "1.58";
+	:psi "23.19".
+
+:unitedsoccerleague :hasLeagueTeam :saintlouisfc.
+
+:stabaek a :LeagueTeam ;
+	:name "Stabaek".
+:stabaek :playsIn :norwegiantippeligaen;
+	:rank "529";
+	:prev_rank "530";
+	:offense "0.84";
+	:defense "1.91";
+	:psi "23.09".
+
+:norwegiantippeligaen :hasLeagueTeam :stabaek.
+
+:uspescara a :LeagueTeam ;
+	:name "US Pescara".
+:uspescara :playsIn :italyserieb;
+	:rank "530";
+	:prev_rank "531";
+	:offense "0.76";
+	:defense "1.79";
+	:psi "22.99".
+
+:italyserieb :hasLeagueTeam :uspescara.
+
+:gillingham a :LeagueTeam ;
+	:name "Gillingham".
+:gillingham :playsIn :englishleagueone;
+	:rank "531";
+	:prev_rank "533";
+	:offense "0.84";
+	:defense "1.94";
+	:psi "22.58".
+
+:englishleagueone :hasLeagueTeam :gillingham.
+
+:achorsens a :LeagueTeam ;
+	:name "AC Horsens".
+:achorsens :playsIn :danishsasligaen;
+	:rank "532";
+	:prev_rank "535";
+	:offense "0.77";
+	:defense "1.84";
+	:psi "22.35".
+
+:danishsasligaen :hasLeagueTeam :achorsens.
+
+:auxerre a :LeagueTeam ;
+	:name "Auxerre".
+:auxerre :playsIn :frenchligue2;
+	:rank "533";
+	:prev_rank "536";
+	:offense "0.51";
+	:defense "1.42";
+	:psi "22.32".
+
+:frenchligue2 :hasLeagueTeam :auxerre.
+
+:salernitana a :LeagueTeam ;
+	:name "Salernitana".
+:salernitana :playsIn :italyserieb;
+	:rank "534";
+	:prev_rank "532";
+	:offense "0.76";
+	:defense "1.85";
+	:psi "22.23".
+
+:italyserieb :hasLeagueTeam :salernitana.
+
+:mjondalen a :LeagueTeam ;
+	:name "Mjondalen".
+:mjondalen :playsIn :norwegiantippeligaen;
+	:rank "535";
+	:prev_rank "537";
+	:offense "0.96";
+	:defense "2.16";
+	:psi "22.2".
+
+:norwegiantippeligaen :hasLeagueTeam :mjondalen.
+
+:realmonarchsslc a :LeagueTeam ;
+	:name "Real Monarchs SLC".
+:realmonarchsslc :playsIn :unitedsoccerleague;
+	:rank "536";
+	:prev_rank "538";
+	:offense "1.04";
+	:defense "2.29";
+	:psi "22.09".
+
+:unitedsoccerleague :hasLeagueTeam :realmonarchsslc.
+
+:portlandtimbers2 a :LeagueTeam ;
+	:name "Portland Timbers 2".
+:portlandtimbers2 :playsIn :unitedsoccerleague;
+	:rank "537";
+	:prev_rank "539";
+	:offense "0.93";
+	:defense "2.13";
+	:psi "21.99".
+
+:unitedsoccerleague :hasLeagueTeam :portlandtimbers2.
+
+:brisbaneroar a :LeagueTeam ;
+	:name "Brisbane Roar".
+:brisbaneroar :playsIn :australianaleague;
+	:rank "538";
+	:prev_rank "540";
+	:offense "1.07";
+	:defense "2.35";
+	:psi "21.95".
+
+:australianaleague :hasLeagueTeam :brisbaneroar.
+
+:fresnofc a :LeagueTeam ;
+	:name "Fresno FC".
+:fresnofc :playsIn :unitedsoccerleague;
+	:rank "539";
+	:prev_rank "528";
+	:offense "0.73";
+	:defense "1.82";
+	:psi "21.94".
+
+:unitedsoccerleague :hasLeagueTeam :fresnofc.
+
+:chippaunited a :LeagueTeam ;
+	:name "Chippa United".
+:chippaunited :playsIn :southafricanabsapremierleague;
+	:rank "540";
+	:prev_rank "541";
+	:offense "0.58";
+	:defense "1.56";
+	:psi "21.84".
+
+:southafricanabsapremierleague :hasLeagueTeam :chippaunited.
+
+:reusdeportiu a :LeagueTeam ;
+	:name "Reus Deportiu".
+:reusdeportiu :playsIn :spanishsegundadivision;
+	:rank "541";
+	:prev_rank "542";
+	:offense "0.56";
+	:defense "1.53";
+	:psi "21.75".
+
+:spanishsegundadivision :hasLeagueTeam :reusdeportiu.
+
+:oklahomacityenergyfc a :LeagueTeam ;
+	:name "Oklahoma City Energy FC".
+:oklahomacityenergyfc :playsIn :unitedsoccerleague;
+	:rank "542";
+	:prev_rank "534";
+	:offense "0.76";
+	:defense "1.88";
+	:psi "21.69".
+
+:unitedsoccerleague :hasLeagueTeam :oklahomacityenergyfc.
+
+:livorno a :LeagueTeam ;
+	:name "Livorno".
+:livorno :playsIn :italyserieb;
+	:rank "543";
+	:prev_rank "543";
+	:offense "0.71";
+	:defense "1.8";
+	:psi "21.63".
+
+:italyserieb :hasLeagueTeam :livorno.
+
+:nac a :LeagueTeam ;
+	:name "NAC".
+:nac :playsIn :dutcheredivisie;
+	:rank "544";
+	:prev_rank "544";
+	:offense "0.75";
+	:defense "1.88";
+	:psi "21.44".
+
+:dutcheredivisie :hasLeagueTeam :nac.
+
+:grenoble a :LeagueTeam ;
+	:name "Grenoble".
+:grenoble :playsIn :frenchligue2;
+	:rank "545";
+	:prev_rank "545";
+	:offense "0.76";
+	:defense "1.89";
+	:psi "21.41".
+
+:frenchligue2 :hasLeagueTeam :grenoble.
+
+:tromso a :LeagueTeam ;
+	:name "Tromso".
+:tromso :playsIn :norwegiantippeligaen;
+	:rank "546";
+	:prev_rank "546";
+	:offense "0.85";
+	:defense "2.05";
+	:psi "21.35".
+
+:norwegiantippeligaen :hasLeagueTeam :tromso.
+
+:maritzburgutd a :LeagueTeam ;
+	:name "Maritzburg Utd".
+:maritzburgutd :playsIn :southafricanabsapremierleague;
+	:rank "547";
+	:prev_rank "547";
+	:offense "0.54";
+	:defense "1.54";
+	:psi "21.26".
+
+:southafricanabsapremierleague :hasLeagueTeam :maritzburgutd.
+
+:fbcunionevenezia a :LeagueTeam ;
+	:name "F.B.C Unione Venezia".
+:fbcunionevenezia :playsIn :italyserieb;
+	:rank "548";
+	:prev_rank "554";
+	:offense "0.67";
+	:defense "1.76";
+	:psi "21.24".
+
+:italyserieb :hasLeagueTeam :fbcunionevenezia.
+
+:supersportunited a :LeagueTeam ;
+	:name "SuperSport United".
+:supersportunited :playsIn :southafricanabsapremierleague;
+	:rank "549";
+	:prev_rank "548";
+	:offense "0.53";
+	:defense "1.52";
+	:psi "21.2".
+
+:southafricanabsapremierleague :hasLeagueTeam :supersportunited.
+
+:ottawafuryfc a :LeagueTeam ;
+	:name "Ottawa Fury FC".
+:ottawafuryfc :playsIn :unitedsoccerleague;
+	:rank "550";
+	:prev_rank "573";
+	:offense "0.63";
+	:defense "1.7";
+	:psi "21.11".
+
+:unitedsoccerleague :hasLeagueTeam :ottawafuryfc.
+
+:amazulu a :LeagueTeam ;
+	:name "AmaZulu".
+:amazulu :playsIn :southafricanabsapremierleague;
+	:rank "551";
+	:prev_rank "549";
+	:offense "0.69";
+	:defense "1.81";
+	:psi "21.08".
+
+:southafricanabsapremierleague :hasLeagueTeam :amazulu.
+
+:sacramentorepublicfc a :LeagueTeam ;
+	:name "Sacramento Republic FC".
+:sacramentorepublicfc :playsIn :unitedsoccerleague;
+	:rank "552";
+	:prev_rank "559";
+	:offense "0.76";
+	:defense "1.93";
+	:psi "21.05".
+
+:unitedsoccerleague :hasLeagueTeam :sacramentorepublicfc.
+
+:goldenarrows a :LeagueTeam ;
+	:name "Golden Arrows".
+:goldenarrows :playsIn :southafricanabsapremierleague;
+	:rank "553";
+	:prev_rank "550";
+	:offense "0.52";
+	:defense "1.52";
+	:psi "21.02".
+
+:southafricanabsapremierleague :hasLeagueTeam :goldenarrows.
+
+:livingston a :LeagueTeam ;
+	:name "Livingston".
+:livingston :playsIn :scottishpremiership;
+	:rank "554";
+	:prev_rank "552";
+	:offense "0.74";
+	:defense "1.9";
+	:psi "20.9".
+
+:scottishpremiership :hasLeagueTeam :livingston.
+
+:shrewsburytown a :LeagueTeam ;
+	:name "Shrewsbury Town".
+:shrewsburytown :playsIn :englishleagueone;
+	:rank "555";
+	:prev_rank "555";
+	:offense "0.62";
+	:defense "1.72";
+	:psi "20.67".
+
+:englishleagueone :hasLeagueTeam :shrewsburytown.
+
+:padova a :LeagueTeam ;
+	:name "Padova".
+:padova :playsIn :italyserieb;
+	:rank "556";
+	:prev_rank "556";
+	:offense "0.64";
+	:defense "1.74";
+	:psi "20.66".
+
+:italyserieb :hasLeagueTeam :padova.
+
+:levadiakos a :LeagueTeam ;
+	:name "Levadiakos".
+:levadiakos :playsIn :greeksuperleague;
+	:rank "557";
+	:prev_rank "557";
+	:offense "0.49";
+	:defense "1.48";
+	:psi "20.65".
+
+:greeksuperleague :hasLeagueTeam :levadiakos.
+
+:accringtonstanley a :LeagueTeam ;
+	:name "Accrington Stanley".
+:accringtonstanley :playsIn :englishleagueone;
+	:rank "558";
+	:prev_rank "558";
+	:offense "0.66";
+	:defense "1.79";
+	:psi "20.62".
+
+:englishleagueone :hasLeagueTeam :accringtonstanley.
+
+:beziersas a :LeagueTeam ;
+	:name "Beziers AS".
+:beziersas :playsIn :frenchligue2;
+	:rank "559";
+	:prev_rank "560";
+	:offense "0.66";
+	:defense "1.82";
+	:psi "20.29".
+
+:frenchligue2 :hasLeagueTeam :beziersas.
+
+:blackpool a :LeagueTeam ;
+	:name "Blackpool".
+:blackpool :playsIn :englishleagueone;
+	:rank "560";
+	:prev_rank "561";
+	:offense "0.65";
+	:defense "1.81";
+	:psi "20.11".
+
+:englishleagueone :hasLeagueTeam :blackpool.
+
+:cordoba a :LeagueTeam ;
+	:name "Cordoba".
+:cordoba :playsIn :spanishsegundadivision;
+	:rank "561";
+	:prev_rank "567";
+	:offense "0.98";
+	:defense "2.36";
+	:psi "20.02".
+
+:spanishsegundadivision :hasLeagueTeam :cordoba.
+
+:stjohnstone a :LeagueTeam ;
+	:name "St Johnstone".
+:stjohnstone :playsIn :scottishpremiership;
+	:rank "562";
+	:prev_rank "562";
+	:offense "0.58";
+	:defense "1.7";
+	:psi "19.97".
+
+:scottishpremiership :hasLeagueTeam :stjohnstone.
+
+:ascoli a :LeagueTeam ;
+	:name "Ascoli".
+:ascoli :playsIn :italyserieb;
+	:rank "563";
+	:prev_rank "563";
+	:offense "0.67";
+	:defense "1.87";
+	:psi "19.73".
+
+:italyserieb :hasLeagueTeam :ascoli.
+
+:austinboldfc a :LeagueTeam ;
+	:name "Austin Bold FC".
+:austinboldfc :playsIn :unitedsoccerleague;
+	:rank "564";
+	:prev_rank "576";
+	:offense "0.65";
+	:defense "1.84";
+	:psi "19.6".
+
+:unitedsoccerleague :hasLeagueTeam :austinboldfc.
+
+:charlestonbattery a :LeagueTeam ;
+	:name "Charleston Battery".
+:charlestonbattery :playsIn :unitedsoccerleague;
+	:rank "565";
+	:prev_rank "551";
+	:offense "0.66";
+	:defense "1.87";
+	:psi "19.59".
+
+:unitedsoccerleague :hasLeagueTeam :charlestonbattery.
+
+:stmirren a :LeagueTeam ;
+	:name "St Mirren".
+:stmirren :playsIn :scottishpremiership;
+	:rank "566";
+	:prev_rank "564";
+	:offense "0.73";
+	:defense "1.98";
+	:psi "19.54".
+
+:scottishpremiership :hasLeagueTeam :stmirren.
+
+:mansfieldtown a :LeagueTeam ;
+	:name "Mansfield Town".
+:mansfieldtown :playsIn :englishleaguetwo;
+	:rank "567";
+	:prev_rank "565";
+	:offense "0.62";
+	:defense "1.8";
+	:psi "19.48".
+
+:englishleaguetwo a :League ;
+	:name "English League Two".
+:englishleaguetwo :hasLeagueTeam :mansfieldtown.
+
+:sochaux a :LeagueTeam ;
+	:name "Sochaux".
+:sochaux :playsIn :frenchligue2;
+	:rank "568";
+	:prev_rank "566";
+	:offense "0.5";
+	:defense "1.59";
+	:psi "19.36".
+
+:frenchligue2 :hasLeagueTeam :sochaux.
+
+:adalcorcon a :LeagueTeam ;
+	:name "AD Alcorcon".
+:adalcorcon :playsIn :spanishsegundadivision;
+	:rank "569";
+	:prev_rank "553";
+	:offense "0.45";
+	:defense "1.52";
+	:psi "19.21".
+
+:spanishsegundadivision :hasLeagueTeam :adalcorcon.
+
+:barokafc a :LeagueTeam ;
+	:name "Baroka FC".
+:barokafc :playsIn :southafricanabsapremierleague;
+	:rank "570";
+	:prev_rank "568";
+	:offense "0.56";
+	:defense "1.72";
+	:psi "19.06".
+
+:southafricanabsapremierleague :hasLeagueTeam :barokafc.
+
+:niort a :LeagueTeam ;
+	:name "Niort".
+:niort :playsIn :frenchligue2;
+	:rank "571";
+	:prev_rank "569";
+	:offense "0.5";
+	:defense "1.61";
+	:psi "19.02".
+
+:frenchligue2 :hasLeagueTeam :niort.
+
+:freestatestars a :LeagueTeam ;
+	:name "Free State Stars".
+:freestatestars :playsIn :southafricanabsapremierleague;
+	:rank "572";
+	:prev_rank "570";
+	:offense "0.64";
+	:defense "1.88";
+	:psi "18.99".
+
+:southafricanabsapremierleague :hasLeagueTeam :freestatestars.
+
+:bury a :LeagueTeam ;
+	:name "Bury".
+:bury :playsIn :englishleaguetwo;
+	:rank "573";
+	:prev_rank "571";
+	:offense "0.81";
+	:defense "2.19";
+	:psi "18.75".
+
+:englishleaguetwo :hasLeagueTeam :bury.
+
+:centralcoastmariners a :LeagueTeam ;
+	:name "Central Coast Mariners".
+:centralcoastmariners :playsIn :australianaleague;
+	:rank "574";
+	:prev_rank "572";
+	:offense "0.89";
+	:defense "2.33";
+	:psi "18.75".
+
+:australianaleague :hasLeagueTeam :centralcoastmariners.
+
+:gimnástictarragona a :LeagueTeam ;
+	:name "Gimnástic Tarragona".
+:gimnástictarragona :playsIn :spanishsegundadivision;
+	:rank "575";
+	:prev_rank "583";
+	:offense "0.6";
+	:defense "1.83";
+	:psi "18.71".
+
+:spanishsegundadivision :hasLeagueTeam :gimnástictarragona.
+
+:elpasolocomotivefc a :LeagueTeam ;
+	:name "El Paso Locomotive FC".
+:elpasolocomotivefc :playsIn :unitedsoccerleague;
+	:rank "576";
+	:prev_rank "574";
+	:offense "0.62";
+	:defense "1.86";
+	:psi "18.66".
+
+:unitedsoccerleague :hasLeagueTeam :elpasolocomotivefc.
+
+:afcwimbledon a :LeagueTeam ;
+	:name "AFC Wimbledon".
+:afcwimbledon :playsIn :englishleagueone;
+	:rank "577";
+	:prev_rank "575";
+	:offense "0.54";
+	:defense "1.74";
+	:psi "18.4".
+
+:englishleagueone :hasLeagueTeam :afcwimbledon.
+
+:carpi a :LeagueTeam ;
+	:name "Carpi".
+:carpi :playsIn :italyserieb;
+	:rank "578";
+	:prev_rank "577";
+	:offense "0.73";
+	:defense "2.13";
+	:psi "17.89".
+
+:italyserieb :hasLeagueTeam :carpi.
+
+:acajaccio a :LeagueTeam ;
+	:name "AC Ajaccio".
+:acajaccio :playsIn :frenchligue2;
+	:rank "579";
+	:prev_rank "578";
+	:offense "0.42";
+	:defense "1.57";
+	:psi "17.84".
+
+:frenchligue2 :hasLeagueTeam :acajaccio.
+
+:wycombewanderers a :LeagueTeam ;
+	:name "Wycombe Wanderers".
+:wycombewanderers :playsIn :englishleagueone;
+	:rank "580";
+	:prev_rank "579";
+	:offense "0.63";
+	:defense "1.95";
+	:psi "17.79".
+
+:englishleagueone :hasLeagueTeam :wycombewanderers.
+
+:matsumotoyamagafc a :LeagueTeam ;
+	:name "Matsumoto Yamaga FC".
+:matsumotoyamagafc :playsIn :japanesejleague;
+	:rank "581";
+	:prev_rank "582";
+	:offense "0.47";
+	:defense "1.67";
+	:psi "17.67".
+
+:japanesejleague :hasLeagueTeam :matsumotoyamagafc.
+
+:southendunited a :LeagueTeam ;
+	:name "Southend United".
+:southendunited :playsIn :englishleagueone;
+	:rank "582";
+	:prev_rank "580";
+	:offense "0.7";
+	:defense "2.08";
+	:psi "17.63".
+
+:englishleagueone :hasLeagueTeam :southendunited.
+
+:sanantoniofc a :LeagueTeam ;
+	:name "San Antonio FC".
+:sanantoniofc :playsIn :unitedsoccerleague;
+	:rank "583";
+	:prev_rank "581";
+	:offense "0.67";
+	:defense "2.05";
+	:psi "17.35".
+
+:unitedsoccerleague :hasLeagueTeam :sanantoniofc.
+
+:riograndevalleyfctoros a :LeagueTeam ;
+	:name "Rio Grande Valley FC Toros".
+:riograndevalleyfctoros :playsIn :unitedsoccerleague;
+	:rank "584";
+	:prev_rank "584";
+	:offense "0.72";
+	:defense "2.18";
+	:psi "17.02".
+
+:unitedsoccerleague :hasLeagueTeam :riograndevalleyfctoros.
+
+:falkenbergsff a :LeagueTeam ;
+	:name "Falkenbergs FF".
+:falkenbergsff :playsIn :swedishallsvenskan;
+	:rank "585";
+	:prev_rank "585";
+	:offense "0.54";
+	:defense "1.89";
+	:psi "16.56".
+
+:swedishallsvenskan :hasLeagueTeam :falkenbergsff.
+
+:stevenage a :LeagueTeam ;
+	:name "Stevenage".
+:stevenage :playsIn :englishleaguetwo;
+	:rank "586";
+	:prev_rank "586";
+	:offense "0.59";
+	:defense "1.99";
+	:psi "16.37".
+
+:englishleaguetwo :hasLeagueTeam :stevenage.
+
+:apollonsmyrni a :LeagueTeam ;
+	:name "Apollon Smyrni".
+:apollonsmyrni :playsIn :greeksuperleague;
+	:rank "587";
+	:prev_rank "587";
+	:offense "0.46";
+	:defense "1.76";
+	:psi "16.35".
+
+:greeksuperleague :hasLeagueTeam :apollonsmyrni.
+
+:miltonkeynesdons a :LeagueTeam ;
+	:name "Milton Keynes Dons".
+:miltonkeynesdons :playsIn :englishleaguetwo;
+	:rank "588";
+	:prev_rank "588";
+	:offense "0.63";
+	:defense "2.08";
+	:psi "16.3".
+
+:englishleaguetwo :hasLeagueTeam :miltonkeynesdons.
+
+:lincolncity a :LeagueTeam ;
+	:name "Lincoln City".
+:lincolncity :playsIn :englishleaguetwo;
+	:rank "589";
+	:prev_rank "589";
+	:offense "0.48";
+	:defense "1.81";
+	:psi "16.27".
+
+:englishleaguetwo :hasLeagueTeam :lincolncity.
+
+:forestgreenrovers a :LeagueTeam ;
+	:name "Forest Green Rovers".
+:forestgreenrovers :playsIn :englishleaguetwo;
+	:rank "590";
+	:prev_rank "590";
+	:offense "0.54";
+	:defense "1.92";
+	:psi "16.11".
+
+:englishleaguetwo :hasLeagueTeam :forestgreenrovers.
+
+:crewealexandra a :LeagueTeam ;
+	:name "Crewe Alexandra".
+:crewealexandra :playsIn :englishleaguetwo;
+	:rank "591";
+	:prev_rank "592";
+	:offense "0.68";
+	:defense "2.24";
+	:psi "15.61".
+
+:englishleaguetwo :hasLeagueTeam :crewealexandra.
+
+:redstarfc93 a :LeagueTeam ;
+	:name "Red Star FC 93".
+:redstarfc93 :playsIn :frenchligue2;
+	:rank "592";
+	:prev_rank "593";
+	:offense "0.51";
+	:defense "1.91";
+	:psi "15.6".
+
+:frenchligue2 :hasLeagueTeam :redstarfc93.
+
+:blackleopards a :LeagueTeam ;
+	:name "Black Leopards".
+:blackleopards :playsIn :southafricanabsapremierleague;
+	:rank "593";
+	:prev_rank "594";
+	:offense "0.54";
+	:defense "1.98";
+	:psi "15.54".
+
+:southafricanabsapremierleague :hasLeagueTeam :blackleopards.
+
+:swindontown a :LeagueTeam ;
+	:name "Swindon Town".
+:swindontown :playsIn :englishleaguetwo;
+	:rank "594";
+	:prev_rank "596";
+	:offense "0.54";
+	:defense "2.01";
+	:psi "15.28".
+
+:englishleaguetwo :hasLeagueTeam :swindontown.
+
+:gfcajaccio a :LeagueTeam ;
+	:name "GFC Ajaccio".
+:gfcajaccio :playsIn :frenchligue2;
+	:rank "595";
+	:prev_rank "597";
+	:offense "0.48";
+	:defense "1.9";
+	:psi "15.15".
+
+:frenchligue2 :hasLeagueTeam :gfcajaccio.
+
+:walsall a :LeagueTeam ;
+	:name "Walsall".
+:walsall :playsIn :englishleagueone;
+	:rank "596";
+	:prev_rank "599";
+	:offense "0.56";
+	:defense "2.05";
+	:psi "15.07".
+
+:englishleagueone :hasLeagueTeam :walsall.
+
+:oldhamathletic a :LeagueTeam ;
+	:name "Oldham Athletic".
+:oldhamathletic :playsIn :englishleaguetwo;
+	:rank "597";
+	:prev_rank "600";
+	:offense "0.65";
+	:defense "2.23";
+	:psi "15.01".
+
+:englishleaguetwo :hasLeagueTeam :oldhamathletic.
+
+:northamptontown a :LeagueTeam ;
+	:name "Northampton Town".
+:northamptontown :playsIn :englishleaguetwo;
+	:rank "598";
+	:prev_rank "601";
+	:offense "0.71";
+	:defense "2.35";
+	:psi "14.87".
+
+:englishleaguetwo :hasLeagueTeam :northamptontown.
+
+:tulsaroughnecks a :LeagueTeam ;
+	:name "Tulsa Roughnecks".
+:tulsaroughnecks :playsIn :unitedsoccerleague;
+	:rank "599";
+	:prev_rank "598";
+	:offense "0.73";
+	:defense "2.39";
+	:psi "14.86".
+
+:unitedsoccerleague :hasLeagueTeam :tulsaroughnecks.
+
+:vasbyunited a :LeagueTeam ;
+	:name "Vasby United".
+:vasbyunited :playsIn :swedishallsvenskan;
+	:rank "600";
+	:prev_rank "591";
+	:offense "0.52";
+	:defense "2.0";
+	:psi "14.71".
+
+:swedishallsvenskan :hasLeagueTeam :vasbyunited.
+
+:rochdale a :LeagueTeam ;
+	:name "Rochdale".
+:rochdale :playsIn :englishleagueone;
+	:rank "601";
+	:prev_rank "603";
+	:offense "0.6";
+	:defense "2.18";
+	:psi "14.66".
+
+:englishleagueone :hasLeagueTeam :rochdale.
+
+:lagalaxyii a :LeagueTeam ;
+	:name "LA Galaxy II".
+:lagalaxyii :playsIn :unitedsoccerleague;
+	:rank "602";
+	:prev_rank "604";
+	:offense "0.77";
+	:defense "2.5";
+	:psi "14.62".
+
+:unitedsoccerleague :hasLeagueTeam :lagalaxyii.
+
+:tranmererovers a :LeagueTeam ;
+	:name "Tranmere Rovers".
+:tranmererovers :playsIn :englishleaguetwo;
+	:rank "603";
+	:prev_rank "605";
+	:offense "0.39";
+	:defense "1.78";
+	:psi "14.43".
+
+:englishleaguetwo :hasLeagueTeam :tranmererovers.
+
+:plymouthargyle a :LeagueTeam ;
+	:name "Plymouth Argyle".
+:plymouthargyle :playsIn :englishleagueone;
+	:rank "604";
+	:prev_rank "606";
+	:offense "0.69";
+	:defense "2.39";
+	:psi "14.18".
+
+:englishleagueone :hasLeagueTeam :plymouthargyle.
+
+:lasvegaslightsfc a :LeagueTeam ;
+	:name "Las Vegas Lights FC".
+:lasvegaslightsfc :playsIn :unitedsoccerleague;
+	:rank "605";
+	:prev_rank "595";
+	:offense "0.67";
+	:defense "2.39";
+	:psi "13.76".
+
+:unitedsoccerleague :hasLeagueTeam :lasvegaslightsfc.
+
+:charlotteindependence a :LeagueTeam ;
+	:name "Charlotte Independence".
+:charlotteindependence :playsIn :unitedsoccerleague;
+	:rank "606";
+	:prev_rank "602";
+	:offense "0.63";
+	:defense "2.32";
+	:psi "13.69".
+
+:unitedsoccerleague :hasLeagueTeam :charlotteindependence.
+
+:bradfordcity a :LeagueTeam ;
+	:name "Bradford City".
+:bradfordcity :playsIn :englishleagueone;
+	:rank "607";
+	:prev_rank "608";
+	:offense "0.55";
+	:defense "2.19";
+	:psi "13.49".
+
+:englishleagueone :hasLeagueTeam :bradfordcity.
+
+:exetercity a :LeagueTeam ;
+	:name "Exeter City".
+:exetercity :playsIn :englishleaguetwo;
+	:rank "608";
+	:prev_rank "609";
+	:offense "0.41";
+	:defense "1.93";
+	:psi "13.19".
+
+:englishleaguetwo :hasLeagueTeam :exetercity.
+
+:colchesterunited a :LeagueTeam ;
+	:name "Colchester United".
+:colchesterunited :playsIn :englishleaguetwo;
+	:rank "609";
+	:prev_rank "610";
+	:offense "0.45";
+	:defense "2.01";
+	:psi "13.18".
+
+:englishleaguetwo :hasLeagueTeam :colchesterunited.
+
+:newportcounty a :LeagueTeam ;
+	:name "Newport County".
+:newportcounty :playsIn :englishleaguetwo;
+	:rank "610";
+	:prev_rank "612";
+	:offense "0.31";
+	:defense "1.73";
+	:psi "12.89".
+
+:englishleaguetwo :hasLeagueTeam :newportcounty.
+
+:carlisleunited a :LeagueTeam ;
+	:name "Carlisle United".
+:carlisleunited :playsIn :englishleaguetwo;
+	:rank "611";
+	:prev_rank "613";
+	:offense "0.58";
+	:defense "2.34";
+	:psi "12.77".
+
+:englishleaguetwo :hasLeagueTeam :carlisleunited.
+
+:scunthorpe a :LeagueTeam ;
+	:name "Scunthorpe".
+:scunthorpe :playsIn :englishleagueone;
+	:rank "612";
+	:prev_rank "614";
+	:offense "0.55";
+	:defense "2.3";
+	:psi "12.47".
+
+:englishleagueone :hasLeagueTeam :scunthorpe.
+
+:swopeparkrangers a :LeagueTeam ;
+	:name "Swope Park Rangers".
+:swopeparkrangers :playsIn :unitedsoccerleague;
+	:rank "613";
+	:prev_rank "611";
+	:offense "0.71";
+	:defense "2.63";
+	:psi "12.29".
+
+:unitedsoccerleague :hasLeagueTeam :swopeparkrangers.
+
+:hamiltonacademical a :LeagueTeam ;
+	:name "Hamilton Academical".
+:hamiltonacademical :playsIn :scottishpremiership;
+	:rank "614";
+	:prev_rank "616";
+	:offense "0.52";
+	:defense "2.27";
+	:psi "12.25".
+
+:scottishpremiership :hasLeagueTeam :hamiltonacademical.
+
+:bethlehemsteelfc a :LeagueTeam ;
+	:name "Bethlehem Steel FC".
+:bethlehemsteelfc :playsIn :unitedsoccerleague;
+	:rank "615";
+	:prev_rank "607";
+	:offense "0.6";
+	:defense "2.46";
+	:psi "12.06".
+
+:unitedsoccerleague :hasLeagueTeam :bethlehemsteelfc.
+
+:dundee a :LeagueTeam ;
+	:name "Dundee".
+:dundee :playsIn :scottishpremiership;
+	:rank "616";
+	:prev_rank "617";
+	:offense "0.55";
+	:defense "2.37";
+	:psi "11.9".
+
+:scottishpremiership :hasLeagueTeam :dundee.
+
+:cheltenhamtown a :LeagueTeam ;
+	:name "Cheltenham Town".
+:cheltenhamtown :playsIn :englishleaguetwo;
+	:rank "617";
+	:prev_rank "618";
+	:offense "0.54";
+	:defense "2.36";
+	:psi "11.82".
+
+:englishleaguetwo :hasLeagueTeam :cheltenhamtown.
+
+:memphis901fc a :LeagueTeam ;
+	:name "Memphis 901 FC".
+:memphis901fc :playsIn :unitedsoccerleague;
+	:rank "618";
+	:prev_rank "619";
+	:offense "0.4";
+	:defense "2.12";
+	:psi "11.32".
+
+:unitedsoccerleague :hasLeagueTeam :memphis901fc.
+
+:morecambe a :LeagueTeam ;
+	:name "Morecambe".
+:morecambe :playsIn :englishleaguetwo;
+	:rank "619";
+	:prev_rank "620";
+	:offense "0.47";
+	:defense "2.26";
+	:psi "11.29".
+
+:englishleaguetwo :hasLeagueTeam :morecambe.
+
+:loudoununitedfc a :LeagueTeam ;
+	:name "Loudoun United FC".
+:loudoununitedfc :playsIn :unitedsoccerleague;
+	:rank "620";
+	:prev_rank "621";
+	:offense "0.45";
+	:defense "2.25";
+	:psi "11.1".
+
+:unitedsoccerleague :hasLeagueTeam :loudoununitedfc.
+
+:birminghamlegionfc a :LeagueTeam ;
+	:name "Birmingham Legion FC".
+:birminghamlegionfc :playsIn :unitedsoccerleague;
+	:rank "621";
+	:prev_rank "615";
+	:offense "0.4";
+	:defense "2.14";
+	:psi "11.02".
+
+:unitedsoccerleague :hasLeagueTeam :birminghamlegionfc.
+
+:coloradospringsswitchbacksfc a :LeagueTeam ;
+	:name "Colorado Springs Switchbacks FC".
+:coloradospringsswitchbacksfc :playsIn :unitedsoccerleague;
+	:rank "622";
+	:prev_rank "623";
+	:offense "0.32";
+	:defense "2.06";
+	:psi "10.17".
+
+:unitedsoccerleague :hasLeagueTeam :coloradospringsswitchbacksfc.
+
+:hartfordathletic a :LeagueTeam ;
+	:name "Hartford Athletic".
+:hartfordathletic :playsIn :unitedsoccerleague;
+	:rank "623";
+	:prev_rank "622";
+	:offense "0.44";
+	:defense "2.35";
+	:psi "10.0".
+
+:unitedsoccerleague :hasLeagueTeam :hartfordathletic.
+
+:atlantaunited2 a :LeagueTeam ;
+	:name "Atlanta United 2".
+:atlantaunited2 :playsIn :unitedsoccerleague;
+	:rank "624";
+	:prev_rank "624";
+	:offense "0.34";
+	:defense "2.26";
+	:psi "9.08".
+
+:unitedsoccerleague :hasLeagueTeam :atlantaunited2.
+
+:macclesfield a :LeagueTeam ;
+	:name "Macclesfield".
+:macclesfield :playsIn :englishleaguetwo;
+	:rank "625";
+	:prev_rank "625";
+	:offense "0.33";
+	:defense "2.32";
+	:psi "8.39".
+
+:englishleaguetwo :hasLeagueTeam :macclesfield.
+
+:crawleytown a :LeagueTeam ;
+	:name "Crawley Town".
+:crawleytown :playsIn :englishleaguetwo;
+	:rank "626";
+	:prev_rank "626";
+	:offense "0.33";
+	:defense "2.38";
+	:psi "8.08".
+
+:englishleaguetwo :hasLeagueTeam :crawleytown.
+
+:portvale a :LeagueTeam ;
+	:name "Port Vale".
+:portvale :playsIn :englishleaguetwo;
+	:rank "627";
+	:prev_rank "627";
+	:offense "0.2";
+	:defense "2.05";
+	:psi "7.91".
+
+:englishleaguetwo :hasLeagueTeam :portvale.
+
+:grimsbytown a :LeagueTeam ;
+	:name "Grimsby Town".
+:grimsbytown :playsIn :englishleaguetwo;
+	:rank "628";
+	:prev_rank "628";
+	:offense "0.2";
+	:defense "2.08";
+	:psi "7.75".
+
+:englishleaguetwo :hasLeagueTeam :grimsbytown.
+
+:cambridgeunited a :LeagueTeam ;
+	:name "Cambridge United".
+:cambridgeunited :playsIn :englishleaguetwo;
+	:rank "629";
+	:prev_rank "629";
+	:offense "0.2";
+	:defense "2.12";
+	:psi "7.46".
+
+:englishleaguetwo :hasLeagueTeam :cambridgeunited.
+
+:nottscounty a :LeagueTeam ;
+	:name "Notts County".
+:nottscounty :playsIn :englishleaguetwo;
+	:rank "630";
+	:prev_rank "630";
+	:offense "0.3";
+	:defense "2.57";
+	:psi "6.48".
+
+:englishleaguetwo :hasLeagueTeam :nottscounty.
+
+:tacomadefiance a :LeagueTeam ;
+	:name "Tacoma Defiance".
+:tacomadefiance :playsIn :unitedsoccerleague;
+	:rank "631";
+	:prev_rank "631";
+	:offense "0.33";
+	:defense "2.84";
+	:psi "5.51".
+
+:unitedsoccerleague :hasLeagueTeam :tacomadefiance.
+
+:yeoviltown a :LeagueTeam ;
+	:name "Yeovil Town".
+:yeoviltown :playsIn :englishleaguetwo;
+	:rank "632";
+	:prev_rank "632";
+	:offense "0.2";
+	:defense "2.49";
+	:psi "5.45".
+
+:englishleaguetwo :hasLeagueTeam :yeoviltown.
+
+:brazil a :CountryTeam ;
+	:name "Brazil".
+:brazil :hasConfederation :conmebol;
+	:rank "1";
+	:offense "2.98";
+	:defense "0.3";
+	:psi "92.14".
+
+:conmebol a :Confederation ;
+	:name "CONMEBOL".
+:conmebol :hasCountryTeam :brazil.
+
+:spain a :CountryTeam ;
+	:name "Spain".
+:spain :hasConfederation :uefa;
+	:rank "2";
+	:offense "3.48";
+	:defense "0.53";
+	:psi "92.05".
+
+:uefa a :Confederation ;
+	:name "UEFA".
+:uefa :hasCountryTeam :spain.
+
+:germany a :CountryTeam ;
+	:name "Germany".
+:germany :hasConfederation :uefa;
+	:rank "3";
+	:offense "2.99";
+	:defense "0.58";
+	:psi "87.92".
+
+:uefa :hasCountryTeam :germany.
+
+:belgium a :CountryTeam ;
+	:name "Belgium".
+:belgium :hasConfederation :uefa;
+	:rank "4";
+	:offense "2.98";
+	:defense "0.58";
+	:psi "87.82".
+
+:uefa :hasCountryTeam :belgium.
+
+:france a :CountryTeam ;
+	:name "France".
+:france :hasConfederation :uefa;
+	:rank "5";
+	:offense "2.74";
+	:defense "0.5";
+	:psi "87.0".
+
+:uefa :hasCountryTeam :france.
+
+:england a :CountryTeam ;
+	:name "England".
+:england :hasConfederation :uefa;
+	:rank "6";
+	:offense "2.58";
+	:defense "0.48";
+	:psi "85.79".
+
+:uefa :hasCountryTeam :england.
+
+:argentina a :CountryTeam ;
+	:name "Argentina".
+:argentina :hasConfederation :conmebol;
+	:rank "7";
+	:offense "2.47";
+	:defense "0.48";
+	:psi "84.68".
+
+:conmebol :hasCountryTeam :argentina.
+
+:netherlands a :CountryTeam ;
+	:name "Netherlands".
+:netherlands :hasConfederation :uefa;
+	:rank "8";
+	:offense "2.67";
+	:defense "0.63";
+	:psi "84.05".
+
+:uefa :hasCountryTeam :netherlands.
+
+:switzerland a :CountryTeam ;
+	:name "Switzerland".
+:switzerland :hasConfederation :uefa;
+	:rank "9";
+	:offense "2.63";
+	:defense "0.71";
+	:psi "82.08".
+
+:uefa :hasCountryTeam :switzerland.
+
+:colombia a :CountryTeam ;
+	:name "Colombia".
+:colombia :hasConfederation :conmebol;
+	:rank "10";
+	:offense "2.24";
+	:defense "0.51";
+	:psi "81.2".
+
+:conmebol :hasCountryTeam :colombia.
+
+:uruguay a :CountryTeam ;
+	:name "Uruguay".
+:uruguay :hasConfederation :conmebol;
+	:rank "11";
+	:offense "2.3";
+	:defense "0.57";
+	:psi "80.94".
+
+:conmebol :hasCountryTeam :uruguay.
+
+:portugal a :CountryTeam ;
+	:name "Portugal".
+:portugal :hasConfederation :uefa;
+	:rank "12";
+	:offense "2.32";
+	:defense "0.6";
+	:psi "80.53".
+
+:uefa :hasCountryTeam :portugal.
+
+:italy a :CountryTeam ;
+	:name "Italy".
+:italy :hasConfederation :uefa;
+	:rank "13";
+	:offense "2.13";
+	:defense "0.5";
+	:psi "80.15".
+
+:uefa :hasCountryTeam :italy.
+
+:croatia a :CountryTeam ;
+	:name "Croatia".
+:croatia :hasConfederation :uefa;
+	:rank "14";
+	:offense "2.46";
+	:defense "0.75";
+	:psi "79.12".
+
+:uefa :hasCountryTeam :croatia.
+
+:chile a :CountryTeam ;
+	:name "Chile".
+:chile :hasConfederation :conmebol;
+	:rank "15";
+	:offense "2.32";
+	:defense "0.72";
+	:psi "77.99".
+
+:conmebol :hasCountryTeam :chile.
+
+:sweden a :CountryTeam ;
+	:name "Sweden".
+:sweden :hasConfederation :uefa;
+	:rank "16";
+	:offense "2.16";
+	:defense "0.69";
+	:psi "76.31".
+
+:uefa :hasCountryTeam :sweden.
+
+:serbia a :CountryTeam ;
+	:name "Serbia".
+:serbia :hasConfederation :uefa;
+	:rank "17";
+	:offense "2.17";
+	:defense "0.75";
+	:psi "75.13".
+
+:uefa :hasCountryTeam :serbia.
+
+:mexico a :CountryTeam ;
+	:name "Mexico".
+:mexico :hasConfederation :concacaf;
+	:rank "18";
+	:offense "2.15";
+	:defense "0.76";
+	:psi "74.58".
+
+:concacaf a :Confederation ;
+	:name "CONCACAF".
+:concacaf :hasCountryTeam :mexico.
+
+:denmark a :CountryTeam ;
+	:name "Denmark".
+:denmark :hasConfederation :uefa;
+	:rank "19";
+	:offense "2.0";
+	:defense "0.69";
+	:psi "73.6".
+
+:uefa :hasCountryTeam :denmark.
+
+:russia a :CountryTeam ;
+	:name "Russia".
+:russia :hasConfederation :uefa;
+	:rank "20";
+	:offense "2.0";
+	:defense "0.76";
+	:psi "72.29".
+
+:uefa :hasCountryTeam :russia.
+
+:ukraine a :CountryTeam ;
+	:name "Ukraine".
+:ukraine :hasConfederation :uefa;
+	:rank "21";
+	:offense "1.91";
+	:defense "0.7";
+	:psi "71.96".
+
+:uefa :hasCountryTeam :ukraine.
+
+:morocco a :CountryTeam ;
+	:name "Morocco".
+:morocco :hasConfederation :caf;
+	:rank "22";
+	:offense "1.8";
+	:defense "0.63";
+	:psi "71.72".
+
+:caf a :Confederation ;
+	:name "CAF".
+:caf :hasCountryTeam :morocco.
+
+:ecuador a :CountryTeam ;
+	:name "Ecuador".
+:ecuador :hasConfederation :conmebol;
+	:rank "23";
+	:offense "1.97";
+	:defense "0.76";
+	:psi "71.6".
+
+:conmebol :hasCountryTeam :ecuador.
+
+:ghana a :CountryTeam ;
+	:name "Ghana".
+:ghana :hasConfederation :caf;
+	:rank "24";
+	:offense "1.77";
+	:defense "0.62";
+	:psi "71.56".
+
+:caf :hasCountryTeam :ghana.
+
+:peru a :CountryTeam ;
+	:name "Peru".
+:peru :hasConfederation :conmebol;
+	:rank "25";
+	:offense "1.86";
+	:defense "0.71";
+	:psi "70.97".
+
+:conmebol :hasCountryTeam :peru.
+
+:poland a :CountryTeam ;
+	:name "Poland".
+:poland :hasConfederation :uefa;
+	:rank "26";
+	:offense "1.98";
+	:defense "0.81";
+	:psi "70.81".
+
+:uefa :hasCountryTeam :poland.
+
+:nigeria a :CountryTeam ;
+	:name "Nigeria".
+:nigeria :hasConfederation :caf;
+	:rank "27";
+	:offense "1.88";
+	:defense "0.75";
+	:psi "70.38".
+
+:caf :hasCountryTeam :nigeria.
+
+:austria a :CountryTeam ;
+	:name "Austria".
+:austria :hasConfederation :uefa;
+	:rank "28";
+	:offense "1.86";
+	:defense "0.74";
+	:psi "70.31".
+
+:uefa :hasCountryTeam :austria.
+
+:iran a :CountryTeam ;
+	:name "Iran".
+:iran :hasConfederation :afc;
+	:rank "29";
+	:offense "1.71";
+	:defense "0.64";
+	:psi "69.94".
+
+:afc a :Confederation ;
+	:name "AFC".
+:afc :hasCountryTeam :iran.
+
+:norway a :CountryTeam ;
+	:name "Norway".
+:norway :hasConfederation :uefa;
+	:rank "30";
+	:offense "1.89";
+	:defense "0.79";
+	:psi "69.53".
+
+:uefa :hasCountryTeam :norway.
+
+:usa a :CountryTeam ;
+	:name "USA".
+:usa :hasConfederation :concacaf;
+	:rank "31";
+	:offense "1.87";
+	:defense "0.79";
+	:psi "69.15".
+
+:concacaf :hasCountryTeam :usa.
+
+:senegal a :CountryTeam ;
+	:name "Senegal".
+:senegal :hasConfederation :caf;
+	:rank "32";
+	:offense "1.74";
+	:defense "0.7";
+	:psi "69.09".
+
+:caf :hasCountryTeam :senegal.
+
+:japan a :CountryTeam ;
+	:name "Japan".
+:japan :hasConfederation :afc;
+	:rank "33";
+	:offense "1.93";
+	:defense "0.84";
+	:psi "68.93".
+
+:afc :hasCountryTeam :japan.
+
+:wales a :CountryTeam ;
+	:name "Wales".
+:wales :hasConfederation :uefa;
+	:rank "34";
+	:offense "1.82";
+	:defense "0.77";
+	:psi "68.63".
+
+:uefa :hasCountryTeam :wales.
+
+:paraguay a :CountryTeam ;
+	:name "Paraguay".
+:paraguay :hasConfederation :conmebol;
+	:rank "35";
+	:offense "1.84";
+	:defense "0.81";
+	:psi "68.22".
+
+:conmebol :hasCountryTeam :paraguay.
+
+:bosniaandherzegovina a :CountryTeam ;
+	:name "Bosnia and Herzegovina".
+:bosniaandherzegovina :hasConfederation :uefa;
+	:rank "36";
+	:offense "1.86";
+	:defense "0.83";
+	:psi "68.02".
+
+:uefa :hasCountryTeam :bosniaandherzegovina.
+
+:venezuela a :CountryTeam ;
+	:name "Venezuela".
+:venezuela :hasConfederation :conmebol;
+	:rank "37";
+	:offense "1.88";
+	:defense "0.86";
+	:psi "67.69".
+
+:conmebol :hasCountryTeam :venezuela.
+
+:slovakia a :CountryTeam ;
+	:name "Slovakia".
+:slovakia :hasConfederation :uefa;
+	:rank "38";
+	:offense "1.87";
+	:defense "0.87";
+	:psi "67.34".
+
+:uefa :hasCountryTeam :slovakia.
+
+:czechrepublic a :CountryTeam ;
+	:name "Czech Republic".
+:czechrepublic :hasConfederation :uefa;
+	:rank "39";
+	:offense "1.89";
+	:defense "0.89";
+	:psi "67.22".
+
+:uefa :hasCountryTeam :czechrepublic.
+
+:turkey a :CountryTeam ;
+	:name "Turkey".
+:turkey :hasConfederation :uefa;
+	:rank "40";
+	:offense "1.85";
+	:defense "0.88";
+	:psi "66.78".
+
+:uefa :hasCountryTeam :turkey.
+
+:ivorycoast a :CountryTeam ;
+	:name "Ivory Coast".
+:ivorycoast :hasConfederation :caf;
+	:rank "41";
+	:offense "1.62";
+	:defense "0.69";
+	:psi "66.74".
+
+:caf :hasCountryTeam :ivorycoast.
+
+:algeria a :CountryTeam ;
+	:name "Algeria".
+:algeria :hasConfederation :caf;
+	:rank "42";
+	:offense "1.92";
+	:defense "0.99";
+	:psi "65.44".
+
+:caf :hasCountryTeam :algeria.
+
+:southkorea a :CountryTeam ;
+	:name "South Korea".
+:southkorea :hasConfederation :afc;
+	:rank "43";
+	:offense "1.67";
+	:defense "0.84";
+	:psi "64.16".
+
+:afc :hasCountryTeam :southkorea.
+
+:costarica a :CountryTeam ;
+	:name "Costa Rica".
+:costarica :hasConfederation :concacaf;
+	:rank "44";
+	:offense "1.67";
+	:defense "0.87";
+	:psi "63.32".
+
+:concacaf :hasCountryTeam :costarica.
+
+:egypt a :CountryTeam ;
+	:name "Egypt".
+:egypt :hasConfederation :caf;
+	:rank "45";
+	:offense "1.78";
+	:defense "0.98";
+	:psi "63.17".
+
+:caf :hasCountryTeam :egypt.
+
+:iceland a :CountryTeam ;
+	:name "Iceland".
+:iceland :hasConfederation :uefa;
+	:rank "46";
+	:offense "1.8";
+	:defense "1.0";
+	:psi "62.98".
+
+:uefa :hasCountryTeam :iceland.
+
+:australia a :CountryTeam ;
+	:name "Australia".
+:australia :hasConfederation :afc;
+	:rank "47";
+	:offense "1.75";
+	:defense "0.96";
+	:psi "62.78".
+
+:afc :hasCountryTeam :australia.
+
+:scotland a :CountryTeam ;
+	:name "Scotland".
+:scotland :hasConfederation :uefa;
+	:rank "48";
+	:offense "1.7";
+	:defense "0.94";
+	:psi "62.53".
+
+:uefa :hasCountryTeam :scotland.
+
+:tunisia a :CountryTeam ;
+	:name "Tunisia".
+:tunisia :hasConfederation :caf;
+	:rank "49";
+	:offense "1.77";
+	:defense "0.99";
+	:psi "62.52".
+
+:caf :hasCountryTeam :tunisia.
+
+:greece a :CountryTeam ;
+	:name "Greece".
+:greece :hasConfederation :uefa;
+	:rank "50";
+	:offense "1.44";
+	:defense "0.74";
+	:psi "61.72".
+
+:uefa :hasCountryTeam :greece.
+
+:romania a :CountryTeam ;
+	:name "Romania".
+:romania :hasConfederation :uefa;
+	:rank "51";
+	:offense "1.57";
+	:defense "0.88";
+	:psi "60.95".
+
+:uefa :hasCountryTeam :romania.
+
+:mali a :CountryTeam ;
+	:name "Mali".
+:mali :hasConfederation :caf;
+	:rank "52";
+	:offense "1.42";
+	:defense "0.78";
+	:psi "60.27".
+
+:caf :hasCountryTeam :mali.
+
+:cameroon a :CountryTeam ;
+	:name "Cameroon".
+:cameroon :hasConfederation :caf;
+	:rank "53";
+	:offense "1.49";
+	:defense "0.87";
+	:psi "59.45".
+
+:caf :hasCountryTeam :cameroon.
+
+:qatar a :CountryTeam ;
+	:name "Qatar".
+:qatar :hasConfederation :afc;
+	:rank "54";
+	:offense "1.72";
+	:defense "1.1";
+	:psi "58.93".
+
+:afc :hasCountryTeam :qatar.
+
+:southafrica a :CountryTeam ;
+	:name "South Africa".
+:southafrica :hasConfederation :caf;
+	:rank "55";
+	:offense "1.57";
+	:defense "0.99";
+	:psi "58.42".
+
+:caf :hasCountryTeam :southafrica.
+
+:finland a :CountryTeam ;
+	:name "Finland".
+:finland :hasConfederation :uefa;
+	:rank "56";
+	:offense "1.5";
+	:defense "0.95";
+	:psi "57.8".
+
+:uefa :hasCountryTeam :finland.
+
+:northernireland a :CountryTeam ;
+	:name "Northern Ireland".
+:northernireland :hasConfederation :uefa;
+	:rank "57";
+	:offense "1.39";
+	:defense "0.86";
+	:psi "57.48".
+
+:uefa :hasCountryTeam :northernireland.
+
+:repofireland a :CountryTeam ;
+	:name "Rep of Ireland".
+:repofireland :hasConfederation :uefa;
+	:rank "58";
+	:offense "1.38";
+	:defense "0.86";
+	:psi "57.44".
+
+:uefa :hasCountryTeam :repofireland.
+
+:hungary a :CountryTeam ;
+	:name "Hungary".
+:hungary :hasConfederation :uefa;
+	:rank "59";
+	:offense "1.55";
+	:defense "1.09";
+	:psi "55.73".
+
+:uefa :hasCountryTeam :hungary.
+
+:israel a :CountryTeam ;
+	:name "Israel".
+:israel :hasConfederation :uefa;
+	:rank "60";
+	:offense "1.68";
+	:defense "1.22";
+	:psi "55.47".
+
+:uefa :hasCountryTeam :israel.
+
+:congodr a :CountryTeam ;
+	:name "Congo DR".
+:congodr :hasConfederation :caf;
+	:rank "61";
+	:offense "1.51";
+	:defense "1.07";
+	:psi "55.35".
+
+:caf :hasCountryTeam :congodr.
+
+:slovenia a :CountryTeam ;
+	:name "Slovenia".
+:slovenia :hasConfederation :uefa;
+	:rank "62";
+	:offense "1.36";
+	:defense "0.93";
+	:psi "55.26".
+
+:uefa :hasCountryTeam :slovenia.
+
+:zambia a :CountryTeam ;
+	:name "Zambia".
+:zambia :hasConfederation :caf;
+	:rank "63";
+	:offense "1.49";
+	:defense "1.08";
+	:psi "54.58".
+
+:caf :hasCountryTeam :zambia.
+
+:bolivia a :CountryTeam ;
+	:name "Bolivia".
+:bolivia :hasConfederation :conmebol;
+	:rank "64";
+	:offense "1.48";
+	:defense "1.08";
+	:psi "54.46".
+
+:conmebol :hasCountryTeam :bolivia.
+
+:uzbekistan a :CountryTeam ;
+	:name "Uzbekistan".
+:uzbekistan :hasConfederation :afc;
+	:rank "65";
+	:offense "1.27";
+	:defense "0.87";
+	:psi "54.46".
+
+:afc :hasCountryTeam :uzbekistan.
+
+:montenegro a :CountryTeam ;
+	:name "Montenegro".
+:montenegro :hasConfederation :uefa;
+	:rank "66";
+	:offense "1.46";
+	:defense "1.07";
+	:psi "53.96".
+
+:uefa :hasCountryTeam :montenegro.
+
+:canada a :CountryTeam ;
+	:name "Canada".
+:canada :hasConfederation :concacaf;
+	:rank "67";
+	:offense "1.5";
+	:defense "1.12";
+	:psi "53.84".
+
+:concacaf :hasCountryTeam :canada.
+
+:saudiarabia a :CountryTeam ;
+	:name "Saudi Arabia".
+:saudiarabia :hasConfederation :afc;
+	:rank "68";
+	:offense "1.46";
+	:defense "1.09";
+	:psi "53.82".
+
+:afc :hasCountryTeam :saudiarabia.
+
+:honduras a :CountryTeam ;
+	:name "Honduras".
+:honduras :hasConfederation :concacaf;
+	:rank "69";
+	:offense "1.53";
+	:defense "1.15";
+	:psi "53.69".
+
+:concacaf :hasCountryTeam :honduras.
+
+:burkinafaso a :CountryTeam ;
+	:name "Burkina Faso".
+:burkinafaso :hasConfederation :caf;
+	:rank "70";
+	:offense "1.38";
+	:defense "1.01";
+	:psi "53.67".
+
+:caf :hasCountryTeam :burkinafaso.
+
+:guinea a :CountryTeam ;
+	:name "Guinea".
+:guinea :hasConfederation :caf;
+	:rank "71";
+	:offense "1.48";
+	:defense "1.11";
+	:psi "53.48".
+
+:caf :hasCountryTeam :guinea.
+
+:georgia a :CountryTeam ;
+	:name "Georgia".
+:georgia :hasConfederation :uefa;
+	:rank "72";
+	:offense "1.38";
+	:defense "1.05";
+	:psi "52.69".
+
+:uefa :hasCountryTeam :georgia.
+
+:angola a :CountryTeam ;
+	:name "Angola".
+:angola :hasConfederation :caf;
+	:rank "73";
+	:offense "1.25";
+	:defense "0.95";
+	:psi "52.2".
+
+:caf :hasCountryTeam :angola.
+
+:bulgaria a :CountryTeam ;
+	:name "Bulgaria".
+:bulgaria :hasConfederation :uefa;
+	:rank "74";
+	:offense "1.37";
+	:defense "1.07";
+	:psi "51.96".
+
+:uefa :hasCountryTeam :bulgaria.
+
+:belarus a :CountryTeam ;
+	:name "Belarus".
+:belarus :hasConfederation :uefa;
+	:rank "75";
+	:offense "1.32";
+	:defense "1.02";
+	:psi "51.91".
+
+:uefa :hasCountryTeam :belarus.
+
+:iraq a :CountryTeam ;
+	:name "Iraq".
+:iraq :hasConfederation :afc;
+	:rank "76";
+	:offense "1.31";
+	:defense "1.02";
+	:psi "51.74".
+
+:afc :hasCountryTeam :iraq.
+
+:syria a :CountryTeam ;
+	:name "Syria".
+:syria :hasConfederation :afc;
+	:rank "77";
+	:offense "1.5";
+	:defense "1.21";
+	:psi "51.74".
+
+:afc :hasCountryTeam :syria.
+
+:fyrmacedonia a :CountryTeam ;
+	:name "FYR Macedonia".
+:fyrmacedonia :hasConfederation :uefa;
+	:rank "78";
+	:offense "1.36";
+	:defense "1.08";
+	:psi "51.7".
+
+:uefa :hasCountryTeam :fyrmacedonia.
+
+:haiti a :CountryTeam ;
+	:name "Haiti".
+:haiti :hasConfederation :concacaf;
+	:rank "79";
+	:offense "1.44";
+	:defense "1.17";
+	:psi "51.37".
+
+:concacaf :hasCountryTeam :haiti.
+
+:zimbabwe a :CountryTeam ;
+	:name "Zimbabwe".
+:zimbabwe :hasConfederation :caf;
+	:rank "80";
+	:offense "1.41";
+	:defense "1.19";
+	:psi "50.16".
+
+:caf :hasCountryTeam :zimbabwe.
+
+:panama a :CountryTeam ;
+	:name "Panama".
+:panama :hasConfederation :concacaf;
+	:rank "81";
+	:offense "1.34";
+	:defense "1.13";
+	:psi "49.94".
+
+:concacaf :hasCountryTeam :panama.
+
+:kosovo a :CountryTeam ;
+	:name "Kosovo".
+:kosovo :hasConfederation :uefa;
+	:rank "82";
+	:offense "1.37";
+	:defense "1.17";
+	:psi "49.81".
+
+:uefa :hasCountryTeam :kosovo.
+
+:tanzania a :CountryTeam ;
+	:name "Tanzania".
+:tanzania :hasConfederation :caf;
+	:rank "83";
+	:offense "1.49";
+	:defense "1.29";
+	:psi "49.77".
+
+:caf :hasCountryTeam :tanzania.
+
+:libya a :CountryTeam ;
+	:name "Libya".
+:libya :hasConfederation :caf;
+	:rank "84";
+	:offense "1.39";
+	:defense "1.25";
+	:psi "48.35".
+
+:caf :hasCountryTeam :libya.
+
+:kenya a :CountryTeam ;
+	:name "Kenya".
+:kenya :hasConfederation :caf;
+	:rank "85";
+	:offense "1.16";
+	:defense "1.02";
+	:psi "48.08".
+
+:caf :hasCountryTeam :kenya.
+
+:chinapr a :CountryTeam ;
+	:name "China PR".
+:chinapr :hasConfederation :afc;
+	:rank "86";
+	:offense "1.23";
+	:defense "1.09";
+	:psi "48.02".
+
+:afc :hasCountryTeam :chinapr.
+
+:armenia a :CountryTeam ;
+	:name "Armenia".
+:armenia :hasConfederation :uefa;
+	:rank "87";
+	:offense "1.52";
+	:defense "1.48";
+	:psi "46.32".
+
+:uefa :hasCountryTeam :armenia.
+
+:gabon a :CountryTeam ;
+	:name "Gabon".
+:gabon :hasConfederation :caf;
+	:rank "88";
+	:offense "1.05";
+	:defense "0.99";
+	:psi "45.9".
+
+:caf :hasCountryTeam :gabon.
+
+:uganda a :CountryTeam ;
+	:name "Uganda".
+:uganda :hasConfederation :caf;
+	:rank "89";
+	:offense "0.96";
+	:defense "0.9";
+	:psi "45.78".
+
+:caf :hasCountryTeam :uganda.
+
+:jamaica a :CountryTeam ;
+	:name "Jamaica".
+:jamaica :hasConfederation :concacaf;
+	:rank "90";
+	:offense "1.32";
+	:defense "1.32";
+	:psi "45.29".
+
+:concacaf :hasCountryTeam :jamaica.
+
+:newzealand a :CountryTeam ;
+	:name "New Zealand".
+:newzealand :hasConfederation :ofc;
+	:rank "91";
+	:offense "1.28";
+	:defense "1.29";
+	:psi "44.99".
+
+:ofc a :Confederation ;
+	:name "OFC".
+:ofc :hasCountryTeam :newzealand.
+
+:capeverdeislands a :CountryTeam ;
+	:name "Cape Verde Islands".
+:capeverdeislands :hasConfederation :caf;
+	:rank "92";
+	:offense "1.14";
+	:defense "1.14";
+	:psi "44.74".
+
+:caf :hasCountryTeam :capeverdeislands.
+
+:albania a :CountryTeam ;
+	:name "Albania".
+:albania :hasConfederation :uefa;
+	:rank "93";
+	:offense "1.13";
+	:defense "1.14";
+	:psi "44.46".
+
+:uefa :hasCountryTeam :albania.
+
+:elsalvador a :CountryTeam ;
+	:name "El Salvador".
+:elsalvador :hasConfederation :concacaf;
+	:rank "94";
+	:offense "1.21";
+	:defense "1.24";
+	:psi "44.34".
+
+:concacaf :hasCountryTeam :elsalvador.
+
+:bahrain a :CountryTeam ;
+	:name "Bahrain".
+:bahrain :hasConfederation :afc;
+	:rank "95";
+	:offense "1.02";
+	:defense "1.09";
+	:psi "42.92".
+
+:afc :hasCountryTeam :bahrain.
+
+:congo a :CountryTeam ;
+	:name "Congo".
+:congo :hasConfederation :caf;
+	:rank "96";
+	:offense "1.34";
+	:defense "1.45";
+	:psi "42.81".
+
+:caf :hasCountryTeam :congo.
+
+:burundi a :CountryTeam ;
+	:name "Burundi".
+:burundi :hasConfederation :caf;
+	:rank "97";
+	:offense "0.99";
+	:defense "1.07";
+	:psi "42.43".
+
+:caf :hasCountryTeam :burundi.
+
+:oman a :CountryTeam ;
+	:name "Oman".
+:oman :hasConfederation :afc;
+	:rank "98";
+	:offense "0.99";
+	:defense "1.09";
+	:psi "42.21".
+
+:afc :hasCountryTeam :oman.
+
+:curacao a :CountryTeam ;
+	:name "Curacao".
+:curacao :hasConfederation :concacaf;
+	:rank "99";
+	:offense "1.38";
+	:defense "1.53";
+	:psi "42.1".
+
+:concacaf :hasCountryTeam :curacao.
+
+:guatemala a :CountryTeam ;
+	:name "Guatemala".
+:guatemala :hasConfederation :concacaf;
+	:rank "100";
+	:offense "1.37";
+	:defense "1.53";
+	:psi "42.08".
+
+:concacaf :hasCountryTeam :guatemala.
+
+:togo a :CountryTeam ;
+	:name "Togo".
+:togo :hasConfederation :caf;
+	:rank "101";
+	:offense "1.14";
+	:defense "1.29";
+	:psi "41.5".
+
+:caf :hasCountryTeam :togo.
+
+:cuba a :CountryTeam ;
+	:name "Cuba".
+:cuba :hasConfederation :concacaf;
+	:rank "102";
+	:offense "0.97";
+	:defense "1.1";
+	:psi "41.33".
+
+:concacaf :hasCountryTeam :cuba.
+
+:benin a :CountryTeam ;
+	:name "Benin".
+:benin :hasConfederation :caf;
+	:rank "103";
+	:offense "1.21";
+	:defense "1.41";
+	:psi "40.85".
+
+:caf :hasCountryTeam :benin.
+
+:trinidadandtobago a :CountryTeam ;
+	:name "Trinidad and Tobago".
+:trinidadandtobago :hasConfederation :concacaf;
+	:rank "104";
+	:offense "1.21";
+	:defense "1.41";
+	:psi "40.68".
+
+:concacaf :hasCountryTeam :trinidadandtobago.
+
+:botswana a :CountryTeam ;
+	:name "Botswana".
+:botswana :hasConfederation :caf;
+	:rank "105";
+	:offense "0.97";
+	:defense "1.14";
+	:psi "40.36".
+
+:caf :hasCountryTeam :botswana.
+
+:jordan a :CountryTeam ;
+	:name "Jordan".
+:jordan :hasConfederation :afc;
+	:rank "106";
+	:offense "0.86";
+	:defense "1.03";
+	:psi "39.96".
+
+:afc :hasCountryTeam :jordan.
+
+:malawi a :CountryTeam ;
+	:name "Malawi".
+:malawi :hasConfederation :caf;
+	:rank "107";
+	:offense "0.77";
+	:defense "0.94";
+	:psi "39.45".
+
+:caf :hasCountryTeam :malawi.
+
+:estonia a :CountryTeam ;
+	:name "Estonia".
+:estonia :hasConfederation :uefa;
+	:rank "108";
+	:offense "0.98";
+	:defense "1.21";
+	:psi "39.1".
+
+:uefa :hasCountryTeam :estonia.
+
+:equatorialguinea a :CountryTeam ;
+	:name "Equatorial Guinea".
+:equatorialguinea :hasConfederation :caf;
+	:rank "109";
+	:offense "1.07";
+	:defense "1.34";
+	:psi "38.88".
+
+:caf :hasCountryTeam :equatorialguinea.
+
+:kazakhstan a :CountryTeam ;
+	:name "Kazakhstan".
+:kazakhstan :hasConfederation :uefa;
+	:rank "110";
+	:offense "1.18";
+	:defense "1.46";
+	:psi "38.83".
+
+:uefa :hasCountryTeam :kazakhstan.
+
+:namibia a :CountryTeam ;
+	:name "Namibia".
+:namibia :hasConfederation :caf;
+	:rank "111";
+	:offense "0.78";
+	:defense "1.0";
+	:psi "38.1".
+
+:caf :hasCountryTeam :namibia.
+
+:madagascar a :CountryTeam ;
+	:name "Madagascar".
+:madagascar :hasConfederation :caf;
+	:rank "112";
+	:offense "1.19";
+	:defense "1.52";
+	:psi "37.97".
+
+:caf :hasCountryTeam :madagascar.
+
+:cyprus a :CountryTeam ;
+	:name "Cyprus".
+:cyprus :hasConfederation :uefa;
+	:rank "113";
+	:offense "1.06";
+	:defense "1.41";
+	:psi "37.25".
+
+:uefa :hasCountryTeam :cyprus.
+
+:unitedarabemirates a :CountryTeam ;
+	:name "United Arab Emirates".
+:unitedarabemirates :hasConfederation :afc;
+	:rank "114";
+	:offense "0.86";
+	:defense "1.17";
+	:psi "36.7".
+
+:afc :hasCountryTeam :unitedarabemirates.
+
+:gambia a :CountryTeam ;
+	:name "Gambia".
+:gambia :hasConfederation :caf;
+	:rank "115";
+	:offense "1.02";
+	:defense "1.39";
+	:psi "36.66".
+
+:caf :hasCountryTeam :gambia.
+
+:liberia a :CountryTeam ;
+	:name "Liberia".
+:liberia :hasConfederation :caf;
+	:rank "116";
+	:offense "1.18";
+	:defense "1.59";
+	:psi "36.5".
+
+:caf :hasCountryTeam :liberia.
+
+:mauritania a :CountryTeam ;
+	:name "Mauritania".
+:mauritania :hasConfederation :caf;
+	:rank "117";
+	:offense "1.13";
+	:defense "1.53";
+	:psi "36.29".
+
+:caf :hasCountryTeam :mauritania.
+
+:guineabissau a :CountryTeam ;
+	:name "Guinea-Bissau".
+:guineabissau :hasConfederation :caf;
+	:rank "118";
+	:offense "1.12";
+	:defense "1.58";
+	:psi "35.2".
+
+:caf :hasCountryTeam :guineabissau.
+
+:kuwait a :CountryTeam ;
+	:name "Kuwait".
+:kuwait :hasConfederation :afc;
+	:rank "119";
+	:offense "0.83";
+	:defense "1.23";
+	:psi "34.68".
+
+:afc :hasCountryTeam :kuwait.
+
+:moldova a :CountryTeam ;
+	:name "Moldova".
+:moldova :hasConfederation :uefa;
+	:rank "120";
+	:offense "0.93";
+	:defense "1.37";
+	:psi "34.64".
+
+:uefa :hasCountryTeam :moldova.
+
+:lebanon a :CountryTeam ;
+	:name "Lebanon".
+:lebanon :hasConfederation :afc;
+	:rank "121";
+	:offense "0.67";
+	:defense "1.04";
+	:psi "34.13".
+
+:afc :hasCountryTeam :lebanon.
+
+:dominicanrepublic a :CountryTeam ;
+	:name "Dominican Republic".
+:dominicanrepublic :hasConfederation :concacaf;
+	:rank "122";
+	:offense "1.18";
+	:defense "1.72";
+	:psi "34.01".
+
+:concacaf :hasCountryTeam :dominicanrepublic.
+
+:chad a :CountryTeam ;
+	:name "Chad".
+:chad :hasConfederation :caf;
+	:rank "123";
+	:offense "1.02";
+	:defense "1.52";
+	:psi "33.82".
+
+:caf :hasCountryTeam :chad.
+
+:luxembourg a :CountryTeam ;
+	:name "Luxembourg".
+:luxembourg :hasConfederation :uefa;
+	:rank "124";
+	:offense "1.08";
+	:defense "1.63";
+	:psi "33.43".
+
+:uefa :hasCountryTeam :luxembourg.
+
+:azerbaijan a :CountryTeam ;
+	:name "Azerbaijan".
+:azerbaijan :hasConfederation :uefa;
+	:rank "125";
+	:offense "0.91";
+	:defense "1.41";
+	:psi "33.29".
+
+:uefa :hasCountryTeam :azerbaijan.
+
+:bermuda a :CountryTeam ;
+	:name "Bermuda".
+:bermuda :hasConfederation :concacaf;
+	:rank "126";
+	:offense "1.25";
+	:defense "1.88";
+	:psi "32.73".
+
+:concacaf :hasCountryTeam :bermuda.
+
+:ethiopia a :CountryTeam ;
+	:name "Ethiopia".
+:ethiopia :hasConfederation :caf;
+	:rank "127";
+	:offense "0.72";
+	:defense "1.21";
+	:psi "32.29".
+
+:caf :hasCountryTeam :ethiopia.
+
+:nicaragua a :CountryTeam ;
+	:name "Nicaragua".
+:nicaragua :hasConfederation :concacaf;
+	:rank "128";
+	:offense "1.01";
+	:defense "1.6";
+	:psi "32.21".
+
+:concacaf :hasCountryTeam :nicaragua.
+
+:mozambique a :CountryTeam ;
+	:name "Mozambique".
+:mozambique :hasConfederation :caf;
+	:rank "129";
+	:offense "0.97";
+	:defense "1.57";
+	:psi "32.0".
+
+:caf :hasCountryTeam :mozambique.
+
+:sierraleone a :CountryTeam ;
+	:name "Sierra Leone".
+:sierraleone :hasConfederation :caf;
+	:rank "130";
+	:offense "1.07";
+	:defense "1.72";
+	:psi "31.44".
+
+:caf :hasCountryTeam :sierraleone.
+
+:stkittsandnevis a :CountryTeam ;
+	:name "St. Kitts and Nevis".
+:stkittsandnevis :hasConfederation :concacaf;
+	:rank "131";
+	:offense "1.07";
+	:defense "1.73";
+	:psi "31.37".
+
+:concacaf :hasCountryTeam :stkittsandnevis.
+
+:lithuania a :CountryTeam ;
+	:name "Lithuania".
+:lithuania :hasConfederation :uefa;
+	:rank "132";
+	:offense "1.02";
+	:defense "1.66";
+	:psi "31.29".
+
+:uefa :hasCountryTeam :lithuania.
+
+:rwanda a :CountryTeam ;
+	:name "Rwanda".
+:rwanda :hasConfederation :caf;
+	:rank "133";
+	:offense "0.7";
+	:defense "1.23";
+	:psi "31.11".
+
+:caf :hasCountryTeam :rwanda.
+
+:palestine a :CountryTeam ;
+	:name "Palestine".
+:palestine :hasConfederation :afc;
+	:rank "134";
+	:offense "0.81";
+	:defense "1.43";
+	:psi "30.38".
+
+:afc :hasCountryTeam :palestine.
+
+:sudan a :CountryTeam ;
+	:name "Sudan".
+:sudan :hasConfederation :caf;
+	:rank "135";
+	:offense "0.77";
+	:defense "1.38";
+	:psi "30.24".
+
+:caf :hasCountryTeam :sudan.
+
+:niger a :CountryTeam ;
+	:name "Niger".
+:niger :hasConfederation :caf;
+	:rank "136";
+	:offense "0.92";
+	:defense "1.6";
+	:psi "30.24".
+
+:caf :hasCountryTeam :niger.
+
+:centralafricanrepublic a :CountryTeam ;
+	:name "Central African Republic".
+:centralafricanrepublic :hasConfederation :caf;
+	:rank "137";
+	:offense "1.06";
+	:defense "1.85";
+	:psi "29.14".
+
+:caf :hasCountryTeam :centralafricanrepublic.
+
+:latvia a :CountryTeam ;
+	:name "Latvia".
+:latvia :hasConfederation :uefa;
+	:rank "138";
+	:offense "0.86";
+	:defense "1.58";
+	:psi "29.12".
+
+:uefa :hasCountryTeam :latvia.
+
+:northkorea a :CountryTeam ;
+	:name "North Korea".
+:northkorea :hasConfederation :afc;
+	:rank "139";
+	:offense "0.98";
+	:defense "1.76";
+	:psi "28.79".
+
+:afc :hasCountryTeam :northkorea.
+
+:vietnam a :CountryTeam ;
+	:name "Vietnam".
+:vietnam :hasConfederation :afc;
+	:rank "140";
+	:offense "0.76";
+	:defense "1.46";
+	:psi "28.51".
+
+:afc :hasCountryTeam :vietnam.
+
+:kyrgyzstan a :CountryTeam ;
+	:name "Kyrgyzstan".
+:kyrgyzstan :hasConfederation :afc;
+	:rank "141";
+	:offense "0.79";
+	:defense "1.52";
+	:psi "28.14".
+
+:afc :hasCountryTeam :kyrgyzstan.
+
+:antiguaandbarbuda a :CountryTeam ;
+	:name "Antigua and Barbuda".
+:antiguaandbarbuda :hasConfederation :concacaf;
+	:rank "142";
+	:offense "1.1";
+	:defense "2.0";
+	:psi "27.81".
+
+:concacaf :hasCountryTeam :antiguaandbarbuda.
+
+:comoros a :CountryTeam ;
+	:name "Comoros".
+:comoros :hasConfederation :caf;
+	:rank "143";
+	:offense "0.99";
+	:defense "1.9";
+	:psi "26.97".
+
+:caf :hasCountryTeam :comoros.
+
+:thailand a :CountryTeam ;
+	:name "Thailand".
+:thailand :hasConfederation :afc;
+	:rank "144";
+	:offense "0.94";
+	:defense "1.86";
+	:psi "26.41".
+
+:afc :hasCountryTeam :thailand.
+
+:fiji a :CountryTeam ;
+	:name "Fiji".
+:fiji :hasConfederation :ofc;
+	:rank "145";
+	:offense "0.69";
+	:defense "1.5";
+	:psi "26.09".
+
+:ofc :hasCountryTeam :fiji.
+
+:lesotho a :CountryTeam ;
+	:name "Lesotho".
+:lesotho :hasConfederation :caf;
+	:rank "146";
+	:offense "0.57";
+	:defense "1.34";
+	:psi "25.56".
+
+:caf :hasCountryTeam :lesotho.
+
+:belize a :CountryTeam ;
+	:name "Belize".
+:belize :hasConfederation :concacaf;
+	:rank "147";
+	:offense "0.83";
+	:defense "1.76";
+	:psi "25.19".
+
+:concacaf :hasCountryTeam :belize.
+
+:turkmenistan a :CountryTeam ;
+	:name "Turkmenistan".
+:turkmenistan :hasConfederation :afc;
+	:rank "148";
+	:offense "0.81";
+	:defense "1.75";
+	:psi "25.07".
+
+:afc :hasCountryTeam :turkmenistan.
+
+:suriname a :CountryTeam ;
+	:name "Suriname".
+:suriname :hasConfederation :concacaf;
+	:rank "149";
+	:offense "0.76";
+	:defense "1.71";
+	:psi "24.52".
+
+:concacaf :hasCountryTeam :suriname.
+
+:faroeislands a :CountryTeam ;
+	:name "Faroe Islands".
+:faroeislands :hasConfederation :uefa;
+	:rank "150";
+	:offense "0.78";
+	:defense "1.82";
+	:psi "23.32".
+
+:uefa :hasCountryTeam :faroeislands.
+
+:guyana a :CountryTeam ;
+	:name "Guyana".
+:guyana :hasConfederation :concacaf;
+	:rank "151";
+	:offense "1.08";
+	:defense "2.28";
+	:psi "23.27".
+
+:concacaf :hasCountryTeam :guyana.
+
+:martinique a :CountryTeam ;
+	:name "Martinique".
+:martinique :hasConfederation :concacaf;
+	:rank "152";
+	:offense "0.81";
+	:defense "1.88";
+	:psi "23.2".
+
+:concacaf :hasCountryTeam :martinique.
+
+:solomonislands a :CountryTeam ;
+	:name "Solomon Islands".
+:solomonislands :hasConfederation :ofc;
+	:rank "153";
+	:offense "0.69";
+	:defense "1.71";
+	:psi "22.71".
+
+:ofc :hasCountryTeam :solomonislands.
+
+:swaziland a :CountryTeam ;
+	:name "Swaziland".
+:swaziland :hasConfederation :caf;
+	:rank "154";
+	:offense "0.61";
+	:defense "1.58";
+	:psi "22.68".
+
+:caf :hasCountryTeam :swaziland.
+
+:barbados a :CountryTeam ;
+	:name "Barbados".
+:barbados :hasConfederation :concacaf;
+	:rank "155";
+	:offense "0.52";
+	:defense "1.51";
+	:psi "21.62".
+
+:concacaf :hasCountryTeam :barbados.
+
+:newcaledonia a :CountryTeam ;
+	:name "New Caledonia".
+:newcaledonia :hasConfederation :ofc;
+	:rank "156";
+	:offense "0.69";
+	:defense "1.85";
+	:psi "20.92".
+
+:ofc :hasCountryTeam :newcaledonia.
+
+:puertorico a :CountryTeam ;
+	:name "Puerto Rico".
+:puertorico :hasConfederation :concacaf;
+	:rank "157";
+	:offense "0.75";
+	:defense "1.96";
+	:psi "20.79".
+
+:concacaf :hasCountryTeam :puertorico.
+
+:mauritius a :CountryTeam ;
+	:name "Mauritius".
+:mauritius :hasConfederation :caf;
+	:rank "158";
+	:offense "0.85";
+	:defense "2.17";
+	:psi "20.14".
+
+:caf :hasCountryTeam :mauritius.
+
+:tahiti a :CountryTeam ;
+	:name "Tahiti".
+:tahiti :hasConfederation :ofc;
+	:rank "159";
+	:offense "0.81";
+	:defense "2.15";
+	:psi "19.56".
+
+:ofc :hasCountryTeam :tahiti.
+
+:hongkong a :CountryTeam ;
+	:name "Hong Kong".
+:hongkong :hasConfederation :afc;
+	:rank "160";
+	:offense "0.44";
+	:defense "1.52";
+	:psi "19.38".
+
+:afc :hasCountryTeam :hongkong.
+
+:india a :CountryTeam ;
+	:name "India".
+:india :hasConfederation :afc;
+	:rank "161";
+	:offense "0.61";
+	:defense "1.83";
+	:psi "19.38".
+
+:afc :hasCountryTeam :india.
+
+:vanuatu a :CountryTeam ;
+	:name "Vanuatu".
+:vanuatu :hasConfederation :ofc;
+	:rank "162";
+	:offense "0.7";
+	:defense "1.97";
+	:psi "19.37".
+
+:ofc :hasCountryTeam :vanuatu.
+
+:philippines a :CountryTeam ;
+	:name "Philippines".
+:philippines :hasConfederation :afc;
+	:rank "163";
+	:offense "0.74";
+	:defense "2.08";
+	:psi "18.96".
+
+:afc :hasCountryTeam :philippines.
+
+:tajikistan a :CountryTeam ;
+	:name "Tajikistan".
+:tajikistan :hasConfederation :afc;
+	:rank "164";
+	:offense "0.69";
+	:defense "2.0";
+	:psi "18.76".
+
+:afc :hasCountryTeam :tajikistan.
+
+:dominica a :CountryTeam ;
+	:name "Dominica".
+:dominica :hasConfederation :concacaf;
+	:rank "165";
+	:offense "0.47";
+	:defense "1.66";
+	:psi "18.28".
+
+:concacaf :hasCountryTeam :dominica.
+
+:southsudan a :CountryTeam ;
+	:name "South Sudan".
+:southsudan :hasConfederation :caf;
+	:rank "166";
+	:offense "0.79";
+	:defense "2.28";
+	:psi "17.64".
+
+:caf :hasCountryTeam :southsudan.
+
+:stlucia a :CountryTeam ;
+	:name "St. Lucia".
+:stlucia :hasConfederation :concacaf;
+	:rank "167";
+	:offense "0.64";
+	:defense "2.04";
+	:psi "17.39".
+
+:concacaf :hasCountryTeam :stlucia.
+
+:malta a :CountryTeam ;
+	:name "Malta".
+:malta :hasConfederation :uefa;
+	:rank "168";
+	:offense "0.63";
+	:defense "2.02";
+	:psi "17.36".
+
+:uefa :hasCountryTeam :malta.
+
+:saotomeandprincipe a :CountryTeam ;
+	:name "Sao Tome and Principe".
+:saotomeandprincipe :hasConfederation :caf;
+	:rank "169";
+	:offense "0.82";
+	:defense "2.36";
+	:psi "17.22".
+
+:caf :hasCountryTeam :saotomeandprincipe.
+
+:singapore a :CountryTeam ;
+	:name "Singapore".
+:singapore :hasConfederation :afc;
+	:rank "170";
+	:offense "0.48";
+	:defense "1.77";
+	:psi "17.17".
+
+:afc :hasCountryTeam :singapore.
+
+:indonesia a :CountryTeam ;
+	:name "Indonesia".
+:indonesia :hasConfederation :afc;
+	:rank "171";
+	:offense "0.6";
+	:defense "2.02";
+	:psi "16.71".
+
+:afc :hasCountryTeam :indonesia.
+
+:grenada a :CountryTeam ;
+	:name "Grenada".
+:grenada :hasConfederation :concacaf;
+	:rank "172";
+	:offense "0.68";
+	:defense "2.22";
+	:psi "16.04".
+
+:concacaf :hasCountryTeam :grenada.
+
+:yemen a :CountryTeam ;
+	:name "Yemen".
+:yemen :hasConfederation :afc;
+	:rank "173";
+	:offense "0.37";
+	:defense "1.69";
+	:psi "15.36".
+
+:afc :hasCountryTeam :yemen.
+
+:stvincentandthegrenadines a :CountryTeam ;
+	:name "St. Vincent and the Grenadines".
+:stvincentandthegrenadines :hasConfederation :concacaf;
+	:rank "174";
+	:offense "0.72";
+	:defense "2.37";
+	:psi "15.29".
+
+:concacaf :hasCountryTeam :stvincentandthegrenadines.
+
+:liechtenstein a :CountryTeam ;
+	:name "Liechtenstein".
+:liechtenstein :hasConfederation :uefa;
+	:rank "175";
+	:offense "0.64";
+	:defense "2.23";
+	:psi "15.21".
+
+:uefa :hasCountryTeam :liechtenstein.
+
+:malaysia a :CountryTeam ;
+	:name "Malaysia".
+:malaysia :hasConfederation :afc;
+	:rank "176";
+	:offense "0.51";
+	:defense "2.07";
+	:psi "14.42".
+
+:afc :hasCountryTeam :malaysia.
+
+:gibraltar a :CountryTeam ;
+	:name "Gibraltar".
+:gibraltar :hasConfederation :uefa;
+	:rank "177";
+	:offense "0.53";
+	:defense "2.11";
+	:psi "14.21".
+
+:uefa :hasCountryTeam :gibraltar.
+
+:seychelles a :CountryTeam ;
+	:name "Seychelles".
+:seychelles :hasConfederation :caf;
+	:rank "178";
+	:offense "0.48";
+	:defense "2.38";
+	:psi "11.07".
+
+:caf :hasCountryTeam :seychelles.
+
+:afghanistan a :CountryTeam ;
+	:name "Afghanistan".
+:afghanistan :hasConfederation :afc;
+	:rank "179";
+	:offense "0.6";
+	:defense "2.62";
+	:psi "10.96".
+
+:afc :hasCountryTeam :afghanistan.
+
+:andorra a :CountryTeam ;
+	:name "Andorra".
+:andorra :hasConfederation :uefa;
+	:rank "180";
+	:offense "0.24";
+	:defense "1.86";
+	:psi "10.78".
+
+:uefa :hasCountryTeam :andorra.
+
+:aruba a :CountryTeam ;
+	:name "Aruba".
+:aruba :hasConfederation :concacaf;
+	:rank "181";
+	:offense "0.64";
+	:defense "2.76";
+	:psi "10.68".
+
+:concacaf :hasCountryTeam :aruba.
+
+:montserrat a :CountryTeam ;
+	:name "Montserrat".
+:montserrat :hasConfederation :concacaf;
+	:rank "182";
+	:offense "0.81";
+	:defense "3.24";
+	:psi "9.65".
+
+:concacaf :hasCountryTeam :montserrat.
+
+:caymanislands a :CountryTeam ;
+	:name "Cayman Islands".
+:caymanislands :hasConfederation :concacaf;
+	:rank "183";
+	:offense "0.4";
+	:defense "2.41";
+	:psi "9.43".
+
+:concacaf :hasCountryTeam :caymanislands.
+
+:papuanewguinea a :CountryTeam ;
+	:name "Papua New Guinea".
+:papuanewguinea :hasConfederation :ofc;
+	:rank "184";
+	:offense "0.6";
+	:defense "2.88";
+	:psi "9.16".
+
+:ofc :hasCountryTeam :papuanewguinea.
+
+:myanmar a :CountryTeam ;
+	:name "Myanmar".
+:myanmar :hasConfederation :afc;
+	:rank "185";
+	:offense "0.39";
+	:defense "2.5";
+	:psi "8.72".
+
+:afc :hasCountryTeam :myanmar.
+
+:chinesetaipei a :CountryTeam ;
+	:name "Chinese Taipei".
+:chinesetaipei :hasConfederation :afc;
+	:rank "186";
+	:offense "0.43";
+	:defense "2.69";
+	:psi "8.04".
+
+:afc :hasCountryTeam :chinesetaipei.
+
+:nepal a :CountryTeam ;
+	:name "Nepal".
+:nepal :hasConfederation :afc;
+	:rank "187";
+	:offense "0.2";
+	:defense "2.13";
+	:psi "7.9".
+
+:afc :hasCountryTeam :nepal.
+
+:bahamas a :CountryTeam ;
+	:name "Bahamas".
+:bahamas :hasConfederation :concacaf;
+	:rank "188";
+	:offense "0.73";
+	:defense "3.44";
+	:psi "7.5".
+
+:concacaf :hasCountryTeam :bahamas.
+
+:maldives a :CountryTeam ;
+	:name "Maldives".
+:maldives :hasConfederation :afc;
+	:rank "189";
+	:offense "0.41";
+	:defense "2.87";
+	:psi "6.75".
+
+:afc :hasCountryTeam :maldives.
+
+:frenchguiana a :CountryTeam ;
+	:name "French Guiana".
+:frenchguiana :hasConfederation :concacaf;
+	:rank "190";
+	:offense "0.52";
+	:defense "3.18";
+	:psi "6.57".
+
+:concacaf :hasCountryTeam :frenchguiana.
+
+:mongolia a :CountryTeam ;
+	:name "Mongolia".
+:mongolia :hasConfederation :afc;
+	:rank "191";
+	:offense "0.32";
+	:defense "2.93";
+	:psi "5.4".
+
+:afc :hasCountryTeam :mongolia.
+
+:somalia a :CountryTeam ;
+	:name "Somalia".
+:somalia :hasConfederation :caf;
+	:rank "192";
+	:offense "0.4";
+	:defense "3.14";
+	:psi "5.39".
+
+:caf :hasCountryTeam :somalia.
+
+:djibouti a :CountryTeam ;
+	:name "Djibouti".
+:djibouti :hasConfederation :caf;
+	:rank "193";
+	:offense "0.44";
+	:defense "3.33";
+	:psi "5.03".
+
+:caf :hasCountryTeam :djibouti.
+
+:bangladesh a :CountryTeam ;
+	:name "Bangladesh".
+:bangladesh :hasConfederation :afc;
+	:rank "194";
+	:offense "0.2";
+	:defense "2.67";
+	:psi "5.0".
+
+:afc :hasCountryTeam :bangladesh.
+
+:sanmarino a :CountryTeam ;
+	:name "San Marino".
+:sanmarino :hasConfederation :uefa;
+	:rank "195";
+	:offense "0.27";
+	:defense "3.07";
+	:psi "4.2".
+
+:uefa :hasCountryTeam :sanmarino.
+
+:britishvirginislands a :CountryTeam ;
+	:name "British Virgin Islands".
+:britishvirginislands :hasConfederation :concacaf;
+	:rank "196";
+	:offense "0.42";
+	:defense "3.62";
+	:psi "3.88".
+
+:concacaf :hasCountryTeam :britishvirginislands.
+
+:bonaire a :CountryTeam ;
+	:name "Bonaire".
+:bonaire :hasConfederation :concacaf;
+	:rank "197";
+	:offense "0.37";
+	:defense "3.59";
+	:psi "3.5".
+
+:concacaf :hasCountryTeam :bonaire.
+
+:cambodia a :CountryTeam ;
+	:name "Cambodia".
+:cambodia :hasConfederation :afc;
+	:rank "198";
+	:offense "0.28";
+	:defense "3.52";
+	:psi "3.01".
+
+:afc :hasCountryTeam :cambodia.
+
+:turksandcaicosislands a :CountryTeam ;
+	:name "Turks and Caicos Islands".
+:turksandcaicosislands :hasConfederation :concacaf;
+	:rank "199";
+	:offense "0.68";
+	:defense "4.76";
+	:psi "2.75".
+
+:concacaf :hasCountryTeam :turksandcaicosislands.
+
+:guadeloupe a :CountryTeam ;
+	:name "Guadeloupe".
+:guadeloupe :hasConfederation :concacaf;
+	:rank "200";
+	:offense "0.2";
+	:defense "3.49";
+	:psi "2.47".
+
+:concacaf :hasCountryTeam :guadeloupe.
+
+:anguilla a :CountryTeam ;
+	:name "Anguilla".
+:anguilla :hasConfederation :concacaf;
+	:rank "201";
+	:offense "0.36";
+	:defense "4.03";
+	:psi "2.41".
+
+:concacaf :hasCountryTeam :anguilla.
+
+:pakistan a :CountryTeam ;
+	:name "Pakistan".
+:pakistan :hasConfederation :afc;
+	:rank "202";
+	:offense "0.23";
+	:defense "3.74";
+	:psi "2.18".
+
+:afc :hasCountryTeam :pakistan.
+
+:bhutan a :CountryTeam ;
+	:name "Bhutan".
+:bhutan :hasConfederation :afc;
+	:rank "203";
+	:offense "0.27";
+	:defense "4.03";
+	:psi "1.94".
+
+:afc :hasCountryTeam :bhutan.
+
+:usvirginislands a :CountryTeam ;
+	:name "US Virgin Islands".
+:usvirginislands :hasConfederation :concacaf;
+	:rank "204";
+	:offense "0.38";
+	:defense "4.38";
+	:psi "1.93".
+
+:concacaf :hasCountryTeam :usvirginislands.
+
+:brunei a :CountryTeam ;
+	:name "Brunei".
+:brunei :hasConfederation :afc;
+	:rank "205";
+	:offense "0.22";
+	:defense "3.9";
+	:psi "1.84".
+
+:afc :hasCountryTeam :brunei.
+
+:srilanka a :CountryTeam ;
+	:name "Sri Lanka".
+:srilanka :hasConfederation :afc;
+	:rank "206";
+	:offense "0.22";
+	:defense "4.14";
+	:psi "1.51".
+
+:afc :hasCountryTeam :srilanka.
+
+:laos a :CountryTeam ;
+	:name "Laos".
+:laos :hasConfederation :afc;
+	:rank "207";
+	:offense "0.27";
+	:defense "4.42";
+	:psi "1.37".
+
+:afc :hasCountryTeam :laos.
+
+:timorleste a :CountryTeam ;
+	:name "Timor-Leste".
+:timorleste :hasConfederation :afc;
+	:rank "208";
+	:offense "0.3";
+	:defense "4.85";
+	:psi "1.05".
+
+:afc :hasCountryTeam :timorleste.
+
+:guam a :CountryTeam ;
+	:name "Guam".
+:guam :hasConfederation :afc;
+	:rank "209";
+	:offense "0.29";
+	:defense "5.04";
+	:psi "0.88".
+
+:afc :hasCountryTeam :guam.
+
+:stmartin a :CountryTeam ;
+	:name "St. Martin".
+:stmartin :hasConfederation :concacaf;
+	:rank "210";
+	:offense "0.23";
+	:defense "4.89";
+	:psi "0.81".
+
+:concacaf :hasCountryTeam :stmartin.
+
+:sintmaarten a :CountryTeam ;
+	:name "Sint Maarten".
+:sintmaarten :hasConfederation :concacaf;
+	:rank "211";
+	:offense "0.21";
+	:defense "4.93";
+	:psi "0.74".
+
+:concacaf :hasCountryTeam :sintmaarten.
+
+:tuvalu a :CountryTeam ;
+	:name "Tuvalu".
+:tuvalu :hasConfederation :ofc;
+	:rank "212";
+	:offense "0.38";
+	:defense "5.62";
+	:psi "0.7".
+
+:ofc :hasCountryTeam :tuvalu.
+
+:macau a :CountryTeam ;
+	:name "Macau".
+:macau :hasConfederation :afc;
+	:rank "213";
+	:offense "0.2";
+	:defense "5.75";
+	:psi "0.34".
+
+:afc :hasCountryTeam :macau.
+
+:samoa a :CountryTeam ;
+	:name "Samoa".
+:samoa :hasConfederation :ofc;
+	:rank "214";
+	:offense "0.2";
+	:defense "5.78";
+	:psi "0.34".
+
+:ofc :hasCountryTeam :samoa.
+
+:tonga a :CountryTeam ;
+	:name "Tonga".
+:tonga :hasConfederation :ofc;
+	:rank "215";
+	:offense "0.2";
+	:defense "6.08";
+	:psi "0.26".
+
+:ofc :hasCountryTeam :tonga.
+

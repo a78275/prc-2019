@@ -1,0 +1,23 @@
+{
+  "name": "soccerrest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "dbpedia-sparql-client": "^0.9.8",
+    "dbpedia-spotlight": "^0.5.28",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "fetch-sparql-endpoint": "^1.4.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "^2.0.3",
+    "virtuoso-sparql-client": "^0.2.2",
+    "xml-js": "^1.6.11"
+  }
+}
