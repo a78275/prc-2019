@@ -52,8 +52,28 @@ router.get('/leagues', async function (req, res, next) {
   })
 })
 
-router.get('/leagueteams/:id', async function (req, res, next) {
-  dados = await Soccer.leagues()
+router.get('/leagueTeams/:id', async function (req, res, next) {
+  dados = await Soccer.leagueTeams(req.params.id)
+  res.jsonp(dados.results.bindings)
+})
+
+router.get('/leagueGames/:id', async function (req, res, next) {
+  dados = await Soccer.leagueGames(req.params.id)
+  res.jsonp(dados.results.bindings)
+})
+
+router.get('/teams', async function (req, res, next) {
+  dados = await Soccer.teams(req.params.id)
+  res.jsonp(dados.results.bindings)
+})
+
+router.get('/gamesTeam/:id', async function (req, res, next) {
+  dados = await Soccer.gamesTeam(req.params.id)
+  res.jsonp(dados.results.bindings)
+})
+
+router.get('/internationalTeams', async function (req, res, next) {
+  dados = await Soccer.internationalTeams()
   res.jsonp(dados.results.bindings)
 })
 

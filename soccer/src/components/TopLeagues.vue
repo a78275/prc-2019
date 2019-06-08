@@ -13,6 +13,7 @@
                 :headers="headers"
                 :items="portugal"
                 hide-actions
+                disable-initial-sort
                 >
                 <template v-slot:no-data>
                   <v-alert :value="true" color="error" icon="warning">
@@ -43,6 +44,7 @@
                 :headers="headers"
                 :items="england"
                 hide-actions
+                disable-initial-sort
                 >
                 <template v-slot:no-data>
                   <v-alert :value="true" color="error" icon="warning">
@@ -73,6 +75,7 @@
                 :headers="headers"
                 :items="spain"
                 hide-actions
+                disable-initial-sort
                 >
                 <template v-slot:no-data>
                   <v-alert :value="true" color="error" icon="warning">
@@ -103,6 +106,7 @@
                 :headers="headers"
                 :items="italy"
                 hide-actions
+                disable-initial-sort
                 >
                 <template v-slot:no-data>
                   <v-alert :value="true" color="error" icon="warning">
@@ -141,10 +145,10 @@ export default {
   data () {
     return {
       headers: [
-        { text: 'Points', sortable: false, value: 'pnt.value', class: 'subheading' },
-        { text: 'Team', align: 'left', sortable: false, value: 'name.value', class: 'subheading' },
-        { text: 'Scored', align: 'left', sortable: false, value: 'scored.value', class: 'subheading' },
-        { text: 'Suffered', align: 'left', sortable: false, value: 'suffered.value', class: 'subheading' }
+        { text: 'Points', sortable: false, value: 'pnt.value', class: 'title' },
+        { text: 'Team', align: 'left', sortable: false, value: 'name.value', class: 'title' },
+        { text: 'Scored', align: 'left', sortable: false, value: 'scored.value', class: 'title' },
+        { text: 'Suffered', align: 'left', sortable: false, value: 'suffered.value', class: 'title' }
       ],
       england: [],
       spain: [],

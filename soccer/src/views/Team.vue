@@ -14,21 +14,12 @@
           slider-color="red"
         >
           <v-tab class='font-weight-bold subheading tabName'>About</v-tab>
-          <v-tab class='font-weight-bold subheading tabName'>Teams</v-tab>
           <v-tab class='font-weight-bold subheading tabName'>Games</v-tab>
 
           <v-tab-item>
             <v-layout wrap>
               <v-flex xs12>
-                <About :idLeague="$route.params.id"/>
-              </v-flex>
-            </v-layout>
-          </v-tab-item>
-
-          <v-tab-item>
-            <v-layout wrap>
-              <v-flex xs12>
-                <LeagueTeams :idLeague="$route.params.id"/>
+                <AboutTeam :idTeam="$route.params.id"/>
               </v-flex>
             </v-layout>
           </v-tab-item>
@@ -36,7 +27,7 @@
           <v-tab-item>
             <v-layout wrap>
               <v-flex xs12 mx-4>
-                <Games :idLeague="$route.params.id"/>
+                <GamesTeam :idTeam="$route.params.id" />
               </v-flex>
             </v-layout>
           </v-tab-item>
@@ -60,13 +51,12 @@ body {
 
 <script>
 import SideBar from '@/components/SideBar'
-import LeagueTeams from '@/components/LeagueTeams'
-import About from '@/components/About'
-import Games from '@/components/Games'
+import AboutTeam from '@/components/AboutTeam'
+import GamesTeam from '@/components/GamesTeam'
 
 export default {
   components: {
-    SideBar, LeagueTeams, About, Games
+    SideBar, AboutTeam, GamesTeam
   }
 }
 </script>

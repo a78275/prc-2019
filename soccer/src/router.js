@@ -21,6 +21,21 @@ export default new Router({
       path: '/leagues/:id',
       name: 'league',
       component: () => import('./views/League.vue')
+    },
+    {
+      path: '/teams',
+      name: 'teams',
+      component: () => import('./views/Teams.vue')
+    },
+    {
+      path: '/teams/:id',
+      name: 'team',
+      component: () => import('./views/Team.vue')
+    },
+    {
+      path: '/internationalTeams',
+      name: 'internationalTeams',
+      component: () => import('./views/InternationalTeams.vue')
     }
   ]
 })

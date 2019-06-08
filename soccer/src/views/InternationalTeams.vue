@@ -8,9 +8,9 @@
     <v-layout>
       <v-flex xs12>
         <v-container>
-        <h1 style="font-size:3em;" class="text-xs-center">LEAGUES</h1>
+        <h1 style="font-size:3em;" class="text-xs-center">INTERNATIONAL TEAMS</h1>
         <v-divider></v-divider>
-        <Leagues class="mb-4" />
+        <InternationalTeams class="mb-4" />
         </v-container>
       </v-flex>
     </v-layout>
@@ -27,11 +27,11 @@ h1 {
 
 <script>
 import SideBar from '@/components/SideBar'
-import Leagues from '@/components/Leagues'
+import InternationalTeams from '@/components/InternationalTeams'
 
 export default {
   components: {
-    SideBar, Leagues
+    SideBar, InternationalTeams
   }
 }
 </script>

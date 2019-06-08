@@ -10,7 +10,7 @@
         <v-container>
         <h1 style="font-size:3em;" class="text-xs-center">TOP 10 TEAMS</h1>
         <v-divider></v-divider>
-        <Top10 class="mb-4"/>
+          <Top10 class="mb-4"/>
         <h1 style="font-size:3em;" class="text-xs-center">TOP LEAGUES</h1>
         <v-divider></v-divider>
         <TopLeagues/>

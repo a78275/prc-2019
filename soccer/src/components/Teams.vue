@@ -16,7 +16,7 @@
       </v-card-title>
       <v-data-table
         :headers="headers"
-        :items="leagues"
+        :items="teams"
         :search="search"
         hide-actions
         disable-initial-sort
@@ -27,10 +27,10 @@
               </v-alert>
           </template>
           <template v-slot:items="props" class="ma-0 pa-0">
-              <tr class="ma-0 pa-0" @click="getLeague(props.item)">
-                  <td class="body-2">{{ props.item.name.value }}</td>
-                  <td class="body-2" v-if="props.item.country">{{ props.item.country.value }}</td>
-                  <td v-else></td>
+              <tr class="ma-0 pa-0" @click="getTeam(props.item)">
+                <td class="body-2">{{ props.item.name.value }}</td>
+                <td class="body-2">{{ props.item.league.value }}</td>
+                <td class="body-2">{{ props.item.psi.value }}</td>
               </tr>
           </template>
           <template v-slot:no-results>
@@ -51,24 +51,25 @@ export default {
     return {
       search: '',
       headers: [
-        { text: 'Leagues', sortable: true, value: 'name.value', class: 'title' },
-        { text: 'Country', sortable: true, value: 'country.value', class: 'title' }
+        { text: 'Team', sortable: true, value: 'name.value', class: 'title' },
+        { text: 'League', sortable: true, value: 'league.value', class: 'title' },
+        { text: 'PSI', sortable: true, value: 'psi.value', class: 'title' }
       ],
-      leagues: []
+      teams: []
     }
   },
   mounted: async function () {
     try {
-      var response = await axios.get('http://localhost:8090/leagues')
-      this.leagues = response.data
+      var response = await axios.get('http://localhost:8090/teams')
+      this.teams = response.data
     } catch (e) {
       return (e)
     }
   },
   methods: {
-    getLeague: function (item) {
-      var id = item.league.value.split('#')[1]
-      this.$router.push('/leagues/' + id)
+    getTeam: function (item) {
+      var id = item.team.value.split('#')[1]
+      this.$router.push('/teams/' + id)
     }
   }
 }
