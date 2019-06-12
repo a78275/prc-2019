@@ -13,7 +13,7 @@ async function execQuery(query) {
         return (response.data)
     }
     catch (erro) {
-        return ('ERRO em \'execQuery\': ' + erro)
+        return ('ERRO na \'execQuery\' de \'' + query + '\': ' + erro)
     }
 }
 
@@ -39,7 +39,7 @@ Soccer.getCountryLabels = async (input, _callback) => {
             _callback(res)
         })
         .catch(function (e) {
-            console.log('ERRO: ' + e)
+            console.log('ERRO em \'getCountryLabels\' de \'' + input + '\': ' + e)
         })
 }
 
@@ -67,12 +67,12 @@ Soccer.countryLabels = async (input, _callback) => {
             _callback(res, non_value)
         })
         .catch(function (e) {
-            console.log('ERRO: ' + e)
+            console.log('ERRO em \'countryLabels\' de \'' + input + '\': ' + e)
         })
 }
 
 Soccer.top10 = async () => {
-    const query = prefix + `select ?rank ?nome ?psi ?off ?def ?league ?pais where { 
+    const query = prefix + `select ?team ?rank ?nome ?psi ?off ?def ?league ?pais where { 
         ?team a :LeagueTeam ;
               :name ?nome ;
               :rank ?rank ;
@@ -90,7 +90,7 @@ Soccer.top10 = async () => {
 }
 
 Soccer.englandtop5 = async () => {
-    const query = prefix + `select ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
+    const query = prefix + `select ?team ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
         ?team a :Team .
     	?team :name ?name .
         ?team :playsIn :barclayspremierleague .
@@ -122,7 +122,7 @@ Soccer.englandtop5 = async () => {
                        IF ( ?h = ?v, xsd:integer("1"), BNODE() ))
                ) AS ?res )}
     } 
-    group by ?name
+    group by ?name ?team
     order by desc(?pnt)
     limit 5`
     var res = await execQuery(query)
@@ -130,7 +130,7 @@ Soccer.englandtop5 = async () => {
 }
 
 Soccer.spaintop5 = async () => {
-    const query = prefix + `select ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
+    const query = prefix + `select ?team ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
         ?team a :Team .
     	?team :name ?name .
         ?team :playsIn :spanishprimeradivision .
@@ -162,7 +162,7 @@ Soccer.spaintop5 = async () => {
                        IF ( ?h = ?v, xsd:integer("1"), BNODE() ))
                ) AS ?res )}
     } 
-    group by ?name
+    group by ?name ?team
     order by desc(?pnt)
     limit 5`
     var res = await execQuery(query)
@@ -170,7 +170,7 @@ Soccer.spaintop5 = async () => {
 }
 
 Soccer.portugaltop5 = async () => {
-    const query = prefix + `select ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
+    const query = prefix + `select ?team ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
         ?team a :Team .
     	?team :name ?name .
         ?team :playsIn :portugueseliga .
@@ -202,7 +202,7 @@ Soccer.portugaltop5 = async () => {
                        IF ( ?h = ?v, xsd:integer("1"), BNODE() ))
                ) AS ?res )}
     } 
-    group by ?name
+    group by ?name ?team
     order by desc(?pnt)
     limit 5`
     var res = await execQuery(query)
@@ -210,7 +210,7 @@ Soccer.portugaltop5 = async () => {
 }
 
 Soccer.italytop5 = async () => {
-    const query = prefix + `select ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
+    const query = prefix + `select ?team ?name (sum(?res) as ?pnt) (sum(?m) as ?scored) (sum(?s) as ?suffered) where { 
         ?team a :Team .
     	?team :name ?name .
         ?team :playsIn :italyseriea .
@@ -242,7 +242,7 @@ Soccer.italytop5 = async () => {
                        IF ( ?h = ?v, xsd:integer("1"), BNODE() ))
                ) AS ?res )}
     } 
-    group by ?name
+    group by ?name ?team
     order by desc(?pnt)
     limit 5`
     var res = await execQuery(query)
@@ -261,7 +261,7 @@ Soccer.leagues = async () => {
 
 Soccer.leagueTeams = async (idLeague) => {
     var query = prefix + '\n'
-    query += `select ?name (sum(?res) as ?pnt) (count(?vi) as ?victories) (count(?t) as ?ties) (count(?l) as ?losses) (sum(?m) as ?scored) (sum(?s) as ?suffered) where {
+    query += `select ?team ?name (sum(?res) as ?pnt) (count(?vi) as ?victories) (count(?t) as ?ties) (count(?l) as ?losses) (sum(?m) as ?scored) (sum(?s) as ?suffered) where {
         ?team a :Team .
         ?team :name ?name .\n` + '?team :playsIn :' + idLeague + ` .
         {?team :hasVictory ?vi.
@@ -313,7 +313,7 @@ Soccer.leagueTeams = async (idLeague) => {
                        IF ( ?h = ?v, xsd:integer("1"), BNODE() ))
                ) AS ?res )}
     }
-    group by ?name
+    group by ?name ?team
     order by desc(?pnt)`
     var res = await execQuery(query)
     return res
@@ -388,14 +388,170 @@ Soccer.gamesTeam = async (idTeam) => {
 }
 
 Soccer.internationalTeams = async () => {
-    const query = prefix + `select ?c ?name ?confed ?rank where { 
+    const query = prefix + `select ?c ?name ?confed ?rank ?off ?def ?psi where { 
         ?c a :CountryTeam;
             :name ?name.
         ?c :hasConfederation ?conf.
         ?conf :name ?confed.
         ?c :rank ?rank.
+        ?c :offense ?off .
+        ?c :defense ?def .
+        ?c :psi ?psi .
     }
     order by asc(xsd:integer(?rank))`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.getUrl = async (id) => {
+    const query = prefix + `select ?url where { 
+        :` + id + ` owl:equivalentClass ?url . }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.getTeamComment = async (url, _callback) => {
+    var q = `select ?comment where {
+        <` + url + `> rdfs:comment ?comment . 
+        FILTER(LANG(?comment) = "en") 
+    }`
+    dps.client()
+        .query(q)
+        .timeout(10000)
+        .asXml()
+        .then(function (r) {
+            var res = JSON.parse(xml2json(r)).sparql.results.result
+            _callback(res)
+        })
+        .catch(function (e) {
+            console.log('ERRO em \'getTeamComment\' de \'' + JSON.stringify(url) + '\': ' + e)
+        })
+}
+
+Soccer.getName = async (id) => {
+    const query = prefix + `select ?name where { 
+        :` + id + ` :name ?name . }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.getTeamLogo = async (id) => {
+    const query = prefix + `select ?logo where { 
+        :` + id + ` :logo ?logo . }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.getAbstract = async (url, _callback) => {
+    var q = `select ?abstract where {
+        <` + url + `> dbo:abstract ?abstract . 
+        FILTER(LANG(?abstract) = "en") 
+    }`
+    dps.client()
+        .query(q)
+        .timeout(10000)
+        .asXml()
+        .then(function (r) {
+            var res = JSON.parse(xml2json(r)).sparql.results.result
+            _callback(res)
+        })
+        .catch(function (e) {
+            console.log('ERRO em \'getTeamAbstract\' de \'' + JSON.stringify(url) + '\': ' + e)
+        })
+}
+
+Soccer.getTeamManager = async (url, _callback) => {
+    var q = `select ?manager where {
+        <` + url + `> dbo:manager ?manager .
+    }`
+    dps.client()
+        .query(q)
+        .timeout(10000)
+        .asXml()
+        .then(function (r) {
+            var res = JSON.parse(xml2json(r)).sparql.results.result
+            _callback(res)
+        })
+        .catch(function (e) {
+            console.log('ERRO em \'getTeamManager\' de \'' + JSON.stringify(url) + '\': ' + e)
+        })
+}
+
+Soccer.getTeamManagerName = async (url, _callback) => {
+    var q = `select ?name where {
+        <` + url + `> rdfs:label ?name .
+        FILTER(LANG(?name) = "en") 
+    }`
+    dps.client()
+        .query(q)
+        .timeout(10000)
+        .asXml()
+        .then(function (r) {
+            var res = JSON.parse(xml2json(r)).sparql.results.result
+            _callback(res)
+        })
+        .catch(function (e) {
+            console.log('ERRO em \'getTeamManagerName\' de \'' + JSON.stringify(url) + '\': ' + e)
+        })
+}
+
+Soccer.getTeamManagerAbstract = async (url, _callback) => {
+    var q = `select ?abstract where {
+        <` + url + `> dbo:abstract ?abstract . 
+        FILTER(LANG(?abstract) = "en") 
+    }`
+    dps.client()
+        .query(q)
+        .timeout(10000)
+        .asXml()
+        .then(function (r) {
+            var res = JSON.parse(xml2json(r)).sparql.results.result
+            _callback(res)
+        })
+        .catch(function (e) {
+            console.log('ERRO em \'getTeamManagerAbstract\' de \'' + JSON.stringify(url) + '\': ' + e)
+        })
+}
+
+Soccer.getHomepage = async (url, _callback) => {
+    var q = `select ?page where {
+        <` + url + `> foaf:homepage ?page . 
+    }`
+    dps.client()
+        .query(q)
+        .timeout(10000)
+        .asXml()
+        .then(function (r) {
+            var res = JSON.parse(xml2json(r)).sparql.results.result
+            _callback(res)
+        })
+        .catch(function (e) {
+            console.log('ERRO em \'getHomepage\' de \'' + JSON.stringify(url) + '\': ' + e)
+        })
+}
+
+Soccer.teamNumberGames = async (id) => {
+    const query = prefix + `select (count(?game) as ?games) where { 
+        {:` + id + ` :isHomeTeam ?game .}
+        union
+        {:` + id + ` :isVisitorTeam ?game .}
+    }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.teamScoredGoals = async (id) => {
+    const query = prefix + `select (sum(?sh) as ?scoredHome) (sum(?sa) as ?scoredAway) where { 
+        { :` + id + ` :isHomeTeam ?game . 
+        ?game :hasWinner :` + id + ` . 
+        ?game :scoreHome ?mc . 
+        BIND ( xsd:integer(?mc) as ?sh ) }
+        union
+        { :` + id + ` :isVisitorTeam ?game . 
+        ?game :hasWinner :` + id + ` . 
+        ?game :scoreVisitor ?mf . 
+        BIND ( xsd:integer(?mf) as ?sa ) }
+    }`
     var res = await execQuery(query)
     return res
 }

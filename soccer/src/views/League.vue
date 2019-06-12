@@ -3,10 +3,6 @@
     <v-layout>
       <v-flex xs12>
         <SideBar />
-      </v-flex>
-    </v-layout>
-    <v-layout class="align-start">
-      <v-flex xs12>
         <v-tabs
           background-color="white"
           dark

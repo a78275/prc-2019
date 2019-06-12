@@ -13,7 +13,7 @@
               </v-alert>
           </template>
           <template v-slot:items="props" class="ma-0 pa-0">
-              <tr class="ma-0 pa-0">
+              <tr class="ma-0 pa-0" @click="getTeam(props.item)">
                   <td class="body-2">{{ props.item.rank.value }}</td>
                   <td class="body-2">{{ props.item.nome.value }}</td>
                   <td class="body-2">{{ props.item.league.value }}</td>
@@ -53,6 +53,12 @@ export default {
       this.teams = response.data
     } catch (e) {
       return (e)
+    }
+  },
+  methods: {
+    getTeam: function (item) {
+      var id = item.team.value.split('#')[1]
+      this.$router.push('/teams/' + id)
     }
   }
 }

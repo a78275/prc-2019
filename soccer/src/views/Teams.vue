@@ -3,14 +3,10 @@
     <v-layout>
       <v-flex xs12>
         <SideBar />
-      </v-flex>
-    </v-layout>
-    <v-layout>
-      <v-flex xs12>
         <v-container>
-        <h1 style="font-size:3em;" class="text-xs-center">TEAMS</h1>
-        <v-divider></v-divider>
-        <Teams class="mb-4" />
+          <h1 style="font-size:3em;" class="text-xs-center">TEAMS</h1>
+          <v-divider></v-divider>
+          <Teams class="mb-4" />
         </v-container>
       </v-flex>
     </v-layout>

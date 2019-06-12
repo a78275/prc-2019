@@ -3,10 +3,6 @@
     <v-layout>
       <v-flex xs12>
         <SideBar />
-      </v-flex>
-    </v-layout>
-    <v-layout class="align-start">
-      <v-flex xs12>
         <v-tabs
           background-color="white"
           dark
@@ -15,7 +11,7 @@
         >
           <v-tab class='font-weight-bold subheading tabName'>About</v-tab>
           <v-tab class='font-weight-bold subheading tabName'>Games</v-tab>
-
+          <v-tab class='font-weight-bold subheading tabName'>Stats</v-tab>
           <v-tab-item>
             <v-layout wrap>
               <v-flex xs12>
@@ -28,6 +24,14 @@
             <v-layout wrap>
               <v-flex xs12 mx-4>
                 <GamesTeam :idTeam="$route.params.id" />
+              </v-flex>
+            </v-layout>
+          </v-tab-item>
+
+          <v-tab-item>
+            <v-layout wrap>
+              <v-flex xs12 mx-4>
+                <StatsTeam :idTeam="$route.params.id" />
               </v-flex>
             </v-layout>
           </v-tab-item>
@@ -53,10 +57,11 @@ body {
 import SideBar from '@/components/SideBar'
 import AboutTeam from '@/components/AboutTeam'
 import GamesTeam from '@/components/GamesTeam'
+import StatsTeam from '@/components/StatsTeam'
 
 export default {
   components: {
-    SideBar, AboutTeam, GamesTeam
+    SideBar, AboutTeam, GamesTeam, StatsTeam
   }
 }
 </script>

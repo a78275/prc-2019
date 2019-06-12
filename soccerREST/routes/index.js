@@ -77,4 +77,126 @@ router.get('/internationalTeams', async function (req, res, next) {
   res.jsonp(dados.results.bindings)
 })
 
+router.get('/teamComment/:id', async function (req, res, next) {
+  url = await Soccer.getUrl(req.params.id)
+  if (url.results.bindings.length > 0) {
+    if (url.results.bindings.length >= 2)
+      url = url.results.bindings[1].url.value
+    else if (url.results.bindings.length == 1)
+      url = url.results.bindings[0].url.value
+    dados = await Soccer.getTeamComment(url, function (result) {
+      res.jsonp(result.binding.literal._text)
+    })
+  }
+  else
+    res.jsonp("")
+})
+
+router.get('/name/:id', async function (req, res, next) {
+  name = await Soccer.getName(req.params.id)
+  res.jsonp(name.results.bindings[0].name.value)
+})
+
+router.get('/teamLogo/:id', async function (req, res, next) {
+  logo = await Soccer.getTeamLogo(req.params.id)
+  if (logo.results.bindings.length >= 1)
+    res.jsonp(logo.results.bindings[0].logo.value)
+  else
+    res.jsonp({})
+})
+
+router.get('/abstract/:id', async function (req, res, next) {
+  url = await Soccer.getUrl(req.params.id)
+  if (url.results.bindings.length > 0) {
+    if (url.results.bindings.length >= 2)
+      url = url.results.bindings[1].url.value
+    else if (url.results.bindings.length == 1)
+      url = url.results.bindings[0].url.value
+    dados = await Soccer.getAbstract(url, function (result) {
+      if (result.binding)
+        res.jsonp(result.binding.literal._text)
+      else
+        res.jsonp("")
+    })
+  }
+  else
+    res.jsonp("")
+})
+
+router.get('/teamManagerName/:id', async function (req, res, next) {
+  url = await Soccer.getUrl(req.params.id)
+  if (url.results.bindings.length > 0) {
+    if (url.results.bindings.length >= 2)
+      url = url.results.bindings[1].url.value
+    else if (url.results.bindings.length == 1)
+      url = url.results.bindings[0].url.value
+    dados = await Soccer.getTeamManager(url, async function (result) {
+      if (result != undefined) {
+        name = await Soccer.getTeamManagerName(result.binding.uri._text, function (name) {
+          if (name.binding)
+            res.jsonp(name.binding.literal._text)
+          else
+            res.jsonp("")
+        })
+      }
+      else
+        res.jsonp("")
+    })
+  }
+  else
+    res.jsonp("")
+})
+
+router.get('/teamManagerAbstract/:id', async function (req, res, next) {
+  url = await Soccer.getUrl(req.params.id)
+  if (url.results.bindings.length > 0) {
+    if (url.results.bindings.length >= 2)
+      url = url.results.bindings[1].url.value
+    else if (url.results.bindings.length == 1)
+      url = url.results.bindings[0].url.value
+    dados = await Soccer.getTeamManager(url, async function (result) {
+      if (result != undefined) {
+        name = await Soccer.getTeamManagerAbstract(result.binding.uri._text, function (name) {
+          if (name.binding)
+            res.jsonp(name.binding.literal._text)
+          else
+            res.jsonp("")
+        })
+      }
+      else
+        res.jsonp("")
+    })
+  }
+  else
+    res.jsonp("")
+})
+
+router.get('/homepage/:id', async function (req, res, next) {
+  url = await Soccer.getUrl(req.params.id)
+  if (url.results.bindings.length > 0) {
+    if (url.results.bindings.length >= 2)
+      url = url.results.bindings[1].url.value
+    else if (url.results.bindings.length == 1)
+      url = url.results.bindings[0].url.value
+    dados = await Soccer.getHomepage(url, function (result) {
+      if (result.binding)
+        res.jsonp(result.binding.uri._text)
+      else
+        res.jsonp("")
+    })
+  }
+  else
+    res.jsonp("")
+})
+
+router.get('/teamNumberGames/:id', async function (req, res, next) {
+  ngames = await Soccer.teamNumberGames(req.params.id)
+  res.jsonp(ngames.results.bindings[0].games.value)
+})
+
+router.get('/teamScoredGoals/:id', async function (req, res, next) {
+  sgoals = await Soccer.teamScoredGoals(req.params.id)
+  res.jsonp(sgoals.results.bindings[0])
+})
+
 module.exports = router;

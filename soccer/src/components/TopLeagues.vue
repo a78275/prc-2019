@@ -6,7 +6,7 @@
           xs12
           md6
         >
-          <h2 class="pb-3 text-xs-center">Portuguese Liga</h2>
+          <h2 class="pb-3 text-xs-center" @click="getLeague('portugueseliga')">Portuguese Liga</h2>
           <v-item>
             <v-card>
               <v-data-table
@@ -21,7 +21,7 @@
                   </v-alert>
                 </template>
                 <template v-slot:items="props">
-                  <tr class="ma-0 pa-0">
+                  <tr class="ma-0 pa-0" @click="getTeam(props.item)">
                     <td class="body-2">{{ props.item.pnt.value }}</td>
                     <td class="body-2">{{ props.item.name.value }}</td>
                     <td class="body-2">{{ props.item.scored.value }}</td>
@@ -37,7 +37,7 @@
           xs12
           md6
         >
-          <h2 class="pb-3 text-xs-center">Barclays Premier League</h2>
+          <h2 class="pb-3 text-xs-center" @click="getLeague('barclayspremierleague')">Barclays Premier League</h2>
           <v-item>
             <v-card>
               <v-data-table
@@ -52,7 +52,7 @@
                   </v-alert>
                 </template>
                 <template v-slot:items="props">
-                  <tr class="ma-0 pa-0">
+                  <tr class="ma-0 pa-0" @click="getTeam(props.item)">
                     <td class="body-2">{{ props.item.pnt.value }}</td>
                     <td class="body-2">{{ props.item.name.value }}</td>
                     <td class="body-2">{{ props.item.scored.value }}</td>
@@ -68,7 +68,7 @@
           xs12
           md6
         >
-          <h2 class="pt-2 pb-3 text-xs-center">Spanish Primera Division</h2>
+          <h2 class="pt-2 pb-3 text-xs-center" @click="getLeague('spanishprimeradivision')">Spanish Primera Division</h2>
           <v-item>
             <v-card>
               <v-data-table
@@ -83,7 +83,7 @@
                   </v-alert>
                 </template>
                 <template v-slot:items="props">
-                  <tr class="ma-0 pa-0">
+                  <tr class="ma-0 pa-0" @click="getTeam(props.item)">
                     <td class="body-2">{{ props.item.pnt.value }}</td>
                     <td class="body-2">{{ props.item.name.value }}</td>
                     <td class="body-2">{{ props.item.scored.value }}</td>
@@ -99,7 +99,7 @@
           xs12
           md6
         >
-          <h2 class="pt-2 pb-3 text-xs-center">Italy Serie A</h2>
+          <h2 class="pt-2 pb-3 text-xs-center" @click="getLeague('italyseriea')">Italy Serie A</h2>
           <v-item>
             <v-card>
               <v-data-table
@@ -114,7 +114,7 @@
                   </v-alert>
                 </template>
                 <template v-slot:items="props">
-                  <tr class="ma-0 pa-0">
+                  <tr class="ma-0 pa-0" @click="getTeam(props.item)">
                     <td class="body-2">{{ props.item.pnt.value }}</td>
                     <td class="body-2">{{ props.item.name.value }}</td>
                     <td class="body-2">{{ props.item.scored.value }}</td>
@@ -168,6 +168,15 @@ export default {
       this.italy = it.data
     } catch (e) {
       return (e)
+    }
+  },
+  methods: {
+    getTeam: function (item) {
+      var id = item.team.value.split('#')[1]
+      this.$router.push('/teams/' + id)
+    },
+    getLeague: function (id) {
+      this.$router.push('/leagues/' + id)
     }
   }
 }

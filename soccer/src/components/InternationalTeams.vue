@@ -31,6 +31,9 @@
                 <td class="body-2">{{ props.item.rank.value }}</td>
                 <td class="body-2">{{ props.item.name.value }}</td>
                 <td class="body-2">{{ props.item.confed.value }}</td>
+                <td class="body-2">{{ props.item.psi.value }}</td>
+                <td class="body-2">{{ props.item.off.value }}</td>
+                <td class="body-2">{{ props.item.def.value }}</td>
               </tr>
           </template>
           <template v-slot:no-results>
@@ -53,7 +56,10 @@ export default {
       headers: [
         { text: 'Rank', sortable: true, value: 'rank.value', class: 'title' },
         { text: 'Team', sortable: true, value: 'name.value', class: 'title' },
-        { text: 'Confederation', sortable: true, value: 'confed.value', class: 'title' }
+        { text: 'Confederation', sortable: true, value: 'confed.value', class: 'title' },
+        { text: 'PSI', sortable: true, value: 'psi.value', class: 'title' },
+        { text: 'Offense', sortable: true, value: 'off.value', class: 'title' },
+        { text: 'Defense', sortable: true, value: 'def.value', class: 'title' }
       ],
       teams: []
     }
