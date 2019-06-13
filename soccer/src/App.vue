@@ -1,5 +1,6 @@
 <template>
   <html>
+    <vue-headful title="Soccer"/>
     <router-view />
   </html>
 </template>

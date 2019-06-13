@@ -2,11 +2,6 @@ var express = require('express')
 var router = express.Router()
 var Soccer = require('../controllers/index')
 
-/* GET home page. */
-router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Express' })
-})
-
 router.get('/top10', async function (req, res, next) {
   var dados = await Soccer.top10()
   await Soccer.getCountryLabels(dados.results.bindings, function (result) {
@@ -179,7 +174,7 @@ router.get('/homepage/:id', async function (req, res, next) {
     else if (url.results.bindings.length == 1)
       url = url.results.bindings[0].url.value
     dados = await Soccer.getHomepage(url, function (result) {
-      if (result.binding)
+      if (result != undefined)
         res.jsonp(result.binding.uri._text)
       else
         res.jsonp("")
@@ -190,12 +185,32 @@ router.get('/homepage/:id', async function (req, res, next) {
 })
 
 router.get('/teamNumberGames/:id', async function (req, res, next) {
-  ngames = await Soccer.teamNumberGames(req.params.id)
-  res.jsonp(ngames.results.bindings[0].games.value)
+  games = await Soccer.teamNumberGames(req.params.id)
+  res.jsonp(games.results.bindings[0])
 })
 
 router.get('/teamScoredGoals/:id', async function (req, res, next) {
   sgoals = await Soccer.teamScoredGoals(req.params.id)
+  res.jsonp(sgoals.results.bindings[0])
+})
+
+router.get('/teamSufferedGoals/:id', async function (req, res, next) {
+  sgoals = await Soccer.teamSufferedGoals(req.params.id)
+  res.jsonp(sgoals.results.bindings[0])
+})
+
+router.get('/teamVictories/:id', async function (req, res, next) {
+  sgoals = await Soccer.teamVictories(req.params.id)
+  res.jsonp(sgoals.results.bindings[0])
+})
+
+router.get('/teamDefeats/:id', async function (req, res, next) {
+  sgoals = await Soccer.teamDefeats(req.params.id)
+  res.jsonp(sgoals.results.bindings[0])
+})
+
+router.get('/teamTies/:id', async function (req, res, next) {
+  sgoals = await Soccer.teamTies(req.params.id)
   res.jsonp(sgoals.results.bindings[0])
 })
 

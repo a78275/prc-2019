@@ -531,10 +531,10 @@ Soccer.getHomepage = async (url, _callback) => {
 }
 
 Soccer.teamNumberGames = async (id) => {
-    const query = prefix + `select (count(?game) as ?games) where { 
-        {:` + id + ` :isHomeTeam ?game .}
+    const query = prefix + `select (count(?hg) as ?gamesHome) (count(?ag) as ?gamesAway) where { 
+        {:` + id + ` :isHomeTeam ?hg .}
         union
-        {:` + id + ` :isVisitorTeam ?game .}
+        {:` + id + ` :isVisitorTeam ?ag .}
     }`
     var res = await execQuery(query)
     return res
@@ -543,14 +543,62 @@ Soccer.teamNumberGames = async (id) => {
 Soccer.teamScoredGoals = async (id) => {
     const query = prefix + `select (sum(?sh) as ?scoredHome) (sum(?sa) as ?scoredAway) where { 
         { :` + id + ` :isHomeTeam ?game . 
-        ?game :hasWinner :` + id + ` . 
         ?game :scoreHome ?mc . 
         BIND ( xsd:integer(?mc) as ?sh ) }
         union
         { :` + id + ` :isVisitorTeam ?game . 
-        ?game :hasWinner :` + id + ` . 
         ?game :scoreVisitor ?mf . 
         BIND ( xsd:integer(?mf) as ?sa ) }
+    }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.teamSufferedGoals = async (id) => {
+    const query = prefix + `select(sum(?sh) as ?sufferedHome) (sum(?sa) as ?sufferedAway) where {
+        {:` + id + ` :isHomeTeam ?game. 
+        ?game :scoreVisitor ?sc.
+        BIND(xsd:integer(?sc) as ?sh) }
+        union
+        {:` + id + ` :isVisitorTeam ?game. 
+        ?game :scoreHome ?sf.
+        BIND(xsd:integer(?sf) as ?sa) }
+    }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.teamVictories = async (id) => {
+    const query = prefix + `select (count(?gh) as ?victoriesHome) (count(?ga) as ?victoriesAway) where { 
+        {:` + id + ` :hasVictory ?gh .
+        ?gh :hasHomeTeam :` + id + ` .}
+        union
+        {:` + id + ` :hasVictory ?ga .
+        ?ga :hasVisitorTeam :` + id + ` .}
+    }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.teamDefeats = async (id) => {
+    const query = prefix + `select (count(?gh) as ?defeatsHome) (count(?ga) as ?defeatsAway) where { 
+        {:` + id + ` :hasDefeat ?gh .
+        ?gh :hasHomeTeam :` + id + ` .}
+        union
+        {:` + id + ` :hasDefeat ?ga .
+        ?ga :hasVisitorTeam :` + id + ` .}
+    }`
+    var res = await execQuery(query)
+    return res
+}
+
+Soccer.teamTies = async (id) => {
+    const query = prefix + `select (count(?gh) as ?tiesHome) (count(?ga) as ?tiesAway) where { 
+        {:` + id + ` :hasDraw ?gh .
+        ?gh :hasHomeTeam :` + id + ` .}
+        union
+        {:` + id + ` :hasDraw ?ga .
+        ?ga :hasVisitorTeam :` + id + ` .}
     }`
     var res = await execQuery(query)
     return res

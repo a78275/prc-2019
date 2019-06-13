@@ -110,7 +110,7 @@ export default {
       this.manager = response.data
       response = await axios.get('http://localhost:8090/teamManagerAbstract/' + this.idTeam)
       this.managerAbstract = response.data
-      response = await axios.get('http://localhost:8090/teamHomepage/' + this.idTeam)
+      response = await axios.get('http://localhost:8090/homepage/' + this.idTeam)
       this.homepage = response.data
     } catch (e) {
       return (e)
