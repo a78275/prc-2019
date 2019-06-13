@@ -80,7 +80,7 @@ Leagues page:
     <img src="./Assets/leagues.png">
 </p>
 
-Team page (Barclays Premier League):
+League page (Barclays Premier League):
 
 <p align="center">
     <img src="./Assets/aboutleague.png">
