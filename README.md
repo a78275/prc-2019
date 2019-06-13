@@ -45,3 +45,57 @@ npm run serve
 ```
 
 The application is now available in <http://localhost:8080>.
+
+### Frontend
+
+Initial page:
+
+<p align="center">
+    <img src="./Assets/pag_inicial.png">
+</p>
+
+Teams page:
+
+<p align="center">
+    <img src="./Assets/teams.png">
+</p>
+
+Team page (Liverpool):
+
+<p align="center">
+    <img src="./Assets/aboutteam.png">
+</p>
+
+<p align="center">
+    <img src="./Assets/gamesteam.png">
+</p>
+
+<p align="center">
+    <img src="./Assets/statsteam.png">
+</p>
+
+Leagues page:
+
+<p align="center">
+    <img src="./Assets/leagues.png">
+</p>
+
+Team page (Barclays Premier League):
+
+<p align="center">
+    <img src="./Assets/aboutleague.png">
+</p>
+
+<p align="center">
+    <img src="./Assets/leagueteams.png">
+</p>
+
+<p align="center">
+    <img src="./Assets/leaguegames.png">
+</p>
+
+International Teams page:
+
+<p align="center">
+    <img src="./Assets/internacional_teams.png">
+</p>
