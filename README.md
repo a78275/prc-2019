@@ -1,6 +1,9 @@
 # SOCCER INFO - SEASON 18/19
 
-Web application for displaying content using linked data. The application follows football as a theme, more specifically the 2018/2019 season, and uses data present in GraphDB, obtained through the development of an ontology and population with existing datasets, and present information from DBPedia. It was developed in the Course of Processing and Knowledge Representation of the Master of Language and Knowledge Processing.
+Web application for content display using linked data. 
+The application follows football as a theme, more specifically the 2018/2019 season. 
+It uses data present in GraphDB, obtained through the development of an ontology and population with existing datasets, and presents information from DBPedia. 
+It was developed in the Course of Processing and Knowledge Representation of the Master of Language and Knowledge Processing.
 
 * Express
 * Vue.js
