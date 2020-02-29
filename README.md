@@ -1,4 +1,4 @@
-# SOCCER INFO - SEASON 2018/2019
+# SOCCER INFO - SEASON 18/19
 
 Web application to check data about soccer.
 
