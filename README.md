@@ -1,4 +1,4 @@
-# PRC 2019 - SOCCER
+# SOCCER INFO - SEASON 2018/2019
 
 Web application to check data about soccer.
 
