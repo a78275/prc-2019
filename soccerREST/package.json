@@ -16,7 +16,7 @@
     "fetch-sparql-endpoint": "^1.4.0",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "semantic-ui-css": "^2.4.1",
     "virtuoso-sparql-client": "^0.2.2",
     "xml-js": "^1.6.11"
